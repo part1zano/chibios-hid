@@ -74,9 +74,9 @@ static const USBDescriptor hid_device_descriptor = {
  * USB Configuration Descriptor.
  */
 
-static const uint8_t hid_configuration_descriptor_data[32] = {
+static const uint8_t hid_configuration_descriptor_data[100] = {
   /* Configuration Descriptor.*/
-  USB_DESC_CONFIGURATION(32,            /* wTotalLength.                    */
+  USB_DESC_CONFIGURATION(100,            /* wTotalLength.                    */
                          0x01,          /* bNumInterfaces.                  */
                          0x01,          /* bConfigurationValue.             */
                          0,             /* iConfiguration.                  */
@@ -198,10 +198,7 @@ static const USBDescriptor hid_strings[] = {
   {sizeof hid_string4, hid_string4}
 };
 
-static const USBDescriptor *get_descriptor(USBDriver *usbp,
-                                           uint8_t dtype,
-                                           uint8_t dindex,
-                                           uint16_t lang) {
+static const USBDescriptor *get_descriptor(USBDriver *usbp, uint8_t dtype, uint8_t dindex, uint16_t lang) {
 
   (void)usbp;
   (void)lang;
@@ -216,4 +213,53 @@ static const USBDescriptor *get_descriptor(USBDriver *usbp,
   }
   return NULL;
 }
+
+//	EndPoint Initialization. INTERRUPT IN. Device -> Host
+static const USBEndpointConfig ep1config = {
+	USB_EP_MODE_TYPE_INTR,
+	NULL,
+	NULL,
+	hidDataTransmitted,
+	NULL,
+	0x0014,
+	0x0000,
+	NULL,
+	NULL
+};
+
+static void usb_event(USBDriver *usbp, usbevent_t event) {
+	switch(event) {
+	case USB_EVENT_RESET:
+		return;
+	case USB_EVENT_ADDRESS:
+		return;
+	case USB_EVENT_CONFIGURED:
+		chSysLockFromIsr();
+		usbInitEndpointI(usbp, HID_IN_EP_ADDRESS, &ep1config);
+		chSysUnlockFromIsr();
+		return;
+	case USB_EVENT_SUSPEND:
+		return;
+	case USB_EVENT_WAKEUP:
+		return;
+	case USB_EVENT_STALLED:
+		return;
+	}
+	return;
+}
+
+
+static const USBConfig usbcfg = {
+	usb_event,
+	get_descriptor,
+	hidRequestsHook,
+	NULL
+};
+
+
+// Thread
+
+// Main
+
+
 

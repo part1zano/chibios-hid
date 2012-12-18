@@ -140,10 +140,25 @@
 
 
 typedef enum {
-	HID_STATE_BUSY = 0;
-	HID_STATE_FREE;
-	HID_STATE_STALLED;
+	HID_STATE_BUSY = 0,
+	HID_STATE_FREE,
+	HID_STATE_STALLED
 } hid_usb_state_t;
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+  bool_t hidRequestsHook(USBDriver *usbp);
+  void hidDataTransmitted(USBDriver *usbp, usbep_t ep);
+  void hidDataReceived(USBDriver *usbp, usbep_t ep);
+#ifdef __cplusplus
+}
+#endif
+
+
+
+
 
 
 #endif /* _USB_HID_H_ */
