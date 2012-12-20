@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc70xGHd.s 			page 1
+ARM GAS  /tmp/ccjKER55.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
   55              		.loc 1 50 0
   56              	@ 50 "../../../os/kernel/src/chdynamic.c" 1
   57 000e 83F31188 		msr     BASEPRI, r3
-ARM GAS  /tmp/cc70xGHd.s 			page 2
+ARM GAS  /tmp/ccjKER55.s 			page 2
 
 
   58              	@ 0 "" 2
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  110              	@ 0 "" 2
  111              	.LVL10:
  112              		.thumb
-ARM GAS  /tmp/cc70xGHd.s 			page 3
+ARM GAS  /tmp/ccjKER55.s 			page 3
 
 
  113              	.LBE7:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  167              		.thumb_func
  168              		.type	chThdCreateFromHeap, %function
  169              	chThdCreateFromHeap:
-ARM GAS  /tmp/cc70xGHd.s 			page 4
+ARM GAS  /tmp/ccjKER55.s 			page 4
 
 
  170              	.LFB9:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  224 002c FFF7FEFF 		bl	chSchWakeupS
  225              	.LVL26:
  226              	.LBB9:
-ARM GAS  /tmp/cc70xGHd.s 			page 5
+ARM GAS  /tmp/ccjKER55.s 			page 5
 
 
  227              		.loc 1 145 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  281 000c FFF7FEFF 		bl	chPoolAlloc
  282              	.LVL32:
  283              		.loc 1 180 0
-ARM GAS  /tmp/cc70xGHd.s 			page 6
+ARM GAS  /tmp/ccjKER55.s 			page 6
 
 
  284 0010 A8B1     		cbz	r0, .L13
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  338              	.LFE10:
  339              		.size	chThdCreateFromMemoryPool, .-chThdCreateFromMemoryPool
  340 0042 00BFAFF3 		.text
-ARM GAS  /tmp/cc70xGHd.s 			page 7
+ARM GAS  /tmp/ccjKER55.s 			page 7
 
 
  340      0080AFF3 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  392 0057 39020000 		.4byte	.LASF4
  393 005b 04       		.uleb128 0x4
  394 005c 02       		.byte	0x2
-ARM GAS  /tmp/cc70xGHd.s 			page 8
+ARM GAS  /tmp/ccjKER55.s 			page 8
 
 
  395 005d 05       		.byte	0x5
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  449 00cc 04       		.byte	0x4
  450 00cd 2B       		.byte	0x2b
  451 00ce 49000000 		.4byte	0x49
-ARM GAS  /tmp/cc70xGHd.s 			page 9
+ARM GAS  /tmp/ccjKER55.s 			page 9
 
 
  452 00d2 03       		.uleb128 0x3
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  506 013e 08       		.uleb128 0x8
  507 013f 06       		.uleb128 0x6
  508 0140 61030000 		.4byte	.LASF26
-ARM GAS  /tmp/cc70xGHd.s 			page 10
+ARM GAS  /tmp/ccjKER55.s 			page 10
 
 
  509 0144 06       		.byte	0x6
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  563 01a1 06       		.uleb128 0x6
  564 01a2 6E020000 		.4byte	.LASF33
  565 01a6 06       		.byte	0x6
-ARM GAS  /tmp/cc70xGHd.s 			page 11
+ARM GAS  /tmp/ccjKER55.s 			page 11
 
 
  566 01a7 81       		.byte	0x81
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  620 0204 52020000 		.4byte	.LASF39
  621 0208 06       		.byte	0x6
  622 0209 C9       		.byte	0xc9
-ARM GAS  /tmp/cc70xGHd.s 			page 12
+ARM GAS  /tmp/ccjKER55.s 			page 12
 
 
  623 020a 14050000 		.4byte	0x514
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  677 0267 64       		.byte	0x64
  678 0268 7B020000 		.4byte	0x27b
  679 026c 06       		.uleb128 0x6
-ARM GAS  /tmp/cc70xGHd.s 			page 13
+ARM GAS  /tmp/ccjKER55.s 			page 13
 
 
  680 026d 8B020000 		.4byte	.LASF23
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  734 02d4 08       		.uleb128 0x8
  735 02d5 0C       		.uleb128 0xc
  736 02d6 723700   		.ascii	"r7\000"
-ARM GAS  /tmp/cc70xGHd.s 			page 14
+ARM GAS  /tmp/ccjKER55.s 			page 14
 
 
  737 02d9 07       		.byte	0x7
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  791 033a 72313300 		.ascii	"r13\000"
  792 033e 07       		.byte	0x7
  793 033f 2B01     		.2byte	0x12b
-ARM GAS  /tmp/cc70xGHd.s 			page 15
+ARM GAS  /tmp/ccjKER55.s 			page 15
 
 
  794 0341 49030000 		.4byte	0x349
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  848 03a7 09       		.uleb128 0x9
  849 03a8 04       		.byte	0x4
  850 03a9 AD030000 		.4byte	0x3ad
-ARM GAS  /tmp/cc70xGHd.s 			page 16
+ARM GAS  /tmp/ccjKER55.s 			page 16
 
 
  851 03ad 0E       		.uleb128 0xe
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  905 0413 C2020000 		.4byte	.LASF59
  906 0417 0A       		.byte	0xa
  907 0418 37       		.byte	0x37
-ARM GAS  /tmp/cc70xGHd.s 			page 17
+ARM GAS  /tmp/ccjKER55.s 			page 17
 
 
  908 0419 45040000 		.4byte	0x445
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  962 047b 0D020000 		.4byte	.LASF63
  963 047f 0B       		.byte	0xb
  964 0480 26       		.byte	0x26
-ARM GAS  /tmp/cc70xGHd.s 			page 18
+ARM GAS  /tmp/ccjKER55.s 			page 18
 
 
  965 0481 89040000 		.4byte	0x489
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1019 04e1 54000000 		.4byte	.LASF69
  1020 04e5 06       		.byte	0x6
  1021 04e6 9D       		.byte	0x9d
-ARM GAS  /tmp/cc70xGHd.s 			page 19
+ARM GAS  /tmp/ccjKER55.s 			page 19
 
 
  1022 04e7 DD000000 		.4byte	0xdd
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1076 055b 01       		.byte	0x1
  1077 055c 2D       		.byte	0x2d
  1078 055d 53020000 		.4byte	0x253
-ARM GAS  /tmp/cc70xGHd.s 			page 20
+ARM GAS  /tmp/ccjKER55.s 			page 20
 
 
  1079 0561 01       		.byte	0x1
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1133 05de 46       		.byte	0x46
  1134 05df 7B000000 		.4byte	0x7b
  1135 05e3 6D000000 		.4byte	.LLST4
-ARM GAS  /tmp/cc70xGHd.s 			page 21
+ARM GAS  /tmp/ccjKER55.s 			page 21
 
 
  1136 05e7 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1190 0664 18       		.uleb128 0x18
  1191 0665 77737000 		.ascii	"wsp\000"
  1192 0669 01       		.byte	0x1
-ARM GAS  /tmp/cc70xGHd.s 			page 22
+ARM GAS  /tmp/ccjKER55.s 			page 22
 
 
  1193 066a 7D       		.byte	0x7d
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1247 06f2 1B       		.uleb128 0x1b
  1248 06f3 706600   		.ascii	"pf\000"
  1249 06f6 01       		.byte	0x1
-ARM GAS  /tmp/cc70xGHd.s 			page 23
+ARM GAS  /tmp/ccjKER55.s 			page 23
 
 
  1250 06f7 AD       		.byte	0xad
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1304 0005 13       		.uleb128 0x13
  1305 0006 0B       		.uleb128 0xb
  1306 0007 03       		.uleb128 0x3
-ARM GAS  /tmp/cc70xGHd.s 			page 24
+ARM GAS  /tmp/ccjKER55.s 			page 24
 
 
  1307 0008 0E       		.uleb128 0xe
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1361 003e 0B       		.uleb128 0xb
  1362 003f 3A       		.uleb128 0x3a
  1363 0040 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc70xGHd.s 			page 25
+ARM GAS  /tmp/ccjKER55.s 			page 25
 
 
  1364 0041 3B       		.uleb128 0x3b
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1418 0077 49       		.uleb128 0x49
  1419 0078 13       		.uleb128 0x13
  1420 0079 00       		.byte	0
-ARM GAS  /tmp/cc70xGHd.s 			page 26
+ARM GAS  /tmp/ccjKER55.s 			page 26
 
 
  1421 007a 00       		.byte	0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1475 00b0 00       		.byte	0
  1476 00b1 00       		.byte	0
  1477 00b2 0F       		.uleb128 0xf
-ARM GAS  /tmp/cc70xGHd.s 			page 27
+ARM GAS  /tmp/ccjKER55.s 			page 27
 
 
  1478 00b3 05       		.uleb128 0x5
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1532 00e9 3B       		.uleb128 0x3b
  1533 00ea 0B       		.uleb128 0xb
  1534 00eb 49       		.uleb128 0x49
-ARM GAS  /tmp/cc70xGHd.s 			page 28
+ARM GAS  /tmp/ccjKER55.s 			page 28
 
 
  1535 00ec 13       		.uleb128 0x13
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1589 0122 01       		.uleb128 0x1
  1590 0123 12       		.uleb128 0x12
  1591 0124 01       		.uleb128 0x1
-ARM GAS  /tmp/cc70xGHd.s 			page 29
+ARM GAS  /tmp/ccjKER55.s 			page 29
 
 
  1592 0125 01       		.uleb128 0x1
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1646 015b 3A       		.uleb128 0x3a
  1647 015c 0B       		.uleb128 0xb
  1648 015d 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cc70xGHd.s 			page 30
+ARM GAS  /tmp/ccjKER55.s 			page 30
 
 
  1649 015e 0B       		.uleb128 0xb
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1703 0194 3B       		.uleb128 0x3b
  1704 0195 0B       		.uleb128 0xb
  1705 0196 49       		.uleb128 0x49
-ARM GAS  /tmp/cc70xGHd.s 			page 31
+ARM GAS  /tmp/ccjKER55.s 			page 31
 
 
  1706 0197 13       		.uleb128 0x13
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1760 0064 52       		.byte	0x52
  1761 0065 00000000 		.4byte	0
  1762 0069 00000000 		.4byte	0
-ARM GAS  /tmp/cc70xGHd.s 			page 32
+ARM GAS  /tmp/ccjKER55.s 			page 32
 
 
  1763              	.LLST4:
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1817 00fb 0100     		.2byte	0x1
  1818 00fd 51       		.byte	0x51
  1819 00fe 3C000000 		.4byte	.LVL29
-ARM GAS  /tmp/cc70xGHd.s 			page 33
+ARM GAS  /tmp/ccjKER55.s 			page 33
 
 
  1820 0102 3E000000 		.4byte	.LVL30
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1874 0194 00000000 		.4byte	0
  1875 0198 00000000 		.4byte	0
  1876              	.LLST14:
-ARM GAS  /tmp/cc70xGHd.s 			page 34
+ARM GAS  /tmp/ccjKER55.s 			page 34
 
 
  1877 019c 36000000 		.4byte	.LVL28
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1931 022c 57       		.byte	0x57
  1932 022d 00000000 		.4byte	0
  1933 0231 00000000 		.4byte	0
-ARM GAS  /tmp/cc70xGHd.s 			page 35
+ARM GAS  /tmp/ccjKER55.s 			page 35
 
 
  1934              	.LLST19:
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  1988 0006 00000000 		.4byte	.Ldebug_info0
  1989 000a 04       		.byte	0x4
  1990 000b 00       		.byte	0
-ARM GAS  /tmp/cc70xGHd.s 			page 36
+ARM GAS  /tmp/ccjKER55.s 			page 36
 
 
  1991 000c 0000     		.2byte	0
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  2037      736700
  2038              	.LASF12:
  2039 001c 75696E74 		.ascii	"uint64_t\000"
-ARM GAS  /tmp/cc70xGHd.s 			page 37
+ARM GAS  /tmp/ccjKER55.s 			page 37
 
 
  2039      36345F74 
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  2067      7400
  2068              	.LASF8:
  2069 00b0 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  /tmp/cc70xGHd.s 			page 38
+ARM GAS  /tmp/ccjKER55.s 			page 38
 
 
  2069      20696E74 
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  2092      7400
  2093              	.LASF47:
  2094 0176 636F6E74 		.ascii	"context\000"
-ARM GAS  /tmp/cc70xGHd.s 			page 39
+ARM GAS  /tmp/ccjKER55.s 			page 39
 
 
  2094      65787400 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  2122      617000
  2123              	.LASF63:
  2124 020d 70685F6E 		.ascii	"ph_next\000"
-ARM GAS  /tmp/cc70xGHd.s 			page 40
+ARM GAS  /tmp/ccjKER55.s 			page 40
 
 
  2124      65787400 
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  2156 029a 63685468 		.ascii	"chThdRelease\000"
  2156      6452656C 
  2156      65617365 
-ARM GAS  /tmp/cc70xGHd.s 			page 41
+ARM GAS  /tmp/ccjKER55.s 			page 41
 
 
  2156      00
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  2186 033c 705F7265 		.ascii	"p_refs\000"
  2186      667300
  2187              	.LASF3:
-ARM GAS  /tmp/cc70xGHd.s 			page 42
+ARM GAS  /tmp/ccjKER55.s 			page 42
 
 
  2188 0343 75696E74 		.ascii	"uint8_t\000"
@@ -2484,19 +2484,19 @@ ARM GAS  /tmp/cc70xGHd.s 			page 1
  2200      72795F68 
  2200      65617000 
  2201              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/cc70xGHd.s 			page 43
+ARM GAS  /tmp/ccjKER55.s 			page 43
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chdynamic.c
-     /tmp/cc70xGHd.s:19     .text.chThdAddRef:0000000000000000 $t
-     /tmp/cc70xGHd.s:25     .text.chThdAddRef:0000000000000000 chThdAddRef
-     /tmp/cc70xGHd.s:68     .text.chThdRelease:0000000000000000 $t
-     /tmp/cc70xGHd.s:74     .text.chThdRelease:0000000000000000 chThdRelease
-     /tmp/cc70xGHd.s:163    .text.chThdCreateFromHeap:0000000000000000 $t
-     /tmp/cc70xGHd.s:169    .text.chThdCreateFromHeap:0000000000000000 chThdCreateFromHeap
-     /tmp/cc70xGHd.s:251    .text.chThdCreateFromMemoryPool:0000000000000000 $t
-     /tmp/cc70xGHd.s:257    .text.chThdCreateFromMemoryPool:0000000000000000 chThdCreateFromMemoryPool
+     /tmp/ccjKER55.s:19     .text.chThdAddRef:0000000000000000 $t
+     /tmp/ccjKER55.s:25     .text.chThdAddRef:0000000000000000 chThdAddRef
+     /tmp/ccjKER55.s:68     .text.chThdRelease:0000000000000000 $t
+     /tmp/ccjKER55.s:74     .text.chThdRelease:0000000000000000 chThdRelease
+     /tmp/ccjKER55.s:163    .text.chThdCreateFromHeap:0000000000000000 $t
+     /tmp/ccjKER55.s:169    .text.chThdCreateFromHeap:0000000000000000 chThdCreateFromHeap
+     /tmp/ccjKER55.s:251    .text.chThdCreateFromMemoryPool:0000000000000000 $t
+     /tmp/ccjKER55.s:257    .text.chThdCreateFromMemoryPool:0000000000000000 chThdCreateFromMemoryPool
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

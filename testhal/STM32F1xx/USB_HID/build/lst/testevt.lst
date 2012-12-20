@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccthP7dO.s 			page 1
+ARM GAS  /tmp/cceMl1QP.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
   54 0000 4FF0FF30 		mov	r0, #-1
   55              		.loc 1 135 0
   56              		.loc 1 134 0
-ARM GAS  /tmp/ccthP7dO.s 			page 2
+ARM GAS  /tmp/cceMl1QP.s 			page 2
 
 
   57 0004 FFF7FEBF 		b	chEvtGetAndClearEvents
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  109 0010 3220     		movs	r0, #50
  110 0012 FFF7FEFF 		bl	chThdSleep
  111              		.loc 1 149 0
-ARM GAS  /tmp/ccthP7dO.s 			page 3
+ARM GAS  /tmp/cceMl1QP.s 			page 3
 
 
  112 0016 40F20000 		movw	r0, #:lower16:.LANCHOR1
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  163              	.LFB11:
  164              		.loc 1 89 0
  165              		.cfi_startproc
-ARM GAS  /tmp/ccthP7dO.s 			page 4
+ARM GAS  /tmp/cceMl1QP.s 			page 4
 
 
  166              		@ args = 0, pretend = 0, frame = 32
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  220              		.loc 1 101 0
  221 0050 2046     		mov	r0, r4
  222 0052 04A9     		add	r1, sp, #16
-ARM GAS  /tmp/ccthP7dO.s 			page 5
+ARM GAS  /tmp/cceMl1QP.s 			page 5
 
 
  223 0054 FFF7FEFF 		bl	chEvtUnregister
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  275              	.LFB9:
  276              		.loc 1 85 0
  277              		.cfi_startproc
-ARM GAS  /tmp/ccthP7dO.s 			page 6
+ARM GAS  /tmp/cceMl1QP.s 			page 6
 
 
  278              		@ args = 0, pretend = 0, frame = 0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  328 0002 0021     		movs	r1, #0
  329 0004 4FF0FF30 		mov	r0, #-1
  330 0008 FFF7FEFF 		bl	chEvtWaitOneTimeout
-ARM GAS  /tmp/ccthP7dO.s 			page 7
+ARM GAS  /tmp/cceMl1QP.s 			page 7
 
 
  331              	.LVL10:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  385 006e 0028     		cmp	r0, #0
  386 0070 D4D1     		bne	.L13
  387              		.loc 1 270 0
-ARM GAS  /tmp/ccthP7dO.s 			page 8
+ARM GAS  /tmp/cceMl1QP.s 			page 8
 
 
  388 0072 0A21     		movs	r1, #10
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  441              		.cfi_offset 9, -8
  442              		.cfi_offset 8, -12
  443              		.cfi_offset 7, -16
-ARM GAS  /tmp/ccthP7dO.s 			page 9
+ARM GAS  /tmp/cceMl1QP.s 			page 9
 
 
  444              		.cfi_offset 6, -20
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  498 005e 0028     		cmp	r0, #0
  499 0060 E1D1     		bne	.L16
  500              	.LBB10:
-ARM GAS  /tmp/ccthP7dO.s 			page 10
+ARM GAS  /tmp/cceMl1QP.s 			page 10
 
 
  501              	.LBB11:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  555 00d8 A5D1     		bne	.L16
  556              		.loc 1 179 0
  557 00da 4FF0FF30 		mov	r0, #-1
-ARM GAS  /tmp/ccthP7dO.s 			page 11
+ARM GAS  /tmp/cceMl1QP.s 			page 11
 
 
  558 00de FFF7FEFF 		bl	chEvtGetAndClearEvents
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  612              		.loc 1 196 0
  613 0152 EF68     		ldr	r7, [r5, #12]
  614              	.LVL41:
-ARM GAS  /tmp/ccthP7dO.s 			page 12
+ARM GAS  /tmp/cceMl1QP.s 			page 12
 
 
  615              		.loc 1 197 0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  669 01c6 0122     		movs	r2, #1
  670              		.loc 1 209 0
  671 01c8 3F60     		str	r7, [r7, #0]
-ARM GAS  /tmp/ccthP7dO.s 			page 13
+ARM GAS  /tmp/cceMl1QP.s 			page 13
 
 
  672              		.loc 1 210 0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  726 0240 3846     		mov	r0, r7
  727 0242 02A9     		add	r1, sp, #8
  728 0244 FFF7FEFF 		bl	chEvtUnregister
-ARM GAS  /tmp/ccthP7dO.s 			page 14
+ARM GAS  /tmp/cceMl1QP.s 			page 14
 
 
  729              		.loc 1 223 0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  783 0006 0000     		.space	2
  784              	.LC2:
  785 0008 4576656E 		.ascii	"Events, timeouts\000"
-ARM GAS  /tmp/ccthP7dO.s 			page 15
+ARM GAS  /tmp/cceMl1QP.s 			page 15
 
 
  785      74732C20 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  828              		.set	.LANCHOR1,. + 0
  829              		.type	es2, %object
  830              		.size	es2, 4
-ARM GAS  /tmp/ccthP7dO.s 			page 16
+ARM GAS  /tmp/cceMl1QP.s 			page 16
 
 
  831              	es2:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  885 0057 03       		.uleb128 0x3
  886 0058 02       		.byte	0x2
  887 0059 07       		.byte	0x7
-ARM GAS  /tmp/ccthP7dO.s 			page 17
+ARM GAS  /tmp/cceMl1QP.s 			page 17
 
 
  888 005a 7E010000 		.4byte	.LASF4
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  942 00cc 03       		.byte	0x3
  943 00cd 2D       		.byte	0x2d
  944 00ce 5E000000 		.4byte	0x5e
-ARM GAS  /tmp/ccthP7dO.s 			page 18
+ARM GAS  /tmp/cceMl1QP.s 			page 18
 
 
  945 00d2 04       		.uleb128 0x4
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  999 013e 08       		.uleb128 0x8
  1000 013f 06       		.uleb128 0x6
  1001 0140 05040000 		.4byte	.LASF26
-ARM GAS  /tmp/ccthP7dO.s 			page 19
+ARM GAS  /tmp/cceMl1QP.s 			page 19
 
 
  1002 0144 05       		.byte	0x5
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1056 01a1 06       		.uleb128 0x6
  1057 01a2 A9020000 		.4byte	.LASF33
  1058 01a6 05       		.byte	0x5
-ARM GAS  /tmp/ccthP7dO.s 			page 20
+ARM GAS  /tmp/cceMl1QP.s 			page 20
 
 
  1059 01a7 81       		.byte	0x81
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1113 0204 8D020000 		.4byte	.LASF39
  1114 0208 05       		.byte	0x5
  1115 0209 C9       		.byte	0xc9
-ARM GAS  /tmp/ccthP7dO.s 			page 21
+ARM GAS  /tmp/cceMl1QP.s 			page 21
 
 
  1116 020a A6050000 		.4byte	0x5a6
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1170 0267 64       		.byte	0x64
  1171 0268 7B020000 		.4byte	0x27b
  1172 026c 06       		.uleb128 0x6
-ARM GAS  /tmp/ccthP7dO.s 			page 22
+ARM GAS  /tmp/cceMl1QP.s 			page 22
 
 
  1173 026d C9020000 		.4byte	.LASF23
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1227 02d1 86020000 		.4byte	0x286
  1228 02d5 02       		.byte	0x2
  1229 02d6 23       		.byte	0x23
-ARM GAS  /tmp/ccthP7dO.s 			page 23
+ARM GAS  /tmp/cceMl1QP.s 			page 23
 
 
  1230 02d7 0C       		.uleb128 0xc
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1284 033b 23       		.byte	0x23
  1285 033c 00       		.uleb128 0
  1286 033d 00       		.byte	0
-ARM GAS  /tmp/ccthP7dO.s 			page 24
+ARM GAS  /tmp/cceMl1QP.s 			page 24
 
 
  1287 033e 09       		.uleb128 0x9
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1341 03a7 07       		.byte	0x7
  1342 03a8 60       		.byte	0x60
  1343 03a9 44030000 		.4byte	0x344
-ARM GAS  /tmp/ccthP7dO.s 			page 25
+ARM GAS  /tmp/cceMl1QP.s 			page 25
 
 
  1344 03ad 02       		.byte	0x2
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1398 0407 F3000000 		.4byte	0xf3
  1399 040b 04       		.uleb128 0x4
  1400 040c E9030000 		.4byte	.LASF55
-ARM GAS  /tmp/ccthP7dO.s 			page 26
+ARM GAS  /tmp/cceMl1QP.s 			page 26
 
 
  1401 0410 07       		.byte	0x7
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1455 0470 23       		.byte	0x23
  1456 0471 18       		.uleb128 0x18
  1457 0472 00       		.byte	0
-ARM GAS  /tmp/ccthP7dO.s 			page 27
+ARM GAS  /tmp/cceMl1QP.s 			page 27
 
 
  1458 0473 04       		.uleb128 0x4
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1512 04d9 16050000 		.4byte	0x516
  1513 04dd 06       		.uleb128 0x6
  1514 04de 97010000 		.4byte	.LASF68
-ARM GAS  /tmp/ccthP7dO.s 			page 28
+ARM GAS  /tmp/cceMl1QP.s 			page 28
 
 
  1515 04e2 0A       		.byte	0xa
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1569 0542 04       		.uleb128 0x4
  1570 0543 2A010000 		.4byte	.LASF74
  1571 0547 0A       		.byte	0xa
-ARM GAS  /tmp/ccthP7dO.s 			page 29
+ARM GAS  /tmp/cceMl1QP.s 			page 29
 
 
  1572 0548 43       		.byte	0x43
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1626 05b4 F1050000 		.4byte	0x5f1
  1627 05b8 06       		.uleb128 0x6
  1628 05b9 71010000 		.4byte	.LASF81
-ARM GAS  /tmp/ccthP7dO.s 			page 30
+ARM GAS  /tmp/cceMl1QP.s 			page 30
 
 
  1629 05bd 0B       		.byte	0xb
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1683 061a 01       		.byte	0x1
  1684 061b 4A060000 		.4byte	0x64a
  1685 061f 17       		.uleb128 0x17
-ARM GAS  /tmp/ccthP7dO.s 			page 31
+ARM GAS  /tmp/cceMl1QP.s 			page 31
 
 
  1686 0620 6D00     		.ascii	"m\000"
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1740 068a 01       		.byte	0x1
  1741 068b C7000000 		.4byte	0xc7
  1742 068f 00000000 		.4byte	.LFB14
-ARM GAS  /tmp/ccthP7dO.s 			page 32
+ARM GAS  /tmp/cceMl1QP.s 			page 32
 
 
  1743 0693 28000000 		.4byte	.LFE14
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1797 070d 683300   		.ascii	"h3\000"
  1798 0710 01       		.byte	0x1
  1799 0711 56       		.byte	0x56
-ARM GAS  /tmp/ccthP7dO.s 			page 33
+ARM GAS  /tmp/cceMl1QP.s 			page 33
 
 
  1800 0712 01       		.byte	0x1
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1854 0788 D6000000 		.4byte	.LLST8
  1855 078c BA070000 		.4byte	0x7ba
  1856 0790 20       		.uleb128 0x20
-ARM GAS  /tmp/ccthP7dO.s 			page 34
+ARM GAS  /tmp/cceMl1QP.s 			page 34
 
 
  1857 0791 07060000 		.4byte	0x607
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1911 0819 3E060000 		.4byte	0x63e
  1912 081d 30020000 		.4byte	.LLST14
  1913 0821 00       		.byte	0
-ARM GAS  /tmp/ccthP7dO.s 			page 35
+ARM GAS  /tmp/cceMl1QP.s 			page 35
 
 
  1914 0822 00       		.byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  1968 0894 04       		.byte	0x4
  1969 0895 00       		.byte	0
  1970 0896 2A       		.uleb128 0x2a
-ARM GAS  /tmp/ccthP7dO.s 			page 36
+ARM GAS  /tmp/cceMl1QP.s 			page 36
 
 
  1971 0897 B3020000 		.4byte	.LASF97
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2025 0909 03       		.byte	0x3
  2026 090a 00       		.byte	0
  2027 090b 09       		.uleb128 0x9
-ARM GAS  /tmp/ccthP7dO.s 			page 37
+ARM GAS  /tmp/cceMl1QP.s 			page 37
 
 
  2028 090c 04       		.byte	0x4
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2082 0026 0B       		.uleb128 0xb
  2083 0027 03       		.uleb128 0x3
  2084 0028 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccthP7dO.s 			page 38
+ARM GAS  /tmp/cceMl1QP.s 			page 38
 
 
  2085 0029 00       		.byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2139 005f 49       		.uleb128 0x49
  2140 0060 13       		.uleb128 0x13
  2141 0061 38       		.uleb128 0x38
-ARM GAS  /tmp/ccthP7dO.s 			page 39
+ARM GAS  /tmp/cceMl1QP.s 			page 39
 
 
  2142 0062 0A       		.uleb128 0xa
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2196 0098 3B       		.uleb128 0x3b
  2197 0099 05       		.uleb128 0x5
  2198 009a 49       		.uleb128 0x49
-ARM GAS  /tmp/ccthP7dO.s 			page 40
+ARM GAS  /tmp/cceMl1QP.s 			page 40
 
 
  2199 009b 13       		.uleb128 0x13
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2253 00d1 12       		.uleb128 0x12
  2254 00d2 26       		.uleb128 0x26
  2255 00d3 00       		.byte	0
-ARM GAS  /tmp/ccthP7dO.s 			page 41
+ARM GAS  /tmp/cceMl1QP.s 			page 41
 
 
  2256 00d4 49       		.uleb128 0x49
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2310 010a 01       		.uleb128 0x1
  2311 010b 13       		.uleb128 0x13
  2312 010c 00       		.byte	0
-ARM GAS  /tmp/ccthP7dO.s 			page 42
+ARM GAS  /tmp/cceMl1QP.s 			page 42
 
 
  2313 010d 00       		.byte	0
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2367 0143 0B       		.uleb128 0xb
  2368 0144 27       		.uleb128 0x27
  2369 0145 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccthP7dO.s 			page 43
+ARM GAS  /tmp/cceMl1QP.s 			page 43
 
 
  2370 0146 49       		.uleb128 0x49
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2424 017c 0B       		.uleb128 0xb
  2425 017d 3B       		.uleb128 0x3b
  2426 017e 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccthP7dO.s 			page 44
+ARM GAS  /tmp/cceMl1QP.s 			page 44
 
 
  2427 017f 49       		.uleb128 0x49
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2481 01b5 31       		.uleb128 0x31
  2482 01b6 13       		.uleb128 0x13
  2483 01b7 52       		.uleb128 0x52
-ARM GAS  /tmp/ccthP7dO.s 			page 45
+ARM GAS  /tmp/cceMl1QP.s 			page 45
 
 
  2484 01b8 01       		.uleb128 0x1
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2538 01ee 00       		.byte	0
  2539 01ef 00       		.byte	0
  2540 01f0 27       		.uleb128 0x27
-ARM GAS  /tmp/ccthP7dO.s 			page 46
+ARM GAS  /tmp/cceMl1QP.s 			page 46
 
 
  2541 01f1 01       		.uleb128 0x1
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2595 0227 2C       		.uleb128 0x2c
  2596 0228 34       		.uleb128 0x34
  2597 0229 00       		.byte	0
-ARM GAS  /tmp/ccthP7dO.s 			page 47
+ARM GAS  /tmp/cceMl1QP.s 			page 47
 
 
  2598 022a 03       		.uleb128 0x3
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2652 0008 0200     		.2byte	0x2
  2653 000a 7D       		.byte	0x7d
  2654 000b 00       		.sleb128 0
-ARM GAS  /tmp/ccthP7dO.s 			page 48
+ARM GAS  /tmp/cceMl1QP.s 			page 48
 
 
  2655 000c 06000000 		.4byte	.LCFI0
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2709 0095 00000000 		.4byte	0
  2710 0099 00000000 		.4byte	0
  2711              	.LLST5:
-ARM GAS  /tmp/ccthP7dO.s 			page 49
+ARM GAS  /tmp/cceMl1QP.s 			page 49
 
 
  2712 009d 00000000 		.4byte	.LVL4
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2766 012e 86000000 		.4byte	.LVL19
  2767 0132 0100     		.2byte	0x1
  2768 0134 50       		.byte	0x50
-ARM GAS  /tmp/ccthP7dO.s 			page 50
+ARM GAS  /tmp/cceMl1QP.s 			page 50
 
 
  2769 0135 98000000 		.4byte	.LVL20
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2823 01c0 0100     		.2byte	0x1
  2824 01c2 50       		.byte	0x50
  2825 01c3 BC000000 		.4byte	.LVL32
-ARM GAS  /tmp/ccthP7dO.s 			page 51
+ARM GAS  /tmp/cceMl1QP.s 			page 51
 
 
  2826 01c7 E2000000 		.4byte	.LVL33
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2880 0252 0300     		.2byte	0x3
  2881 0254 75       		.byte	0x75
  2882 0255 32       		.sleb128 50
-ARM GAS  /tmp/ccthP7dO.s 			page 52
+ARM GAS  /tmp/cceMl1QP.s 			page 52
 
 
  2883 0256 9F       		.byte	0x9f
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2937 0044 08000000 		.4byte	.LFE7
  2938 0048 00000000 		.4byte	.LFB14
  2939 004c 28000000 		.4byte	.LFE14
-ARM GAS  /tmp/ccthP7dO.s 			page 53
+ARM GAS  /tmp/cceMl1QP.s 			page 53
 
 
  2940 0050 00000000 		.4byte	.LFB13
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  2975              	.LASF10:
  2976 0053 6C6F6E67 		.ascii	"long long int\000"
  2976      206C6F6E 
-ARM GAS  /tmp/ccthP7dO.s 			page 54
+ARM GAS  /tmp/cceMl1QP.s 			page 54
 
 
  2976      6720696E 
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  3003      00
  3004              	.LASF50:
  3005 010c 76745F70 		.ascii	"vt_prev\000"
-ARM GAS  /tmp/ccthP7dO.s 			page 55
+ARM GAS  /tmp/cceMl1QP.s 			page 55
 
 
  3005      72657600 
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  3033 019f 746D6F64 		.ascii	"tmode_t\000"
  3033      655F7400 
  3034              	.LASF43:
-ARM GAS  /tmp/ccthP7dO.s 			page 56
+ARM GAS  /tmp/cceMl1QP.s 			page 56
 
 
  3035 01a7 54687265 		.ascii	"ThreadsList\000"
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  3066              	.LASF14:
  3067 0236 74726566 		.ascii	"trefs_t\000"
  3067      735F7400 
-ARM GAS  /tmp/ccthP7dO.s 			page 57
+ARM GAS  /tmp/cceMl1QP.s 			page 57
 
 
  3068              	.LASF24:
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  3098              	.LASF23:
  3099 02c9 705F6E65 		.ascii	"p_next\000"
  3099      787400
-ARM GAS  /tmp/ccthP7dO.s 			page 58
+ARM GAS  /tmp/cceMl1QP.s 			page 58
 
 
  3100              	.LASF31:
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  3129      00
  3130              	.LASF34:
  3131 0357 705F7469 		.ascii	"p_time\000"
-ARM GAS  /tmp/ccthP7dO.s 			page 59
+ARM GAS  /tmp/cceMl1QP.s 			page 59
 
 
  3131      6D6500
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  3161      737400
  3162              	.LASF65:
  3163 03f0 6D5F6F77 		.ascii	"m_owner\000"
-ARM GAS  /tmp/ccthP7dO.s 			page 60
+ARM GAS  /tmp/cceMl1QP.s 			page 60
 
 
  3163      6E657200 
@@ -3555,53 +3555,53 @@ ARM GAS  /tmp/ccthP7dO.s 			page 1
  3169      6974696E 
  3169      6700
  3170              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccthP7dO.s 			page 61
+ARM GAS  /tmp/cceMl1QP.s 			page 61
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 testevt.c
-     /tmp/ccthP7dO.s:19     .text.evt3_setup:0000000000000000 $t
-     /tmp/ccthP7dO.s:24     .text.evt3_setup:0000000000000000 evt3_setup
-     /tmp/ccthP7dO.s:41     .text.evt2_setup:0000000000000000 $t
-     /tmp/ccthP7dO.s:46     .text.evt2_setup:0000000000000000 evt2_setup
-     /tmp/ccthP7dO.s:62     .text.evt1_setup:0000000000000000 $t
-     /tmp/ccthP7dO.s:67     .text.evt1_setup:0000000000000000 evt1_setup
-     /tmp/ccthP7dO.s:83     .text.thread2:0000000000000000 $t
-     /tmp/ccthP7dO.s:88     .text.thread2:0000000000000000 thread2
-     /tmp/ccthP7dO.s:821    .data.es1:0000000000000000 .LANCHOR0
-     /tmp/ccthP7dO.s:828    .data.es2:0000000000000000 .LANCHOR1
-     /tmp/ccthP7dO.s:123    .text.thread1:0000000000000000 $t
-     /tmp/ccthP7dO.s:128    .text.thread1:0000000000000000 thread1
-     /tmp/ccthP7dO.s:157    .text.evt1_execute:0000000000000000 $t
-     /tmp/ccthP7dO.s:162    .text.evt1_execute:0000000000000000 evt1_execute
-     /tmp/ccthP7dO.s:803    .rodata.evhndl:0000000000000000 .LANCHOR2
-     /tmp/ccthP7dO.s:779    .rodata.str1.4:0000000000000000 .LC0
-     /tmp/ccthP7dO.s:248    .text.h3:0000000000000000 $t
-     /tmp/ccthP7dO.s:253    .text.h3:0000000000000000 h3
-     /tmp/ccthP7dO.s:269    .text.h2:0000000000000000 $t
-     /tmp/ccthP7dO.s:274    .text.h2:0000000000000000 h2
-     /tmp/ccthP7dO.s:290    .text.h1:0000000000000000 $t
-     /tmp/ccthP7dO.s:295    .text.h1:0000000000000000 h1
-     /tmp/ccthP7dO.s:311    .text.evt3_execute:0000000000000000 $t
-     /tmp/ccthP7dO.s:316    .text.evt3_execute:0000000000000000 evt3_execute
-     /tmp/ccthP7dO.s:426    .text.evt2_execute:0000000000000000 $t
-     /tmp/ccthP7dO.s:431    .text.evt2_execute:0000000000000000 evt2_execute
-     /tmp/ccthP7dO.s:781    .rodata.str1.4:0000000000000004 .LC1
-     /tmp/ccthP7dO.s:763    .rodata.patternevt:0000000000000000 patternevt
-     /tmp/ccthP7dO.s:814    .rodata.testevt3:0000000000000000 testevt3
-     /tmp/ccthP7dO.s:772    .rodata.testevt2:0000000000000000 testevt2
-     /tmp/ccthP7dO.s:796    .rodata.testevt1:0000000000000000 testevt1
-     /tmp/ccthP7dO.s:760    .rodata.patternevt:0000000000000000 $d
-     /tmp/ccthP7dO.s:769    .rodata.testevt2:0000000000000000 $d
-     /tmp/ccthP7dO.s:778    .rodata.str1.4:0000000000000000 $d
-     /tmp/ccthP7dO.s:793    .rodata.testevt1:0000000000000000 $d
-     /tmp/ccthP7dO.s:802    .rodata.evhndl:0000000000000000 $d
-     /tmp/ccthP7dO.s:806    .rodata.evhndl:0000000000000000 evhndl
-     /tmp/ccthP7dO.s:811    .rodata.testevt3:0000000000000000 $d
-     /tmp/ccthP7dO.s:820    .data.es1:0000000000000000 $d
-     /tmp/ccthP7dO.s:824    .data.es1:0000000000000000 es1
-     /tmp/ccthP7dO.s:827    .data.es2:0000000000000000 $d
-     /tmp/ccthP7dO.s:831    .data.es2:0000000000000000 es2
+     /tmp/cceMl1QP.s:19     .text.evt3_setup:0000000000000000 $t
+     /tmp/cceMl1QP.s:24     .text.evt3_setup:0000000000000000 evt3_setup
+     /tmp/cceMl1QP.s:41     .text.evt2_setup:0000000000000000 $t
+     /tmp/cceMl1QP.s:46     .text.evt2_setup:0000000000000000 evt2_setup
+     /tmp/cceMl1QP.s:62     .text.evt1_setup:0000000000000000 $t
+     /tmp/cceMl1QP.s:67     .text.evt1_setup:0000000000000000 evt1_setup
+     /tmp/cceMl1QP.s:83     .text.thread2:0000000000000000 $t
+     /tmp/cceMl1QP.s:88     .text.thread2:0000000000000000 thread2
+     /tmp/cceMl1QP.s:821    .data.es1:0000000000000000 .LANCHOR0
+     /tmp/cceMl1QP.s:828    .data.es2:0000000000000000 .LANCHOR1
+     /tmp/cceMl1QP.s:123    .text.thread1:0000000000000000 $t
+     /tmp/cceMl1QP.s:128    .text.thread1:0000000000000000 thread1
+     /tmp/cceMl1QP.s:157    .text.evt1_execute:0000000000000000 $t
+     /tmp/cceMl1QP.s:162    .text.evt1_execute:0000000000000000 evt1_execute
+     /tmp/cceMl1QP.s:803    .rodata.evhndl:0000000000000000 .LANCHOR2
+     /tmp/cceMl1QP.s:779    .rodata.str1.4:0000000000000000 .LC0
+     /tmp/cceMl1QP.s:248    .text.h3:0000000000000000 $t
+     /tmp/cceMl1QP.s:253    .text.h3:0000000000000000 h3
+     /tmp/cceMl1QP.s:269    .text.h2:0000000000000000 $t
+     /tmp/cceMl1QP.s:274    .text.h2:0000000000000000 h2
+     /tmp/cceMl1QP.s:290    .text.h1:0000000000000000 $t
+     /tmp/cceMl1QP.s:295    .text.h1:0000000000000000 h1
+     /tmp/cceMl1QP.s:311    .text.evt3_execute:0000000000000000 $t
+     /tmp/cceMl1QP.s:316    .text.evt3_execute:0000000000000000 evt3_execute
+     /tmp/cceMl1QP.s:426    .text.evt2_execute:0000000000000000 $t
+     /tmp/cceMl1QP.s:431    .text.evt2_execute:0000000000000000 evt2_execute
+     /tmp/cceMl1QP.s:781    .rodata.str1.4:0000000000000004 .LC1
+     /tmp/cceMl1QP.s:763    .rodata.patternevt:0000000000000000 patternevt
+     /tmp/cceMl1QP.s:814    .rodata.testevt3:0000000000000000 testevt3
+     /tmp/cceMl1QP.s:772    .rodata.testevt2:0000000000000000 testevt2
+     /tmp/cceMl1QP.s:796    .rodata.testevt1:0000000000000000 testevt1
+     /tmp/cceMl1QP.s:760    .rodata.patternevt:0000000000000000 $d
+     /tmp/cceMl1QP.s:769    .rodata.testevt2:0000000000000000 $d
+     /tmp/cceMl1QP.s:778    .rodata.str1.4:0000000000000000 $d
+     /tmp/cceMl1QP.s:793    .rodata.testevt1:0000000000000000 $d
+     /tmp/cceMl1QP.s:802    .rodata.evhndl:0000000000000000 $d
+     /tmp/cceMl1QP.s:806    .rodata.evhndl:0000000000000000 evhndl
+     /tmp/cceMl1QP.s:811    .rodata.testevt3:0000000000000000 $d
+     /tmp/cceMl1QP.s:820    .data.es1:0000000000000000 $d
+     /tmp/cceMl1QP.s:824    .data.es1:0000000000000000 es1
+     /tmp/cceMl1QP.s:827    .data.es2:0000000000000000 $d
+     /tmp/cceMl1QP.s:831    .data.es2:0000000000000000 es2
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
@@ -3615,7 +3615,7 @@ chEvtUnregister
 chEvtDispatch
 _test_assert_sequence
 test_emit_token
-ARM GAS  /tmp/ccthP7dO.s 			page 62
+ARM GAS  /tmp/cceMl1QP.s 			page 62
 
 
 chEvtWaitOneTimeout

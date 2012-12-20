@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccg64K6g.s 			page 1
+ARM GAS  /tmp/ccoK2Ck3.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
   55              		.loc 1 76 0
   56 0016 38BF     		it	cc
   57 0018 50F82150 		ldrcc	r5, [r0, r1, lsl #2]
-ARM GAS  /tmp/ccg64K6g.s 			page 2
+ARM GAS  /tmp/ccoK2Ck3.s 			page 2
 
 
   58              		.loc 1 69 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  111              		.cfi_offset 6, -8
  112              		.cfi_offset 5, -12
  113              		.cfi_offset 4, -16
-ARM GAS  /tmp/ccg64K6g.s 			page 3
+ARM GAS  /tmp/ccoK2Ck3.s 			page 3
 
 
  114              		.loc 1 95 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  168 0040 70BD     		pop	{r4, r5, r6, pc}
  169              	.L12:
  170              	.LBB3:
-ARM GAS  /tmp/ccg64K6g.s 			page 4
+ARM GAS  /tmp/ccoK2Ck3.s 			page 4
 
 
  171              		.loc 1 105 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  225 0053 04       		.uleb128 0x4
  226 0054 38010000 		.4byte	.LASF6
  227 0058 02       		.byte	0x2
-ARM GAS  /tmp/ccg64K6g.s 			page 5
+ARM GAS  /tmp/ccoK2Ck3.s 			page 5
 
 
  228 0059 4F       		.byte	0x4f
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  282 00d1 3E       		.byte	0x3e
  283 00d2 65000000 		.4byte	0x65
  284 00d6 46000000 		.4byte	.LLST3
-ARM GAS  /tmp/ccg64K6g.s 			page 6
+ARM GAS  /tmp/ccoK2Ck3.s 			page 6
 
 
  285 00da 09       		.uleb128 0x9
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  339 015c 6200     		.ascii	"b\000"
  340 015e 01       		.byte	0x1
  341 015f 60       		.byte	0x60
-ARM GAS  /tmp/ccg64K6g.s 			page 7
+ARM GAS  /tmp/ccoK2Ck3.s 			page 7
 
 
  342 0160 65000000 		.4byte	0x65
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  396 0022 00       		.byte	0
  397 0023 0B       		.uleb128 0xb
  398 0024 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccg64K6g.s 			page 8
+ARM GAS  /tmp/ccoK2Ck3.s 			page 8
 
 
  399 0025 3E       		.uleb128 0x3e
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  453 005b 3A       		.uleb128 0x3a
  454 005c 0B       		.uleb128 0xb
  455 005d 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccg64K6g.s 			page 9
+ARM GAS  /tmp/ccoK2Ck3.s 			page 9
 
 
  456 005e 0B       		.uleb128 0xb
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  510 0094 0B       		.uleb128 0xb
  511 0095 3B       		.uleb128 0x3b
  512 0096 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccg64K6g.s 			page 10
+ARM GAS  /tmp/ccoK2Ck3.s 			page 10
 
 
  513 0097 27       		.uleb128 0x27
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  567              		.section	.debug_loc,"",%progbits
  568              	.Ldebug_loc0:
  569              	.LLST0:
-ARM GAS  /tmp/ccg64K6g.s 			page 11
+ARM GAS  /tmp/ccoK2Ck3.s 			page 11
 
 
  570 0000 00000000 		.4byte	.LFB63
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  624              	.LLST7:
  625 0092 20000000 		.4byte	.LVL3
  626 0096 28000000 		.4byte	.LVL5
-ARM GAS  /tmp/ccg64K6g.s 			page 12
+ARM GAS  /tmp/ccoK2Ck3.s 			page 12
 
 
  627 009a 0100     		.2byte	0x1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  681 0124 2E000000 		.4byte	.LVL17
  682 0128 32000000 		.4byte	.LVL18
  683 012c 0300     		.2byte	0x3
-ARM GAS  /tmp/ccg64K6g.s 			page 13
+ARM GAS  /tmp/ccoK2Ck3.s 			page 13
 
 
  684 012e 75       		.byte	0x75
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  734 0000 6C6F6E67 		.ascii	"long long int\000"
  734      206C6F6E 
  734      6720696E 
-ARM GAS  /tmp/ccg64K6g.s 			page 14
+ARM GAS  /tmp/ccoK2Ck3.s 			page 14
 
 
  734      7400
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  759              	.LASF16:
  760 009d 73746172 		.ascii	"startoff\000"
  760      746F6666 
-ARM GAS  /tmp/ccg64K6g.s 			page 15
+ARM GAS  /tmp/ccoK2Ck3.s 			page 15
 
 
  760      00
@@ -891,15 +891,15 @@ ARM GAS  /tmp/ccg64K6g.s 			page 1
  781 0150 656E646D 		.ascii	"endmask\000"
  781      61736B00 
  782              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccg64K6g.s 			page 16
+ARM GAS  /tmp/ccoK2Ck3.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 mmcsd.c
-     /tmp/ccg64K6g.s:19     .text.mmcsd_get_slice:0000000000000000 $t
-     /tmp/ccg64K6g.s:24     .text.mmcsd_get_slice:0000000000000000 mmcsd_get_slice
-     /tmp/ccg64K6g.s:91     .text.mmcsdGetCapacity:0000000000000000 $t
-     /tmp/ccg64K6g.s:97     .text.mmcsdGetCapacity:0000000000000000 mmcsdGetCapacity
+     /tmp/ccoK2Ck3.s:19     .text.mmcsd_get_slice:0000000000000000 $t
+     /tmp/ccoK2Ck3.s:24     .text.mmcsd_get_slice:0000000000000000 mmcsd_get_slice
+     /tmp/ccoK2Ck3.s:91     .text.mmcsdGetCapacity:0000000000000000 $t
+     /tmp/ccoK2Ck3.s:97     .text.mmcsdGetCapacity:0000000000000000 mmcsdGetCapacity
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

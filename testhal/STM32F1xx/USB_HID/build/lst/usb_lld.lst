@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccS4RXdl.s 			page 1
+ARM GAS  /tmp/ccaoKBO8.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
   55 0016 4FD0     		beq	.L2
   56              	.LVL2:
   57              	.LBB34:
-ARM GAS  /tmp/ccS4RXdl.s 			page 2
+ARM GAS  /tmp/ccaoKBO8.s 			page 2
 
 
   58              		.loc 1 232 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  112 005a 28D2     		bcs	.L24
  113              	.L19:
  114              		.loc 1 235 0
-ARM GAS  /tmp/ccS4RXdl.s 			page 3
+ARM GAS  /tmp/ccaoKBO8.s 			page 3
 
 
  115 005c 11F8018B 		ldrb	r8, [r1], #1	@ zero_extendqisi2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  169 009e A169     		ldr	r1, [r4, #24]
  170              		.loc 1 238 0
  171 00a0 40F804CB 		str	ip, [r0], #4
-ARM GAS  /tmp/ccS4RXdl.s 			page 4
+ARM GAS  /tmp/ccaoKBO8.s 			page 4
 
 
  172              		.loc 1 232 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  226              	.LVL12:
  227              		.loc 1 256 0
  228 00da 2068     		ldr	r0, [r4, #0]
-ARM GAS  /tmp/ccS4RXdl.s 			page 5
+ARM GAS  /tmp/ccaoKBO8.s 			page 5
 
 
  229              		.loc 1 255 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  283              		.size	usb_packet_write_from_queue, .-usb_packet_write_from_queue
  284 0108 AFF30080 		.section	.text.Vector8C,"ax",%progbits
  284      AFF30080 
-ARM GAS  /tmp/ccS4RXdl.s 			page 6
+ARM GAS  /tmp/ccaoKBO8.s 			page 6
 
 
  285              		.align	2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  337              	.LCFI2:
  338              		.cfi_def_cfa_offset 48
  339              		.loc 1 300 0
-ARM GAS  /tmp/ccS4RXdl.s 			page 7
+ARM GAS  /tmp/ccaoKBO8.s 			page 7
 
 
  340 0010 6205     		lsls	r2, r4, #21
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  394              	.L36:
  395              	.LBE63:
  396              		.loc 1 334 0
-ARM GAS  /tmp/ccS4RXdl.s 			page 8
+ARM GAS  /tmp/ccaoKBO8.s 			page 8
 
 
  397 0072 A305     		lsls	r3, r4, #22
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  451 00d6 296D     		ldr	r1, [r5, #80]
  452              		.loc 1 352 0
  453 00d8 D7F81490 		ldr	r9, [r7, #20]
-ARM GAS  /tmp/ccS4RXdl.s 			page 9
+ARM GAS  /tmp/ccaoKBO8.s 			page 9
 
 
  454              		.loc 1 351 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  508              	.LBB69:
  509              	.LBB68:
  510              		.loc 1 203 0
-ARM GAS  /tmp/ccS4RXdl.s 			page 10
+ARM GAS  /tmp/ccaoKBO8.s 			page 10
 
 
  511 013e 5FEA5A0A 		lsrs	sl, sl, #1
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  565              		.loc 1 206 0
  566 018a 6046     		mov	r0, ip
  567 018c 30F8025B 		ldrh	r5, [r0], #2
-ARM GAS  /tmp/ccS4RXdl.s 			page 11
+ARM GAS  /tmp/ccaoKBO8.s 			page 11
 
 
  568 0190 BCF80240 		ldrh	r4, [ip, #2]
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  622              		.thumb
  623              	.L41:
  624              	.LBE76:
-ARM GAS  /tmp/ccS4RXdl.s 			page 12
+ARM GAS  /tmp/ccaoKBO8.s 			page 12
 
 
  625              	.LBE65:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  679              		.loc 1 131 0
  680 0216 01F10051 		add	r1, r1, #536870912
  681              	.LVL54:
-ARM GAS  /tmp/ccS4RXdl.s 			page 13
+ARM GAS  /tmp/ccaoKBO8.s 			page 13
 
 
  682 021a 01F54053 		add	r3, r1, #12288
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  736              		.loc 1 134 0
  737 0262 F4D1     		bne	.L58
  738 0264 5446     		mov	r4, sl
-ARM GAS  /tmp/ccS4RXdl.s 			page 14
+ARM GAS  /tmp/ccaoKBO8.s 			page 14
 
 
  739 0266 6046     		mov	r0, ip
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  793              	.L40:
  794              		.loc 1 421 0
  795 02a8 03B0     		add	sp, sp, #12
-ARM GAS  /tmp/ccS4RXdl.s 			page 15
+ARM GAS  /tmp/ccaoKBO8.s 			page 15
 
 
  796 02aa BDE8F04F 		pop	{r4, r5, r6, r7, r8, r9, sl, fp, lr}
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  850              		.loc 1 159 0
  851 0306 5FEADA5A 		lsrs	sl, sl, #23
  852              		.loc 1 156 0
-ARM GAS  /tmp/ccS4RXdl.s 			page 16
+ARM GAS  /tmp/ccaoKBO8.s 			page 16
 
 
  853 030a 4FEA4009 		lsl	r9, r0, #1
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  907 0356 3069     		ldr	r0, [r6, #16]
  908              		.loc 1 163 0
  909 0358 7261     		str	r2, [r6, #20]
-ARM GAS  /tmp/ccS4RXdl.s 			page 17
+ARM GAS  /tmp/ccaoKBO8.s 			page 17
 
 
  910              		.loc 1 164 0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  964              		.loc 1 166 0
  965 039e 7269     		ldr	r2, [r6, #20]
  966 03a0 02F8014B 		strb	r4, [r2], #1
-ARM GAS  /tmp/ccS4RXdl.s 			page 18
+ARM GAS  /tmp/ccaoKBO8.s 			page 18
 
 
  967              		.loc 1 167 0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1021 03ea 0AD0     		beq	.L53
  1022              		.loc 1 173 0
  1023 03ec 7369     		ldr	r3, [r6, #20]
-ARM GAS  /tmp/ccS4RXdl.s 			page 19
+ARM GAS  /tmp/ccaoKBO8.s 			page 19
 
 
  1024 03ee D9F80020 		ldr	r2, [r9, #0]
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1078 042a 8642     		cmp	r6, r0
  1079 042c F5D1     		bne	.L61
  1080              	.LVL88:
-ARM GAS  /tmp/ccS4RXdl.s 			page 20
+ARM GAS  /tmp/ccaoKBO8.s 			page 20
 
 
  1081              	.L54:
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1135 047a F268     		ldr	r2, [r6, #12]
  1136 047c 7261     		str	r2, [r6, #20]
  1137 047e 57E7     		b	.L67
-ARM GAS  /tmp/ccS4RXdl.s 			page 21
+ARM GAS  /tmp/ccaoKBO8.s 			page 21
 
 
  1138              	.LVL95:
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1191      0080
  1192              		.align	2
  1193              		.p2align 4,,15
-ARM GAS  /tmp/ccS4RXdl.s 			page 22
+ARM GAS  /tmp/ccaoKBO8.s 			page 22
 
 
  1194              		.global	usb_lld_init
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1248 0016 04D0     		beq	.L109
  1249              	.LVL98:
  1250              	.L107:
-ARM GAS  /tmp/ccS4RXdl.s 			page 23
+ARM GAS  /tmp/ccaoKBO8.s 			page 23
 
 
  1251              		.loc 1 467 0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1302              	.LCFI4:
  1303              		.cfi_def_cfa_offset 8
  1304              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccS4RXdl.s 			page 24
+ARM GAS  /tmp/ccaoKBO8.s 			page 24
 
 
  1305              		.cfi_offset 3, -8
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1356              		@ frame_needed = 0, uses_anonymous_args = 0
  1357              		@ link register save eliminated.
  1358              	.LVL103:
-ARM GAS  /tmp/ccS4RXdl.s 			page 25
+ARM GAS  /tmp/ccaoKBO8.s 			page 25
 
 
  1359              		.loc 1 533 0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1411 0024 4FF40073 		movhi	r3, #512
  1412              	.LVL107:
  1413              		.loc 1 565 0
-ARM GAS  /tmp/ccS4RXdl.s 			page 26
+ARM GAS  /tmp/ccaoKBO8.s 			page 26
 
 
  1414 0028 0CB1     		cbz	r4, .L116
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1468 0086 C46C     		ldr	r4, [r0, #76]
  1469              	.LBE103:
  1470              	.LBE102:
-ARM GAS  /tmp/ccS4RXdl.s 			page 27
+ARM GAS  /tmp/ccaoKBO8.s 			page 27
 
 
  1471              		.loc 1 582 0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1525              		.p2align 4,,15
  1526              		.global	usb_lld_reset
  1527              		.thumb
-ARM GAS  /tmp/ccS4RXdl.s 			page 28
+ARM GAS  /tmp/ccaoKBO8.s 			page 28
 
 
  1528              		.thumb_func
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1582              	.LBB112:
  1583              		.loc 1 101 0
  1584 0032 C364     		str	r3, [r0, #76]
-ARM GAS  /tmp/ccS4RXdl.s 			page 29
+ARM GAS  /tmp/ccaoKBO8.s 			page 29
 
 
  1585              	.LBE112:
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1639 0014 9868     		ldr	r0, [r3, #8]
  1640              	.LVL126:
  1641 0016 9860     		str	r0, [r3, #8]
-ARM GAS  /tmp/ccS4RXdl.s 			page 30
+ARM GAS  /tmp/ccaoKBO8.s 			page 30
 
 
  1642              		.loc 1 605 0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1695              		.loc 1 624 0
  1696 0000 4FF4B843 		mov	r3, #23552
  1697 0004 C4F20003 		movt	r3, 16384
-ARM GAS  /tmp/ccS4RXdl.s 			page 31
+ARM GAS  /tmp/ccaoKBO8.s 			page 31
 
 
  1698 0008 53F82100 		ldr	r0, [r3, r1, lsl #2]
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1749              		.global	usb_lld_read_setup
  1750              		.thumb
  1751              		.thumb_func
-ARM GAS  /tmp/ccS4RXdl.s 			page 32
+ARM GAS  /tmp/ccaoKBO8.s 			page 32
 
 
  1752              		.type	usb_lld_read_setup, %function
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1806              		.cfi_startproc
  1807              		@ args = 0, pretend = 0, frame = 0
  1808              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccS4RXdl.s 			page 33
+ARM GAS  /tmp/ccaoKBO8.s 			page 33
 
 
  1809              		@ link register save eliminated.
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1861              		.cfi_def_cfa_offset 12
  1862              		.cfi_offset 6, -4
  1863              		.cfi_offset 5, -8
-ARM GAS  /tmp/ccS4RXdl.s 			page 34
+ARM GAS  /tmp/ccaoKBO8.s 			page 34
 
 
  1864              		.cfi_offset 4, -12
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1918              	.LVL162:
  1919              		.loc 1 206 0
  1920 004e 32F8025B 		ldrh	r5, [r2], #2
-ARM GAS  /tmp/ccS4RXdl.s 			page 35
+ARM GAS  /tmp/ccaoKBO8.s 			page 35
 
 
  1921              	.LVL163:
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  1975 00a0 00EBC303 		add	r3, r0, r3, lsl #3
  1976 00a4 5800     		lsls	r0, r3, #1
  1977              		.loc 1 729 0
-ARM GAS  /tmp/ccS4RXdl.s 			page 36
+ARM GAS  /tmp/ccaoKBO8.s 			page 36
 
 
  1978 00a6 70BC     		pop	{r4, r5, r6}
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2032 0008 53F82120 		ldr	r2, [r3, r1, lsl #2]
  2033 000c 22F4F04C 		bic	ip, r2, #30720
  2034 0010 2CF04000 		bic	r0, ip, #64
-ARM GAS  /tmp/ccS4RXdl.s 			page 37
+ARM GAS  /tmp/ccaoKBO8.s 			page 37
 
 
  2035              	.LVL175:
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2089 0004 C4F20003 		movt	r3, 16384
  2090 0008 53F82120 		ldr	r2, [r3, r1, lsl #2]
  2091 000c 22F4F04C 		bic	ip, r2, #30720
-ARM GAS  /tmp/ccS4RXdl.s 			page 38
+ARM GAS  /tmp/ccaoKBO8.s 			page 38
 
 
  2092 0010 2CF04000 		bic	r0, ip, #64
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2146              		@ args = 0, pretend = 0, frame = 0
  2147              		@ frame_needed = 0, uses_anonymous_args = 0
  2148              		@ link register save eliminated.
-ARM GAS  /tmp/ccS4RXdl.s 			page 39
+ARM GAS  /tmp/ccaoKBO8.s 			page 39
 
 
  2149              	.LVL182:
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2199      00000000 
  2200              		.section	.rodata.ep0config,"a",%progbits
  2201              		.align	2
-ARM GAS  /tmp/ccS4RXdl.s 			page 40
+ARM GAS  /tmp/ccaoKBO8.s 			page 40
 
 
  2202              		.set	.LANCHOR2,. + 0
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2251              		.file 14 "../../../os/hal/platforms/STM32/USBv1/stm32_usb.h"
  2252              		.file 15 "../../../os/ports/common/ARMCMx/CMSIS/include/core_cm3.h"
  2253              		.section	.debug_info,"",%progbits
-ARM GAS  /tmp/ccS4RXdl.s 			page 41
+ARM GAS  /tmp/ccaoKBO8.s 			page 41
 
 
  2254              	.Ldebug_info0:
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2308 006c 07       		.byte	0x7
  2309 006d 4E050000 		.4byte	.LASF8
  2310 0071 02       		.uleb128 0x2
-ARM GAS  /tmp/ccS4RXdl.s 			page 42
+ARM GAS  /tmp/ccaoKBO8.s 			page 42
 
 
  2311 0072 01       		.byte	0x1
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2365 00e7 3C090000 		.4byte	.LASF19
  2366 00eb 05       		.byte	0x5
  2367 00ec 2B       		.byte	0x2b
-ARM GAS  /tmp/ccS4RXdl.s 			page 43
+ARM GAS  /tmp/ccaoKBO8.s 			page 43
 
 
  2368 00ed 8E000000 		.4byte	0x8e
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2422 015c 23       		.byte	0x23
  2423 015d 08       		.uleb128 0x8
  2424 015e 09       		.uleb128 0x9
-ARM GAS  /tmp/ccS4RXdl.s 			page 44
+ARM GAS  /tmp/ccaoKBO8.s 			page 44
 
 
  2425 015f 37000000 		.4byte	.LASF28
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2479 01bf 1E       		.uleb128 0x1e
  2480 01c0 09       		.uleb128 0x9
  2481 01c1 38020000 		.4byte	.LASF35
-ARM GAS  /tmp/ccS4RXdl.s 			page 45
+ARM GAS  /tmp/ccaoKBO8.s 			page 45
 
 
  2482 01c5 07       		.byte	0x7
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2536 0222 09       		.uleb128 0x9
  2537 0223 DC010000 		.4byte	.LASF41
  2538 0227 07       		.byte	0x7
-ARM GAS  /tmp/ccS4RXdl.s 			page 46
+ARM GAS  /tmp/ccaoKBO8.s 			page 46
 
 
  2539 0228 C9       		.byte	0xc9
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2593 0285 06       		.byte	0x6
  2594 0286 64       		.byte	0x64
  2595 0287 9A020000 		.4byte	0x29a
-ARM GAS  /tmp/ccS4RXdl.s 			page 47
+ARM GAS  /tmp/ccaoKBO8.s 			page 47
 
 
  2596 028b 09       		.uleb128 0x9
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2650 02f2 02       		.byte	0x2
  2651 02f3 23       		.byte	0x23
  2652 02f4 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccS4RXdl.s 			page 48
+ARM GAS  /tmp/ccaoKBO8.s 			page 48
 
 
  2653 02f5 0D       		.uleb128 0xd
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2707 0359 00       		.uleb128 0
  2708 035a 00       		.byte	0
  2709 035b 05       		.uleb128 0x5
-ARM GAS  /tmp/ccS4RXdl.s 			page 49
+ARM GAS  /tmp/ccaoKBO8.s 			page 49
 
 
  2710 035c 04       		.byte	0x4
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2764 03c2 FC000000 		.4byte	0xfc
  2765 03c6 10       		.uleb128 0x10
  2766 03c7 27010000 		.4byte	.LASF54
-ARM GAS  /tmp/ccS4RXdl.s 			page 50
+ARM GAS  /tmp/ccaoKBO8.s 			page 50
 
 
  2767 03cb 07       		.byte	0x7
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2821 0434 0A       		.byte	0xa
  2822 0435 42       		.byte	0x42
  2823 0436 99040000 		.4byte	0x499
-ARM GAS  /tmp/ccS4RXdl.s 			page 51
+ARM GAS  /tmp/ccaoKBO8.s 			page 51
 
 
  2824 043a 02       		.byte	0x2
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2878 049a 04       		.byte	0x4
  2879 049b 8E000000 		.4byte	0x8e
  2880 049f 07       		.uleb128 0x7
-ARM GAS  /tmp/ccS4RXdl.s 			page 52
+ARM GAS  /tmp/ccaoKBO8.s 			page 52
 
 
  2881 04a0 8E0B0000 		.4byte	.LASF67
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2935 050f 5A0C0000 		.4byte	.LASF80
  2936 0513 03       		.sleb128 3
  2937 0514 14       		.uleb128 0x14
-ARM GAS  /tmp/ccS4RXdl.s 			page 53
+ARM GAS  /tmp/ccaoKBO8.s 			page 53
 
 
  2938 0515 C7000000 		.4byte	.LASF81
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  2992 0581 A5050000 		.4byte	.LASF99
  2993 0585 16       		.sleb128 22
  2994 0586 14       		.uleb128 0x14
-ARM GAS  /tmp/ccS4RXdl.s 			page 54
+ARM GAS  /tmp/ccaoKBO8.s 			page 54
 
 
  2995 0587 4A0B0000 		.4byte	.LASF100
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3049 05f3 67080000 		.4byte	.LASF118
  3050 05f7 29       		.sleb128 41
  3051 05f8 14       		.uleb128 0x14
-ARM GAS  /tmp/ccS4RXdl.s 			page 55
+ARM GAS  /tmp/ccaoKBO8.s 			page 55
 
 
  3052 05f9 0E040000 		.4byte	.LASF119
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3106 0663 4904     		.2byte	0x449
  3107 0665 61030000 		.4byte	0x361
  3108 0669 02       		.byte	0x2
-ARM GAS  /tmp/ccS4RXdl.s 			page 56
+ARM GAS  /tmp/ccaoKBO8.s 			page 56
 
 
  3109 066a 23       		.byte	0x23
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3163 06d0 9E070000 		.4byte	.LASF128
  3164 06d4 50       		.byte	0x50
  3165 06d5 0D       		.byte	0xd
-ARM GAS  /tmp/ccS4RXdl.s 			page 57
+ARM GAS  /tmp/ccaoKBO8.s 			page 57
 
 
  3166 06d6 1A01     		.2byte	0x11a
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3220 073e 4E080000 		.4byte	0x84e
  3221 0742 02       		.byte	0x2
  3222 0743 23       		.byte	0x23
-ARM GAS  /tmp/ccS4RXdl.s 			page 58
+ARM GAS  /tmp/ccaoKBO8.s 			page 58
 
 
  3223 0744 30       		.uleb128 0x30
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3277 07ab 02       		.byte	0x2
  3278 07ac 23       		.byte	0x23
  3279 07ad 4B       		.uleb128 0x4b
-ARM GAS  /tmp/ccS4RXdl.s 			page 59
+ARM GAS  /tmp/ccaoKBO8.s 			page 59
 
 
  3280 07ae 18       		.uleb128 0x18
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3334 0815 00       		.byte	0
  3335 0816 07       		.uleb128 0x7
  3336 0817 5D010000 		.4byte	.LASF153
-ARM GAS  /tmp/ccS4RXdl.s 			page 60
+ARM GAS  /tmp/ccaoKBO8.s 			page 60
 
 
  3337 081b 0C       		.byte	0xc
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3391 0886 05       		.sleb128 5
  3392 0887 00       		.byte	0
  3393 0888 19       		.uleb128 0x19
-ARM GAS  /tmp/ccS4RXdl.s 			page 61
+ARM GAS  /tmp/ccaoKBO8.s 			page 61
 
 
  3394 0889 A1040000 		.4byte	.LASF167
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3448 08f9 04       		.byte	0x4
  3449 08fa FE080000 		.4byte	0x8fe
  3450 08fe 11       		.uleb128 0x11
-ARM GAS  /tmp/ccS4RXdl.s 			page 62
+ARM GAS  /tmp/ccaoKBO8.s 			page 62
 
 
  3451 08ff 01       		.byte	0x1
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3505 097a 12       		.uleb128 0x12
  3506 097b 8E000000 		.4byte	0x8e
  3507 097f 12       		.uleb128 0x12
-ARM GAS  /tmp/ccS4RXdl.s 			page 63
+ARM GAS  /tmp/ccaoKBO8.s 			page 63
 
 
  3508 0980 99000000 		.4byte	0x99
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3562 09e3 0E       		.byte	0xe
  3563 09e4 43       		.byte	0x43
  3564 09e5 61030000 		.4byte	0x361
-ARM GAS  /tmp/ccS4RXdl.s 			page 64
+ARM GAS  /tmp/ccaoKBO8.s 			page 64
 
 
  3565 09e9 02       		.byte	0x2
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3619 0a49 61030000 		.4byte	0x361
  3620 0a4d 02       		.byte	0x2
  3621 0a4e 23       		.byte	0x23
-ARM GAS  /tmp/ccS4RXdl.s 			page 65
+ARM GAS  /tmp/ccaoKBO8.s 			page 65
 
 
  3622 0a4f 08       		.uleb128 0x8
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3676 0aac 0F       		.uleb128 0xf
  3677 0aad 04       		.byte	0x4
  3678 0aae 0D       		.byte	0xd
-ARM GAS  /tmp/ccS4RXdl.s 			page 66
+ARM GAS  /tmp/ccaoKBO8.s 			page 66
 
 
  3679 0aaf 82       		.byte	0x82
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3733 0b12 91       		.byte	0x91
  3734 0b13 CB0A0000 		.4byte	0xacb
  3735 0b17 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccS4RXdl.s 			page 67
+ARM GAS  /tmp/ccaoKBO8.s 			page 67
 
 
  3736 0b18 04       		.byte	0x4
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3790 0b78 9A       		.byte	0x9a
  3791 0b79 BA000000 		.4byte	0xba
  3792 0b7d 02       		.byte	0x2
-ARM GAS  /tmp/ccS4RXdl.s 			page 68
+ARM GAS  /tmp/ccaoKBO8.s 			page 68
 
 
  3793 0b7e 23       		.byte	0x23
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3847 0bdb C0030000 		.4byte	.LASF206
  3848 0bdf 0D       		.byte	0xd
  3849 0be0 CB       		.byte	0xcb
-ARM GAS  /tmp/ccS4RXdl.s 			page 69
+ARM GAS  /tmp/ccaoKBO8.s 			page 69
 
 
  3850 0be1 EC080000 		.4byte	0x8ec
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3904 0c41 0D       		.byte	0xd
  3905 0c42 F3       		.byte	0xf3
  3906 0c43 99000000 		.4byte	0x99
-ARM GAS  /tmp/ccS4RXdl.s 			page 70
+ARM GAS  /tmp/ccaoKBO8.s 			page 70
 
 
  3907 0c47 02       		.byte	0x2
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  3961 0caa 0D       		.byte	0xd
  3962 0cab 1301     		.2byte	0x113
  3963 0cad C8080000 		.4byte	0x8c8
-ARM GAS  /tmp/ccS4RXdl.s 			page 71
+ARM GAS  /tmp/ccaoKBO8.s 			page 71
 
 
  3964 0cb1 02       		.byte	0x2
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4018 0d1d 72020000 		.4byte	0x272
  4019 0d21 03       		.byte	0x3
  4020 0d22 3C0D0000 		.4byte	0xd3c
-ARM GAS  /tmp/ccS4RXdl.s 			page 72
+ARM GAS  /tmp/ccaoKBO8.s 			page 72
 
 
  4021 0d26 1F       		.uleb128 0x1f
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4075 0d94 C4       		.byte	0xc4
  4076 0d95 01       		.byte	0x1
  4077 0d96 01       		.byte	0x1
-ARM GAS  /tmp/ccS4RXdl.s 			page 73
+ARM GAS  /tmp/ccaoKBO8.s 			page 73
 
 
  4078 0d97 C60D0000 		.4byte	0xdc6
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4132 0e06 1F       		.uleb128 0x1f
  4133 0e07 75647000 		.ascii	"udp\000"
  4134 0e0b 01       		.byte	0x1
-ARM GAS  /tmp/ccS4RXdl.s 			page 74
+ARM GAS  /tmp/ccaoKBO8.s 			page 74
 
 
  4135 0e0c 81       		.byte	0x81
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4189 0e89 E1       		.byte	0xe1
  4190 0e8a CC0D0000 		.4byte	0xdcc
  4191 0e8e 9C000000 		.4byte	.LLST5
-ARM GAS  /tmp/ccS4RXdl.s 			page 75
+ARM GAS  /tmp/ccaoKBO8.s 			page 75
 
 
  4192 0e92 2B       		.uleb128 0x2b
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4246 0f19 1401     		.2byte	0x114
  4247 0f1b 01       		.byte	0x1
  4248 0f1c 00000000 		.4byte	.LFB69
-ARM GAS  /tmp/ccS4RXdl.s 			page 76
+ARM GAS  /tmp/ccaoKBO8.s 			page 76
 
 
  4249 0f20 04000000 		.4byte	.LFE69
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4303 0f8b 746D7000 		.ascii	"tmp\000"
  4304 0f8f 01       		.byte	0x1
  4305 0f90 B7       		.byte	0xb7
-ARM GAS  /tmp/ccS4RXdl.s 			page 77
+ARM GAS  /tmp/ccaoKBO8.s 			page 77
 
 
  4306 0f91 AF000000 		.4byte	0xaf
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4360 1015 01       		.byte	0x1
  4361 1016 5701     		.2byte	0x157
  4362 1018 AF000000 		.4byte	0xaf
-ARM GAS  /tmp/ccS4RXdl.s 			page 78
+ARM GAS  /tmp/ccaoKBO8.s 			page 78
 
 
  4363 101c 4E020000 		.4byte	.LLST16
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4417 10b3 01       		.byte	0x1
  4418 10b4 7401     		.2byte	0x174
  4419 10b6 CD100000 		.4byte	0x10cd
-ARM GAS  /tmp/ccS4RXdl.s 			page 79
+ARM GAS  /tmp/ccaoKBO8.s 			page 79
 
 
  4420 10ba 2E       		.uleb128 0x2e
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4474 1148 2E       		.uleb128 0x2e
  4475 1149 4A0F0000 		.4byte	0xf4a
  4476 114d 7D040000 		.4byte	.LLST32
-ARM GAS  /tmp/ccS4RXdl.s 			page 80
+ARM GAS  /tmp/ccaoKBO8.s 			page 80
 
 
  4477 1151 2E       		.uleb128 0x2e
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4531 11e7 00       		.byte	0
  4532 11e8 00       		.byte	0
  4533 11e9 00       		.byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 81
+ARM GAS  /tmp/ccaoKBO8.s 			page 81
 
 
  4534 11ea 00       		.byte	0
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4588 1265 14000000 		.4byte	.LFE75
  4589 1269 02       		.byte	0x2
  4590 126a 7D       		.byte	0x7d
-ARM GAS  /tmp/ccS4RXdl.s 			page 82
+ARM GAS  /tmp/ccaoKBO8.s 			page 82
 
 
  4591 126b 00       		.sleb128 0
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4645 12ef DC0C0000 		.4byte	0xcdc
  4646 12f3 9F060000 		.4byte	.LLST52
  4647 12f7 39       		.uleb128 0x39
-ARM GAS  /tmp/ccS4RXdl.s 			page 83
+ARM GAS  /tmp/ccaoKBO8.s 			page 83
 
 
  4648 12f8 420D0000 		.4byte	0xd42
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4702 1383 1A010000 		.4byte	.LASF243
  4703 1387 01       		.byte	0x1
  4704 1388 F601     		.2byte	0x1f6
-ARM GAS  /tmp/ccS4RXdl.s 			page 84
+ARM GAS  /tmp/ccaoKBO8.s 			page 84
 
 
  4705 138a AF000000 		.4byte	0xaf
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4759 1406 01       		.byte	0x1
  4760 1407 16080000 		.4byte	0x816
  4761 140b 00000000 		.4byte	.LFB78
-ARM GAS  /tmp/ccS4RXdl.s 			page 85
+ARM GAS  /tmp/ccaoKBO8.s 			page 85
 
 
  4762 140f 1E000000 		.4byte	.LFE78
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4816 1488 7D       		.byte	0x7d
  4817 1489 00       		.sleb128 0
  4818 148a EC140000 		.4byte	0x14ec
-ARM GAS  /tmp/ccS4RXdl.s 			page 86
+ARM GAS  /tmp/ccaoKBO8.s 			page 86
 
 
  4819 148e 3C       		.uleb128 0x3c
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4873 1511 EA080000 		.4byte	.LLST72
  4874 1515 3F       		.uleb128 0x3f
  4875 1516 657000   		.ascii	"ep\000"
-ARM GAS  /tmp/ccS4RXdl.s 			page 87
+ARM GAS  /tmp/ccaoKBO8.s 			page 87
 
 
  4876 1519 01       		.byte	0x1
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4930 15a5 2E       		.uleb128 0x2e
  4931 15a6 A60D0000 		.4byte	0xda6
  4932 15aa EA090000 		.4byte	.LLST81
-ARM GAS  /tmp/ccS4RXdl.s 			page 88
+ARM GAS  /tmp/ccaoKBO8.s 			page 88
 
 
  4933 15ae 2E       		.uleb128 0x2e
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  4987 1625 01       		.byte	0x1
  4988 1626 F8050000 		.4byte	.LASF251
  4989 162a 01       		.byte	0x1
-ARM GAS  /tmp/ccS4RXdl.s 			page 89
+ARM GAS  /tmp/ccaoKBO8.s 			page 89
 
 
  4990 162b 0103     		.2byte	0x301
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5044 169c 00000000 		.4byte	.LFB87
  5045 16a0 2E000000 		.4byte	.LFE87
  5046 16a4 02       		.byte	0x2
-ARM GAS  /tmp/ccS4RXdl.s 			page 90
+ARM GAS  /tmp/ccaoKBO8.s 			page 90
 
 
  5047 16a5 7D       		.byte	0x7d
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5101 1717 46       		.byte	0x46
  5102 1718 E70C0000 		.4byte	0xce7
  5103 171c 05       		.byte	0x5
-ARM GAS  /tmp/ccS4RXdl.s 			page 91
+ARM GAS  /tmp/ccaoKBO8.s 			page 91
 
 
  5104 171d 03       		.byte	0x3
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5158 0019 0B       		.uleb128 0xb
  5159 001a 3E       		.uleb128 0x3e
  5160 001b 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccS4RXdl.s 			page 92
+ARM GAS  /tmp/ccaoKBO8.s 			page 92
 
 
  5161 001c 03       		.uleb128 0x3
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5215 0052 03       		.uleb128 0x3
  5216 0053 0E       		.uleb128 0xe
  5217 0054 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccS4RXdl.s 			page 93
+ARM GAS  /tmp/ccaoKBO8.s 			page 93
 
 
  5218 0055 0B       		.uleb128 0xb
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5272 008b 01       		.byte	0x1
  5273 008c 03       		.uleb128 0x3
  5274 008d 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccS4RXdl.s 			page 94
+ARM GAS  /tmp/ccaoKBO8.s 			page 94
 
 
  5275 008e 0B       		.uleb128 0xb
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5329 00c4 49       		.uleb128 0x49
  5330 00c5 13       		.uleb128 0x13
  5331 00c6 00       		.byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 95
+ARM GAS  /tmp/ccaoKBO8.s 			page 95
 
 
  5332 00c7 00       		.byte	0
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5386 00fd 13       		.uleb128 0x13
  5387 00fe 2F       		.uleb128 0x2f
  5388 00ff 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccS4RXdl.s 			page 96
+ARM GAS  /tmp/ccaoKBO8.s 			page 96
 
 
  5389 0100 00       		.byte	0
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5443 0136 00       		.byte	0
  5444 0137 00       		.byte	0
  5445 0138 1B       		.uleb128 0x1b
-ARM GAS  /tmp/ccS4RXdl.s 			page 97
+ARM GAS  /tmp/ccaoKBO8.s 			page 97
 
 
  5446 0139 04       		.uleb128 0x4
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5500 016f 00       		.byte	0
  5501 0170 1F       		.uleb128 0x1f
  5502 0171 05       		.uleb128 0x5
-ARM GAS  /tmp/ccS4RXdl.s 			page 98
+ARM GAS  /tmp/ccaoKBO8.s 			page 98
 
 
  5503 0172 00       		.byte	0
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5557 01a8 0E       		.uleb128 0xe
  5558 01a9 3A       		.uleb128 0x3a
  5559 01aa 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccS4RXdl.s 			page 99
+ARM GAS  /tmp/ccaoKBO8.s 			page 99
 
 
  5560 01ab 3B       		.uleb128 0x3b
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5614 01e1 00       		.byte	0
  5615 01e2 27       		.uleb128 0x27
  5616 01e3 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccS4RXdl.s 			page 100
+ARM GAS  /tmp/ccaoKBO8.s 			page 100
 
 
  5617 01e4 01       		.byte	0x1
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5671 021a 3A       		.uleb128 0x3a
  5672 021b 0B       		.uleb128 0xb
  5673 021c 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccS4RXdl.s 			page 101
+ARM GAS  /tmp/ccaoKBO8.s 			page 101
 
 
  5674 021d 0B       		.uleb128 0xb
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5728 0253 0B       		.uleb128 0xb
  5729 0254 01       		.byte	0x1
  5730 0255 11       		.uleb128 0x11
-ARM GAS  /tmp/ccS4RXdl.s 			page 102
+ARM GAS  /tmp/ccaoKBO8.s 			page 102
 
 
  5731 0256 01       		.uleb128 0x1
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5785 028c 13       		.uleb128 0x13
  5786 028d 00       		.byte	0
  5787 028e 00       		.byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 103
+ARM GAS  /tmp/ccaoKBO8.s 			page 103
 
 
  5788 028f 34       		.uleb128 0x34
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5842 02c5 02       		.uleb128 0x2
  5843 02c6 0A       		.uleb128 0xa
  5844 02c7 00       		.byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 104
+ARM GAS  /tmp/ccaoKBO8.s 			page 104
 
 
  5845 02c8 00       		.byte	0
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5899 02fe 13       		.uleb128 0x13
  5900 02ff 00       		.byte	0
  5901 0300 00       		.byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 105
+ARM GAS  /tmp/ccaoKBO8.s 			page 105
 
 
  5902 0301 3C       		.uleb128 0x3c
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  5956 0337 05       		.uleb128 0x5
  5957 0338 00       		.byte	0
  5958 0339 03       		.uleb128 0x3
-ARM GAS  /tmp/ccS4RXdl.s 			page 106
+ARM GAS  /tmp/ccaoKBO8.s 			page 106
 
 
  5959 033a 08       		.uleb128 0x8
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6013 0370 02       		.uleb128 0x2
  6014 0371 0A       		.uleb128 0xa
  6015 0372 00       		.byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 107
+ARM GAS  /tmp/ccaoKBO8.s 			page 107
 
 
  6016 0373 00       		.byte	0
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6070 03a9 0C       		.uleb128 0xc
  6071 03aa 00       		.byte	0
  6072 03ab 00       		.byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 108
+ARM GAS  /tmp/ccaoKBO8.s 			page 108
 
 
  6073 03ac 47       		.uleb128 0x47
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6127 0059 0100     		.2byte	0x1
  6128 005b 52       		.byte	0x52
  6129 005c 2C000000 		.4byte	.LVL5
-ARM GAS  /tmp/ccS4RXdl.s 			page 109
+ARM GAS  /tmp/ccaoKBO8.s 			page 109
 
 
  6130 0060 DE000000 		.4byte	.LVL13
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6184 00ed 53       		.byte	0x53
  6185 00ee 00000000 		.4byte	0
  6186 00f2 00000000 		.4byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 110
+ARM GAS  /tmp/ccaoKBO8.s 			page 110
 
 
  6187              	.LLST8:
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6241              	.LLST13:
  6242 0184 5C000000 		.4byte	.LVL22
  6243 0188 62000000 		.4byte	.LVL23
-ARM GAS  /tmp/ccS4RXdl.s 			page 111
+ARM GAS  /tmp/ccaoKBO8.s 			page 111
 
 
  6244 018c 0100     		.2byte	0x1
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6298 0220 0300     		.2byte	0x3
  6299 0222 78       		.byte	0x78
  6300 0223 7C       		.sleb128 -4
-ARM GAS  /tmp/ccS4RXdl.s 			page 112
+ARM GAS  /tmp/ccaoKBO8.s 			page 112
 
 
  6301 0224 9F       		.byte	0x9f
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6355 02aa 00000000 		.4byte	0
  6356 02ae 00000000 		.4byte	0
  6357              	.LLST18:
-ARM GAS  /tmp/ccS4RXdl.s 			page 113
+ARM GAS  /tmp/ccaoKBO8.s 			page 113
 
 
  6358 02b2 F8000000 		.4byte	.LVL29
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6411 033e 31       		.byte	0x31
  6412 033f 24       		.byte	0x24
  6413 0340 9F       		.byte	0x9f
-ARM GAS  /tmp/ccS4RXdl.s 			page 114
+ARM GAS  /tmp/ccaoKBO8.s 			page 114
 
 
  6414 0341 5A010000 		.4byte	.LVL35
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6468 03c8 A0020000 		.4byte	.LVL66
  6469 03cc B1020000 		.4byte	.LVL69-1
  6470 03d0 0100     		.2byte	0x1
-ARM GAS  /tmp/ccS4RXdl.s 			page 115
+ARM GAS  /tmp/ccaoKBO8.s 			page 115
 
 
  6471 03d2 53       		.byte	0x53
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6524 0455 1A020000 		.4byte	.LVL54
  6525 0459 20020000 		.4byte	.LVL56
  6526 045d 0700     		.2byte	0x7
-ARM GAS  /tmp/ccS4RXdl.s 			page 116
+ARM GAS  /tmp/ccaoKBO8.s 			page 116
 
 
  6527 045f 71       		.byte	0x71
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6581 04de 53       		.byte	0x53
  6582 04df 00000000 		.4byte	0
  6583 04e3 00000000 		.4byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 117
+ARM GAS  /tmp/ccaoKBO8.s 			page 117
 
 
  6584              	.LLST35:
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6638 0578 0100     		.2byte	0x1
  6639 057a 53       		.byte	0x53
  6640 057b 34040000 		.4byte	.LVL89
-ARM GAS  /tmp/ccS4RXdl.s 			page 118
+ARM GAS  /tmp/ccaoKBO8.s 			page 118
 
 
  6641 057f 38040000 		.4byte	.LVL90
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6695 060a 00000000 		.4byte	.LVL103
  6696 060e 04000000 		.4byte	.LVL104
  6697 0612 0100     		.2byte	0x1
-ARM GAS  /tmp/ccS4RXdl.s 			page 119
+ARM GAS  /tmp/ccaoKBO8.s 			page 119
 
 
  6698 0614 50       		.byte	0x50
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6752 06a3 86000000 		.4byte	.LVL112
  6753 06a7 0100     		.2byte	0x1
  6754 06a9 52       		.byte	0x52
-ARM GAS  /tmp/ccS4RXdl.s 			page 120
+ARM GAS  /tmp/ccaoKBO8.s 			page 120
 
 
  6755 06aa AA000000 		.4byte	.LVL116
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6809 073a 00000000 		.4byte	0
  6810              	.LLST59:
  6811 073e 32000000 		.4byte	.LVL120
-ARM GAS  /tmp/ccS4RXdl.s 			page 121
+ARM GAS  /tmp/ccaoKBO8.s 			page 121
 
 
  6812 0742 3B000000 		.4byte	.LVL121-1
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6866 07c8 00000000 		.4byte	0
  6867              	.LLST63:
  6868 07cc 00000000 		.4byte	.LVL133
-ARM GAS  /tmp/ccS4RXdl.s 			page 122
+ARM GAS  /tmp/ccaoKBO8.s 			page 122
 
 
  6869 07d0 0C000000 		.4byte	.LVL134
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6923 085b 08       		.sleb128 8
  6924 085c 9F       		.byte	0x9f
  6925 085d 00000000 		.4byte	0
-ARM GAS  /tmp/ccS4RXdl.s 			page 123
+ARM GAS  /tmp/ccaoKBO8.s 			page 123
 
 
  6926 0861 00000000 		.4byte	0
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  6980 08e2 00000000 		.4byte	0
  6981 08e6 00000000 		.4byte	0
  6982              	.LLST72:
-ARM GAS  /tmp/ccS4RXdl.s 			page 124
+ARM GAS  /tmp/ccaoKBO8.s 			page 124
 
 
  6983 08ea 00000000 		.4byte	.LVL147
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7037 0978 00000000 		.4byte	0
  7038 097c 00000000 		.4byte	0
  7039              	.LLST78:
-ARM GAS  /tmp/ccS4RXdl.s 			page 125
+ARM GAS  /tmp/ccaoKBO8.s 			page 125
 
 
  7040 0980 18000000 		.4byte	.LVL157
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7094 0a0b 7E       		.sleb128 -2
  7095 0a0c 9F       		.byte	0x9f
  7096 0a0d 66000000 		.4byte	.LVL166
-ARM GAS  /tmp/ccS4RXdl.s 			page 126
+ARM GAS  /tmp/ccaoKBO8.s 			page 126
 
 
  7097 0a11 6C000000 		.4byte	.LVL168
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7150              	.LLST88:
  7151 0a9c 00000000 		.4byte	.LVL180
  7152 0aa0 0C000000 		.4byte	.LVL181
-ARM GAS  /tmp/ccS4RXdl.s 			page 127
+ARM GAS  /tmp/ccaoKBO8.s 			page 127
 
 
  7153 0aa4 0100     		.2byte	0x1
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7207 009c 1E000000 		.4byte	.LFE85-.LFB85
  7208 00a0 00000000 		.4byte	.LFB86
  7209 00a4 1E000000 		.4byte	.LFE86-.LFB86
-ARM GAS  /tmp/ccS4RXdl.s 			page 128
+ARM GAS  /tmp/ccaoKBO8.s 			page 128
 
 
  7210 00a8 00000000 		.4byte	.LFB87
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7264 00b8 B0010000 		.4byte	.LBB71
  7265 00bc B8010000 		.4byte	.LBE71
  7266 00c0 BA010000 		.4byte	.LBB75
-ARM GAS  /tmp/ccS4RXdl.s 			page 129
+ARM GAS  /tmp/ccaoKBO8.s 			page 129
 
 
  7267 00c4 CA010000 		.4byte	.LBE75
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7321 019c 00000000 		.4byte	0
  7322 01a0 86000000 		.4byte	.LBB102
  7323 01a4 88000000 		.4byte	.LBE102
-ARM GAS  /tmp/ccS4RXdl.s 			page 130
+ARM GAS  /tmp/ccaoKBO8.s 			page 130
 
 
  7324 01a8 90000000 		.4byte	.LBB105
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7378 0280 00000000 		.4byte	.LFB72
  7379 0284 52000000 		.4byte	.LFE72
  7380 0288 00000000 		.4byte	.LFB73
-ARM GAS  /tmp/ccS4RXdl.s 			page 131
+ARM GAS  /tmp/ccaoKBO8.s 			page 131
 
 
  7381 028c 42000000 		.4byte	.LFE73
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7424 002a 7573625F 		.ascii	"usb_lld_stop\000"
  7424      6C6C645F 
  7424      73746F70 
-ARM GAS  /tmp/ccS4RXdl.s 			page 132
+ARM GAS  /tmp/ccaoKBO8.s 			page 132
 
 
  7424      00
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7449              	.LASF130:
  7450 00da 636F6E66 		.ascii	"config\000"
  7450      696700
-ARM GAS  /tmp/ccS4RXdl.s 			page 133
+ARM GAS  /tmp/ccaoKBO8.s 			page 133
 
 
  7451              	.LASF129:
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7480 016b 715F6275 		.ascii	"q_buffer\000"
  7480      66666572 
  7480      00
-ARM GAS  /tmp/ccS4RXdl.s 			page 134
+ARM GAS  /tmp/ccaoKBO8.s 			page 134
 
 
  7481              	.LASF162:
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7510      4550305F 
  7510      57414954 
  7510      494E475F 
-ARM GAS  /tmp/ccS4RXdl.s 			page 135
+ARM GAS  /tmp/ccaoKBO8.s 			page 135
 
 
  7510      53455455 
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7536      7200
  7537              	.LASF159:
  7538 02a0 5553425F 		.ascii	"USB_EP0_ERROR\000"
-ARM GAS  /tmp/ccS4RXdl.s 			page 136
+ARM GAS  /tmp/ccaoKBO8.s 			page 136
 
 
  7538      4550305F 
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7559      6C745F49 
  7559      52516E00 
  7560              	.LASF96:
-ARM GAS  /tmp/ccS4RXdl.s 			page 137
+ARM GAS  /tmp/ccaoKBO8.s 			page 137
 
 
  7561 036a 5553425F 		.ascii	"USB_HP_CAN1_TX_IRQn\000"
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7587      00
  7588              	.LASF173:
  7589 03f7 75736265 		.ascii	"usbeventcb_t\000"
-ARM GAS  /tmp/ccS4RXdl.s 			page 138
+ARM GAS  /tmp/ccaoKBO8.s 			page 138
 
 
  7589      76656E74 
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7614              	.LASF40:
  7615 048a 705F6570 		.ascii	"p_epending\000"
  7615      656E6469 
-ARM GAS  /tmp/ccS4RXdl.s 			page 139
+ARM GAS  /tmp/ccaoKBO8.s 			page 139
 
 
  7615      6E6700
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7641 0528 4E6F6E4D 		.ascii	"NonMaskableInt_IRQn\000"
  7641      61736B61 
  7641      626C6549 
-ARM GAS  /tmp/ccS4RXdl.s 			page 140
+ARM GAS  /tmp/ccaoKBO8.s 			page 140
 
 
  7641      6E745F49 
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7668              	.LASF178:
  7669 05c7 49535452 		.ascii	"ISTR\000"
  7669      00
-ARM GAS  /tmp/ccS4RXdl.s 			page 141
+ARM GAS  /tmp/ccaoKBO8.s 			page 141
 
 
  7670              	.LASF202:
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7695      5F495251 
  7695      6E00
  7696              	.LASF50:
-ARM GAS  /tmp/ccS4RXdl.s 			page 142
+ARM GAS  /tmp/ccaoKBO8.s 			page 142
 
 
  7697 065b 6D5F7175 		.ascii	"m_queue\000"
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7723      5F66726F 
  7724              	.LASF4:
  7725 06f9 756E7369 		.ascii	"unsigned int\000"
-ARM GAS  /tmp/ccS4RXdl.s 			page 143
+ARM GAS  /tmp/ccaoKBO8.s 			page 143
 
 
  7725      676E6564 
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7749 078b 54687265 		.ascii	"ThreadsList\000"
  7749      6164734C 
  7749      69737400 
-ARM GAS  /tmp/ccS4RXdl.s 			page 144
+ARM GAS  /tmp/ccaoKBO8.s 			page 144
 
 
  7750              	.LASF208:
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7775      00
  7776              	.LASF103:
  7777 0847 54494D31 		.ascii	"TIM1_TRG_COM_IRQn\000"
-ARM GAS  /tmp/ccS4RXdl.s 			page 145
+ARM GAS  /tmp/ccaoKBO8.s 			page 145
 
 
  7777      5F545247 
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7800              	.LASF30:
  7801 08ed 705F6F6C 		.ascii	"p_older\000"
  7801      64657200 
-ARM GAS  /tmp/ccS4RXdl.s 			page 146
+ARM GAS  /tmp/ccaoKBO8.s 			page 146
 
 
  7802              	.LASF12:
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7829      6C6C6F63 
  7829      00
  7830              	.LASF78:
-ARM GAS  /tmp/ccS4RXdl.s 			page 147
+ARM GAS  /tmp/ccaoKBO8.s 			page 147
 
 
  7831 098b 5056445F 		.ascii	"PVD_IRQn\000"
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7853      4952516E 
  7853      00
  7854              	.LASF196:
-ARM GAS  /tmp/ccS4RXdl.s 			page 148
+ARM GAS  /tmp/ccaoKBO8.s 			page 148
 
 
  7855 0a32 6D6F6465 		.ascii	"mode\000"
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7879      725F696E 
  7879      00
  7880              	.LASF259:
-ARM GAS  /tmp/ccS4RXdl.s 			page 149
+ARM GAS  /tmp/ccaoKBO8.s 			page 149
 
 
  7881 0ad7 55534244 		.ascii	"USBD1\000"
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7907      516E00
  7908              	.LASF3:
  7909 0b69 73686F72 		.ascii	"short unsigned int\000"
-ARM GAS  /tmp/ccS4RXdl.s 			page 150
+ARM GAS  /tmp/ccaoKBO8.s 			page 150
 
 
  7909      7420756E 
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7931      00
  7932              	.LASF93:
  7933 0c19 444D4131 		.ascii	"DMA1_Channel6_IRQn\000"
-ARM GAS  /tmp/ccS4RXdl.s 			page 151
+ARM GAS  /tmp/ccaoKBO8.s 			page 151
 
 
  7933      5F436861 
@@ -9034,72 +9034,72 @@ ARM GAS  /tmp/ccS4RXdl.s 			page 1
  7949 0c69 705F7374 		.ascii	"p_state\000"
  7949      61746500 
  7950              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccS4RXdl.s 			page 152
+ARM GAS  /tmp/ccaoKBO8.s 			page 152
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usb_lld.c
-     /tmp/ccS4RXdl.s:19     .text.usb_packet_write_from_queue:0000000000000000 $t
-     /tmp/ccS4RXdl.s:24     .text.usb_packet_write_from_queue:0000000000000000 usb_packet_write_from_queue
-     /tmp/ccS4RXdl.s:285    .text.Vector8C:0000000000000000 $t
-     /tmp/ccS4RXdl.s:291    .text.Vector8C:0000000000000000 Vector8C
-     /tmp/ccS4RXdl.s:305    .text.Vector90:0000000000000000 $t
-     /tmp/ccS4RXdl.s:311    .text.Vector90:0000000000000000 Vector90
-     /tmp/ccS4RXdl.s:2195   .bss.USBD1:0000000000000000 .LANCHOR0
-     /tmp/ccS4RXdl.s:1192   .text.usb_lld_init:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1198   .text.usb_lld_init:0000000000000000 usb_lld_init
-     /tmp/ccS4RXdl.s:1215   .text.usb_lld_start:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1221   .text.usb_lld_start:0000000000000000 usb_lld_start
-     /tmp/ccS4RXdl.s:1288   .text.usb_lld_stop:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1294   .text.usb_lld_stop:0000000000000000 usb_lld_stop
-     /tmp/ccS4RXdl.s:1345   .text.usb_lld_set_address:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1351   .text.usb_lld_set_address:0000000000000000 usb_lld_set_address
-     /tmp/ccS4RXdl.s:1372   .text.usb_lld_init_endpoint:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1378   .text.usb_lld_init_endpoint:0000000000000000 usb_lld_init_endpoint
-     /tmp/ccS4RXdl.s:2231   .rodata.CSWTCH.4:0000000000000000 .LANCHOR1
-     /tmp/ccS4RXdl.s:1524   .text.usb_lld_reset:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1530   .text.usb_lld_reset:0000000000000000 usb_lld_reset
-     /tmp/ccS4RXdl.s:2202   .rodata.ep0config:0000000000000000 .LANCHOR2
-     /tmp/ccS4RXdl.s:1599   .text.usb_lld_disable_endpoints:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1605   .text.usb_lld_disable_endpoints:0000000000000000 usb_lld_disable_endpoints
-     /tmp/ccS4RXdl.s:1681   .text.usb_lld_get_status_out:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1687   .text.usb_lld_get_status_out:0000000000000000 usb_lld_get_status_out
-     /tmp/ccS4RXdl.s:1714   .text.usb_lld_get_status_in:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1720   .text.usb_lld_get_status_in:0000000000000000 usb_lld_get_status_in
-     /tmp/ccS4RXdl.s:2172   .rodata.CSWTCH.6:0000000000000000 .LANCHOR3
-     /tmp/ccS4RXdl.s:1747   .text.usb_lld_read_setup:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1753   .text.usb_lld_read_setup:0000000000000000 usb_lld_read_setup
-     /tmp/ccS4RXdl.s:1797   .text.usb_lld_prepare_receive:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1803   .text.usb_lld_prepare_receive:0000000000000000 usb_lld_prepare_receive
-     /tmp/ccS4RXdl.s:1839   .text.usb_lld_prepare_transmit:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1845   .text.usb_lld_prepare_transmit:0000000000000000 usb_lld_prepare_transmit
-     /tmp/ccS4RXdl.s:1986   .text.usb_lld_start_out:0000000000000000 $t
-     /tmp/ccS4RXdl.s:1992   .text.usb_lld_start_out:0000000000000000 usb_lld_start_out
-     /tmp/ccS4RXdl.s:2015   .text.usb_lld_start_in:0000000000000000 $t
-     /tmp/ccS4RXdl.s:2021   .text.usb_lld_start_in:0000000000000000 usb_lld_start_in
-     /tmp/ccS4RXdl.s:2044   .text.usb_lld_stall_out:0000000000000000 $t
-     /tmp/ccS4RXdl.s:2050   .text.usb_lld_stall_out:0000000000000000 usb_lld_stall_out
-     /tmp/ccS4RXdl.s:2073   .text.usb_lld_stall_in:0000000000000000 $t
-     /tmp/ccS4RXdl.s:2079   .text.usb_lld_stall_in:0000000000000000 usb_lld_stall_in
-     /tmp/ccS4RXdl.s:2102   .text.usb_lld_clear_out:0000000000000000 $t
-     /tmp/ccS4RXdl.s:2108   .text.usb_lld_clear_out:0000000000000000 usb_lld_clear_out
-     /tmp/ccS4RXdl.s:2136   .text.usb_lld_clear_in:0000000000000000 $t
-     /tmp/ccS4RXdl.s:2142   .text.usb_lld_clear_in:0000000000000000 usb_lld_clear_in
-     /tmp/ccS4RXdl.s:2198   .bss.USBD1:0000000000000000 USBD1
-     /tmp/ccS4RXdl.s:2171   .rodata.CSWTCH.6:0000000000000000 $d
-     /tmp/ccS4RXdl.s:2175   .rodata.CSWTCH.6:0000000000000000 CSWTCH.6
-     /tmp/ccS4RXdl.s:2194   .bss.USBD1:0000000000000000 $d
-     /tmp/ccS4RXdl.s:2201   .rodata.ep0config:0000000000000000 $d
-     /tmp/ccS4RXdl.s:2205   .rodata.ep0config:0000000000000000 ep0config
-     /tmp/ccS4RXdl.s:2221   .bss.ep0_state:0000000000000000 ep0_state
-     /tmp/ccS4RXdl.s:2227   .bss.ep0setup_buffer:0000000000000000 ep0setup_buffer
-     /tmp/ccS4RXdl.s:2218   .bss.ep0_state:0000000000000000 $d
-ARM GAS  /tmp/ccS4RXdl.s 			page 153
+     /tmp/ccaoKBO8.s:19     .text.usb_packet_write_from_queue:0000000000000000 $t
+     /tmp/ccaoKBO8.s:24     .text.usb_packet_write_from_queue:0000000000000000 usb_packet_write_from_queue
+     /tmp/ccaoKBO8.s:285    .text.Vector8C:0000000000000000 $t
+     /tmp/ccaoKBO8.s:291    .text.Vector8C:0000000000000000 Vector8C
+     /tmp/ccaoKBO8.s:305    .text.Vector90:0000000000000000 $t
+     /tmp/ccaoKBO8.s:311    .text.Vector90:0000000000000000 Vector90
+     /tmp/ccaoKBO8.s:2195   .bss.USBD1:0000000000000000 .LANCHOR0
+     /tmp/ccaoKBO8.s:1192   .text.usb_lld_init:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1198   .text.usb_lld_init:0000000000000000 usb_lld_init
+     /tmp/ccaoKBO8.s:1215   .text.usb_lld_start:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1221   .text.usb_lld_start:0000000000000000 usb_lld_start
+     /tmp/ccaoKBO8.s:1288   .text.usb_lld_stop:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1294   .text.usb_lld_stop:0000000000000000 usb_lld_stop
+     /tmp/ccaoKBO8.s:1345   .text.usb_lld_set_address:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1351   .text.usb_lld_set_address:0000000000000000 usb_lld_set_address
+     /tmp/ccaoKBO8.s:1372   .text.usb_lld_init_endpoint:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1378   .text.usb_lld_init_endpoint:0000000000000000 usb_lld_init_endpoint
+     /tmp/ccaoKBO8.s:2231   .rodata.CSWTCH.4:0000000000000000 .LANCHOR1
+     /tmp/ccaoKBO8.s:1524   .text.usb_lld_reset:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1530   .text.usb_lld_reset:0000000000000000 usb_lld_reset
+     /tmp/ccaoKBO8.s:2202   .rodata.ep0config:0000000000000000 .LANCHOR2
+     /tmp/ccaoKBO8.s:1599   .text.usb_lld_disable_endpoints:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1605   .text.usb_lld_disable_endpoints:0000000000000000 usb_lld_disable_endpoints
+     /tmp/ccaoKBO8.s:1681   .text.usb_lld_get_status_out:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1687   .text.usb_lld_get_status_out:0000000000000000 usb_lld_get_status_out
+     /tmp/ccaoKBO8.s:1714   .text.usb_lld_get_status_in:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1720   .text.usb_lld_get_status_in:0000000000000000 usb_lld_get_status_in
+     /tmp/ccaoKBO8.s:2172   .rodata.CSWTCH.6:0000000000000000 .LANCHOR3
+     /tmp/ccaoKBO8.s:1747   .text.usb_lld_read_setup:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1753   .text.usb_lld_read_setup:0000000000000000 usb_lld_read_setup
+     /tmp/ccaoKBO8.s:1797   .text.usb_lld_prepare_receive:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1803   .text.usb_lld_prepare_receive:0000000000000000 usb_lld_prepare_receive
+     /tmp/ccaoKBO8.s:1839   .text.usb_lld_prepare_transmit:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1845   .text.usb_lld_prepare_transmit:0000000000000000 usb_lld_prepare_transmit
+     /tmp/ccaoKBO8.s:1986   .text.usb_lld_start_out:0000000000000000 $t
+     /tmp/ccaoKBO8.s:1992   .text.usb_lld_start_out:0000000000000000 usb_lld_start_out
+     /tmp/ccaoKBO8.s:2015   .text.usb_lld_start_in:0000000000000000 $t
+     /tmp/ccaoKBO8.s:2021   .text.usb_lld_start_in:0000000000000000 usb_lld_start_in
+     /tmp/ccaoKBO8.s:2044   .text.usb_lld_stall_out:0000000000000000 $t
+     /tmp/ccaoKBO8.s:2050   .text.usb_lld_stall_out:0000000000000000 usb_lld_stall_out
+     /tmp/ccaoKBO8.s:2073   .text.usb_lld_stall_in:0000000000000000 $t
+     /tmp/ccaoKBO8.s:2079   .text.usb_lld_stall_in:0000000000000000 usb_lld_stall_in
+     /tmp/ccaoKBO8.s:2102   .text.usb_lld_clear_out:0000000000000000 $t
+     /tmp/ccaoKBO8.s:2108   .text.usb_lld_clear_out:0000000000000000 usb_lld_clear_out
+     /tmp/ccaoKBO8.s:2136   .text.usb_lld_clear_in:0000000000000000 $t
+     /tmp/ccaoKBO8.s:2142   .text.usb_lld_clear_in:0000000000000000 usb_lld_clear_in
+     /tmp/ccaoKBO8.s:2198   .bss.USBD1:0000000000000000 USBD1
+     /tmp/ccaoKBO8.s:2171   .rodata.CSWTCH.6:0000000000000000 $d
+     /tmp/ccaoKBO8.s:2175   .rodata.CSWTCH.6:0000000000000000 CSWTCH.6
+     /tmp/ccaoKBO8.s:2194   .bss.USBD1:0000000000000000 $d
+     /tmp/ccaoKBO8.s:2201   .rodata.ep0config:0000000000000000 $d
+     /tmp/ccaoKBO8.s:2205   .rodata.ep0config:0000000000000000 ep0config
+     /tmp/ccaoKBO8.s:2221   .bss.ep0_state:0000000000000000 ep0_state
+     /tmp/ccaoKBO8.s:2227   .bss.ep0setup_buffer:0000000000000000 ep0setup_buffer
+     /tmp/ccaoKBO8.s:2218   .bss.ep0_state:0000000000000000 $d
+ARM GAS  /tmp/ccaoKBO8.s 			page 153
 
 
-     /tmp/ccS4RXdl.s:2224   .bss.ep0setup_buffer:0000000000000000 $d
-     /tmp/ccS4RXdl.s:2230   .rodata.CSWTCH.4:0000000000000000 $d
-     /tmp/ccS4RXdl.s:2234   .rodata.CSWTCH.4:0000000000000000 CSWTCH.4
+     /tmp/ccaoKBO8.s:2224   .bss.ep0setup_buffer:0000000000000000 $d
+     /tmp/ccaoKBO8.s:2230   .rodata.CSWTCH.4:0000000000000000 $d
+     /tmp/ccaoKBO8.s:2234   .rodata.CSWTCH.4:0000000000000000 CSWTCH.4
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccmAmBLl.s 			page 1
+ARM GAS  /tmp/ccOKdhZ7.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
   55              	.LFB64:
   56              		.loc 1 94 0
   57              		.cfi_startproc
-ARM GAS  /tmp/ccmAmBLl.s 			page 2
+ARM GAS  /tmp/ccOKdhZ7.s 			page 2
 
 
   58              		@ args = 0, pretend = 0, frame = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  110              		.loc 1 122 0
  111 0004 4468     		ldr	r4, [r0, #4]
  112              		.loc 1 117 0
-ARM GAS  /tmp/ccmAmBLl.s 			page 3
+ARM GAS  /tmp/ccOKdhZ7.s 			page 3
 
 
  113 0006 0A46     		mov	r2, r1
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  165 0045 03       		.uleb128 0x3
  166 0046 02       		.byte	0x2
  167 0047 05       		.byte	0x5
-ARM GAS  /tmp/ccmAmBLl.s 			page 4
+ARM GAS  /tmp/ccOKdhZ7.s 			page 4
 
 
  168 0048 3B010000 		.4byte	.LASF3
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  222 00b6 02       		.byte	0x2
  223 00b7 23       		.byte	0x23
  224 00b8 00       		.uleb128 0
-ARM GAS  /tmp/ccmAmBLl.s 			page 5
+ARM GAS  /tmp/ccOKdhZ7.s 			page 5
 
 
  225 00b9 07       		.uleb128 0x7
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  279 0120 04       		.uleb128 0x4
  280 0121 8E000000 		.4byte	.LASF16
  281 0125 04       		.byte	0x4
-ARM GAS  /tmp/ccmAmBLl.s 			page 6
+ARM GAS  /tmp/ccOKdhZ7.s 			page 6
 
 
  282 0126 71       		.byte	0x71
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  336 018c 45       		.byte	0x45
  337 018d 01       		.byte	0x1
  338 018e 20010000 		.4byte	0x120
-ARM GAS  /tmp/ccmAmBLl.s 			page 7
+ARM GAS  /tmp/ccOKdhZ7.s 			page 7
 
 
  339 0192 00000000 		.4byte	.LFB63
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  393 0213 79000000 		.4byte	.LLST5
  394 0217 10       		.uleb128 0x10
  395 0218 0F010000 		.4byte	.LASF26
-ARM GAS  /tmp/ccmAmBLl.s 			page 8
+ARM GAS  /tmp/ccOKdhZ7.s 			page 8
 
 
  396 021c 01       		.byte	0x1
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  450 0027 03       		.uleb128 0x3
  451 0028 0E       		.uleb128 0xe
  452 0029 00       		.byte	0
-ARM GAS  /tmp/ccmAmBLl.s 			page 9
+ARM GAS  /tmp/ccOKdhZ7.s 			page 9
 
 
  453 002a 00       		.byte	0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  507 0060 3A       		.uleb128 0x3a
  508 0061 0B       		.uleb128 0xb
  509 0062 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccmAmBLl.s 			page 10
+ARM GAS  /tmp/ccOKdhZ7.s 			page 10
 
 
  510 0063 05       		.uleb128 0x5
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  564 0099 0A       		.uleb128 0xa
  565 009a 00       		.byte	0
  566 009b 00       		.byte	0
-ARM GAS  /tmp/ccmAmBLl.s 			page 11
+ARM GAS  /tmp/ccOKdhZ7.s 			page 11
 
 
  567 009c 0D       		.uleb128 0xd
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  621 00d2 01       		.uleb128 0x1
  622 00d3 12       		.uleb128 0x12
  623 00d4 01       		.uleb128 0x1
-ARM GAS  /tmp/ccmAmBLl.s 			page 12
+ARM GAS  /tmp/ccOKdhZ7.s 			page 12
 
 
  624 00d5 40       		.uleb128 0x40
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  678 001f 06000000 		.4byte	.LCFI0
  679 0023 24000000 		.4byte	.LFE64
  680 0027 0200     		.2byte	0x2
-ARM GAS  /tmp/ccmAmBLl.s 			page 13
+ARM GAS  /tmp/ccOKdhZ7.s 			page 13
 
 
  681 0029 7D       		.byte	0x7d
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  735 000b 00       		.byte	0
  736 000c 0000     		.2byte	0
  737 000e 0000     		.2byte	0
-ARM GAS  /tmp/ccmAmBLl.s 			page 14
+ARM GAS  /tmp/ccOKdhZ7.s 			page 14
 
 
  738 0010 00000000 		.4byte	.LFB63
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  773              	.LASF29:
  774 0052 2F686F6D 		.ascii	"/home/formica/chibios/chibios_hid/testhal/STM32F1xx"
  774      652F666F 
-ARM GAS  /tmp/ccmAmBLl.s 			page 15
+ARM GAS  /tmp/ccOKdhZ7.s 			page 15
 
 
  774      726D6963 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  796              	.LASF26:
  797 010f 6D6F6465 		.ascii	"mode\000"
  797      00
-ARM GAS  /tmp/ccmAmBLl.s 			page 16
+ARM GAS  /tmp/ccOKdhZ7.s 			page 16
 
 
  798              	.LASF6:
@@ -952,17 +952,17 @@ ARM GAS  /tmp/ccmAmBLl.s 			page 1
  823 0190 494F4275 		.ascii	"IOBus\000"
  823      7300
  824              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccmAmBLl.s 			page 17
+ARM GAS  /tmp/ccOKdhZ7.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 pal.c
-     /tmp/ccmAmBLl.s:19     .text.palReadBus:0000000000000000 $t
-     /tmp/ccmAmBLl.s:25     .text.palReadBus:0000000000000000 palReadBus
-     /tmp/ccmAmBLl.s:48     .text.palWriteBus:0000000000000000 $t
-     /tmp/ccmAmBLl.s:54     .text.palWriteBus:0000000000000000 palWriteBus
-     /tmp/ccmAmBLl.s:89     .text.palSetBusMode:0000000000000000 $t
-     /tmp/ccmAmBLl.s:95     .text.palSetBusMode:0000000000000000 palSetBusMode
+     /tmp/ccOKdhZ7.s:19     .text.palReadBus:0000000000000000 $t
+     /tmp/ccOKdhZ7.s:25     .text.palReadBus:0000000000000000 palReadBus
+     /tmp/ccOKdhZ7.s:48     .text.palWriteBus:0000000000000000 $t
+     /tmp/ccOKdhZ7.s:54     .text.palWriteBus:0000000000000000 palWriteBus
+     /tmp/ccOKdhZ7.s:89     .text.palSetBusMode:0000000000000000 $t
+     /tmp/ccOKdhZ7.s:95     .text.palSetBusMode:0000000000000000 palSetBusMode
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

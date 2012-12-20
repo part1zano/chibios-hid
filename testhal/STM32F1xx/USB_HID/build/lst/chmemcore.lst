@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cca9QvPR.s 			page 1
+ARM GAS  /tmp/ccw7RbPJ.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
   55              		.align	2
   56              	.L2:
   57 0028 07000000 		.word	__heap_base__+7
-ARM GAS  /tmp/cca9QvPR.s 			page 2
+ARM GAS  /tmp/ccw7RbPJ.s 			page 2
 
 
   58              		.cfi_endproc
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  112              	.LBE8:
  113              	.LBE7:
  114              	.LBB9:
-ARM GAS  /tmp/cca9QvPR.s 			page 3
+ARM GAS  /tmp/ccw7RbPJ.s 			page 3
 
 
  115              		.loc 1 89 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  168              		.loc 1 116 0
  169 0028 1046     		mov	r0, r2
  170 002a 7047     		bx	lr
-ARM GAS  /tmp/cca9QvPR.s 			page 4
+ARM GAS  /tmp/ccw7RbPJ.s 			page 4
 
 
  171              		.cfi_endproc
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  224 000a 04       		.byte	0x4
  225 000b 01       		.uleb128 0x1
  226 000c D0000000 		.4byte	.LASF17
-ARM GAS  /tmp/cca9QvPR.s 			page 5
+ARM GAS  /tmp/ccw7RbPJ.s 			page 5
 
 
  227 0010 01       		.byte	0x1
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  281 0082 04       		.uleb128 0x4
  282 0083 08       		.byte	0x8
  283 0084 05       		.byte	0x5
-ARM GAS  /tmp/cca9QvPR.s 			page 6
+ARM GAS  /tmp/ccw7RbPJ.s 			page 6
 
 
  284 0085 00000000 		.4byte	.LASF10
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  338 00ec 53000000 		.4byte	.LASF14
  339 00f0 01       		.byte	0x1
  340 00f1 3E       		.byte	0x3e
-ARM GAS  /tmp/cca9QvPR.s 			page 7
+ARM GAS  /tmp/ccw7RbPJ.s 			page 7
 
 
  341 00f2 F9000000 		.4byte	0xf9
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  395 016b B1000000 		.4byte	0xb1
  396 016f 26000000 		.4byte	.LLST2
  397 0173 15       		.uleb128 0x15
-ARM GAS  /tmp/cca9QvPR.s 			page 8
+ARM GAS  /tmp/ccw7RbPJ.s 			page 8
 
 
  398 0174 06000000 		.4byte	.LBB8
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  452 01ef 05       		.byte	0x5
  453 01f0 03       		.byte	0x3
  454 01f1 00000000 		.4byte	nextmem
-ARM GAS  /tmp/cca9QvPR.s 			page 9
+ARM GAS  /tmp/ccw7RbPJ.s 			page 9
 
 
  455 01f5 19       		.uleb128 0x19
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  509 001d 08       		.uleb128 0x8
  510 001e 00       		.byte	0
  511 001f 00       		.byte	0
-ARM GAS  /tmp/cca9QvPR.s 			page 10
+ARM GAS  /tmp/ccw7RbPJ.s 			page 10
 
 
  512 0020 03       		.uleb128 0x3
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  566 0056 13       		.uleb128 0x13
  567 0057 20       		.uleb128 0x20
  568 0058 0B       		.uleb128 0xb
-ARM GAS  /tmp/cca9QvPR.s 			page 11
+ARM GAS  /tmp/ccw7RbPJ.s 			page 11
 
 
  569 0059 01       		.uleb128 0x1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  623 008f 34       		.uleb128 0x34
  624 0090 00       		.byte	0
  625 0091 03       		.uleb128 0x3
-ARM GAS  /tmp/cca9QvPR.s 			page 12
+ARM GAS  /tmp/ccw7RbPJ.s 			page 12
 
 
  626 0092 0E       		.uleb128 0xe
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  680 00c8 00       		.byte	0
  681 00c9 03       		.uleb128 0x3
  682 00ca 0E       		.uleb128 0xe
-ARM GAS  /tmp/cca9QvPR.s 			page 13
+ARM GAS  /tmp/ccw7RbPJ.s 			page 13
 
 
  683 00cb 3A       		.uleb128 0x3a
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  737 0101 31       		.uleb128 0x31
  738 0102 13       		.uleb128 0x13
  739 0103 11       		.uleb128 0x11
-ARM GAS  /tmp/cca9QvPR.s 			page 14
+ARM GAS  /tmp/ccw7RbPJ.s 			page 14
 
 
  740 0104 01       		.uleb128 0x1
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  794 013a 2E       		.uleb128 0x2e
  795 013b 00       		.byte	0
  796 013c 3F       		.uleb128 0x3f
-ARM GAS  /tmp/cca9QvPR.s 			page 15
+ARM GAS  /tmp/ccw7RbPJ.s 			page 15
 
 
  797 013d 0C       		.uleb128 0xc
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  851 002e 0100     		.2byte	0x1
  852 0030 50       		.byte	0x50
  853 0031 1E000000 		.4byte	.LVL4
-ARM GAS  /tmp/cca9QvPR.s 			page 16
+ARM GAS  /tmp/ccw7RbPJ.s 			page 16
 
 
  854 0035 22000000 		.4byte	.LVL5
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  908              	.Ldebug_ranges0:
  909 0000 00000000 		.4byte	.LFB7
  910 0004 2C000000 		.4byte	.LFE7
-ARM GAS  /tmp/cca9QvPR.s 			page 17
+ARM GAS  /tmp/ccw7RbPJ.s 			page 17
 
 
  911 0008 00000000 		.4byte	.LFB8
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  938              	.LASF11:
  939 0080 6C6F6E67 		.ascii	"long long unsigned int\000"
  939      206C6F6E 
-ARM GAS  /tmp/cca9QvPR.s 			page 18
+ARM GAS  /tmp/ccw7RbPJ.s 			page 18
 
 
  939      6720756E 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  966              	.LASF5:
  967 0119 73686F72 		.ascii	"short int\000"
  967      7420696E 
-ARM GAS  /tmp/cca9QvPR.s 			page 19
+ARM GAS  /tmp/ccw7RbPJ.s 			page 19
 
 
  967      7400
@@ -1097,28 +1097,28 @@ ARM GAS  /tmp/cca9QvPR.s 			page 1
  972      61747573 
  972      00
  973              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/cca9QvPR.s 			page 20
+ARM GAS  /tmp/ccw7RbPJ.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chmemcore.c
-     /tmp/cca9QvPR.s:19     .text._core_init:0000000000000000 $t
-     /tmp/cca9QvPR.s:25     .text._core_init:0000000000000000 _core_init
-     /tmp/cca9QvPR.s:210    .bss.nextmem:0000000000000000 .LANCHOR0
-     /tmp/cca9QvPR.s:203    .bss.endmem:0000000000000000 .LANCHOR1
-     /tmp/cca9QvPR.s:57     .text._core_init:0000000000000028 $d
-     /tmp/cca9QvPR.s:62     .text.chCoreAlloc:0000000000000000 $t
-     /tmp/cca9QvPR.s:68     .text.chCoreAlloc:0000000000000000 chCoreAlloc
-     /tmp/cca9QvPR.s:131    .text.chCoreAllocI:0000000000000000 $t
-     /tmp/cca9QvPR.s:137    .text.chCoreAllocI:0000000000000000 chCoreAllocI
-     /tmp/cca9QvPR.s:175    .text.chCoreStatus:0000000000000000 $t
-     /tmp/cca9QvPR.s:181    .text.chCoreStatus:0000000000000000 chCoreStatus
-     /tmp/cca9QvPR.s:202    .bss.endmem:0000000000000000 $d
-     /tmp/cca9QvPR.s:206    .bss.endmem:0000000000000000 endmem
-     /tmp/cca9QvPR.s:209    .bss.nextmem:0000000000000000 $d
-     /tmp/cca9QvPR.s:213    .bss.nextmem:0000000000000000 nextmem
+     /tmp/ccw7RbPJ.s:19     .text._core_init:0000000000000000 $t
+     /tmp/ccw7RbPJ.s:25     .text._core_init:0000000000000000 _core_init
+     /tmp/ccw7RbPJ.s:210    .bss.nextmem:0000000000000000 .LANCHOR0
+     /tmp/ccw7RbPJ.s:203    .bss.endmem:0000000000000000 .LANCHOR1
+     /tmp/ccw7RbPJ.s:57     .text._core_init:0000000000000028 $d
+     /tmp/ccw7RbPJ.s:62     .text.chCoreAlloc:0000000000000000 $t
+     /tmp/ccw7RbPJ.s:68     .text.chCoreAlloc:0000000000000000 chCoreAlloc
+     /tmp/ccw7RbPJ.s:131    .text.chCoreAllocI:0000000000000000 $t
+     /tmp/ccw7RbPJ.s:137    .text.chCoreAllocI:0000000000000000 chCoreAllocI
+     /tmp/ccw7RbPJ.s:175    .text.chCoreStatus:0000000000000000 $t
+     /tmp/ccw7RbPJ.s:181    .text.chCoreStatus:0000000000000000 chCoreStatus
+     /tmp/ccw7RbPJ.s:202    .bss.endmem:0000000000000000 $d
+     /tmp/ccw7RbPJ.s:206    .bss.endmem:0000000000000000 endmem
+     /tmp/ccw7RbPJ.s:209    .bss.nextmem:0000000000000000 $d
+     /tmp/ccw7RbPJ.s:213    .bss.nextmem:0000000000000000 nextmem
                      .debug_frame:0000000000000010 $d
-     /tmp/cca9QvPR.s:61     .text._core_init:000000000000002c $t
+     /tmp/ccw7RbPJ.s:61     .text._core_init:000000000000002c $t
 
 UNDEFINED SYMBOLS
 __heap_end__

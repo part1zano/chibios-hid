@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc3wCc4C.s 			page 1
+ARM GAS  /tmp/cciVkvPD.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc3wCc4C.s 			page 1
   53 0010 01       		.byte	0x1
   54 0011 91000000 		.4byte	.LASF11
   55 0015 B7000000 		.4byte	.LASF12
-ARM GAS  /tmp/cc3wCc4C.s 			page 2
+ARM GAS  /tmp/cciVkvPD.s 			page 2
 
 
   56 0019 00000000 		.4byte	0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc3wCc4C.s 			page 1
  110 007f 00000000 		.4byte	.LFB7
  111 0083 04000000 		.4byte	.LFE7
  112 0087 02       		.byte	0x2
-ARM GAS  /tmp/cc3wCc4C.s 			page 3
+ARM GAS  /tmp/cciVkvPD.s 			page 3
 
 
  113 0088 7D       		.byte	0x7d
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc3wCc4C.s 			page 1
  167 0031 0E       		.uleb128 0xe
  168 0032 3A       		.uleb128 0x3a
  169 0033 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc3wCc4C.s 			page 4
+ARM GAS  /tmp/cciVkvPD.s 			page 4
 
 
  170 0034 3B       		.uleb128 0x3b
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc3wCc4C.s 			page 1
  210              	.LASF1:
  211 002d 7369676E 		.ascii	"signed char\000"
  211      65642063 
-ARM GAS  /tmp/cc3wCc4C.s 			page 5
+ARM GAS  /tmp/cciVkvPD.s 			page 5
 
 
  211      68617200 
@@ -294,13 +294,13 @@ ARM GAS  /tmp/cc3wCc4C.s 			page 1
  232      6720696E 
  232      7400
  233              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/cc3wCc4C.s 			page 6
+ARM GAS  /tmp/cciVkvPD.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chcore.c
-     /tmp/cc3wCc4C.s:19     .text.port_halt:0000000000000000 $t
-     /tmp/cc3wCc4C.s:25     .text.port_halt:0000000000000000 port_halt
+     /tmp/cciVkvPD.s:19     .text.port_halt:0000000000000000 $t
+     /tmp/cciVkvPD.s:25     .text.port_halt:0000000000000000 port_halt
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

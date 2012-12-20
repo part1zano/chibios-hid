@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccJgWSzD.s 			page 1
+ARM GAS  /tmp/ccensLbD.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
   53              	.LVL0:
   54              		.loc 1 76 0
   55 0000 0023     		movs	r3, #0
-ARM GAS  /tmp/ccJgWSzD.s 			page 2
+ARM GAS  /tmp/ccensLbD.s 			page 2
 
 
   56              		.loc 1 75 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  110 000c FFF7FEFF 		bl	spi_lld_start
  111              	.LVL6:
  112              		.loc 1 109 0
-ARM GAS  /tmp/ccJgWSzD.s 			page 3
+ARM GAS  /tmp/ccensLbD.s 			page 3
 
 
  113 0010 0223     		movs	r3, #2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  167              		.loc 1 130 0
  168 000e 2046     		mov	r0, r4
  169 0010 FFF7FEFF 		bl	spi_lld_stop
-ARM GAS  /tmp/ccJgWSzD.s 			page 4
+ARM GAS  /tmp/ccensLbD.s 			page 4
 
 
  170              		.loc 1 131 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  224              	@ 149 "../../../os/hal/src/spi.c" 1
  225 000e 83F31188 		msr     BASEPRI, r3
  226              	@ 0 "" 2
-ARM GAS  /tmp/ccJgWSzD.s 			page 5
+ARM GAS  /tmp/ccensLbD.s 			page 5
 
 
  227              	.LVL20:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  279              		.cfi_endproc
  280              	.LFE68:
  281              		.size	spiUnselect, .-spiUnselect
-ARM GAS  /tmp/ccJgWSzD.s 			page 6
+ARM GAS  /tmp/ccensLbD.s 			page 6
 
 
  282 0014 AFF30080 		.section	.text.spiStartIgnore,"ax",%progbits
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  333              		.align	2
  334              		.p2align 4,,15
  335              		.global	spiStartExchange
-ARM GAS  /tmp/ccJgWSzD.s 			page 7
+ARM GAS  /tmp/ccensLbD.s 			page 7
 
 
  336              		.thumb
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  390              		.p2align 4,,15
  391              		.global	spiStartSend
  392              		.thumb
-ARM GAS  /tmp/ccJgWSzD.s 			page 8
+ARM GAS  /tmp/ccensLbD.s 			page 8
 
 
  393              		.thumb_func
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  446              	.LFB72:
  447              		.loc 1 263 0
  448              		.cfi_startproc
-ARM GAS  /tmp/ccJgWSzD.s 			page 9
+ARM GAS  /tmp/ccensLbD.s 			page 9
 
 
  449              		@ args = 0, pretend = 0, frame = 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  502 0000 10B5     		push	{r4, lr}
  503              	.LCFI8:
  504              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/ccJgWSzD.s 			page 10
+ARM GAS  /tmp/ccensLbD.s 			page 10
 
 
  505              		.cfi_offset 14, -4
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  559              		.cfi_startproc
  560              		@ args = 0, pretend = 0, frame = 0
  561              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccJgWSzD.s 			page 11
+ARM GAS  /tmp/ccensLbD.s 			page 11
 
 
  562              	.LVL62:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  616              		.global	spiSend
  617              		.thumb
  618              		.thumb_func
-ARM GAS  /tmp/ccJgWSzD.s 			page 12
+ARM GAS  /tmp/ccensLbD.s 			page 12
 
 
  619              		.type	spiSend, %function
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  673              	.LFE75:
  674              		.size	spiSend, .-spiSend
  675 002c AFF30080 		.section	.text.spiReceive,"ax",%progbits
-ARM GAS  /tmp/ccJgWSzD.s 			page 13
+ARM GAS  /tmp/ccensLbD.s 			page 13
 
 
  676              		.align	2
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  730              		.thumb
  731              	.LBE30:
  732              		.loc 1 390 0
-ARM GAS  /tmp/ccJgWSzD.s 			page 14
+ARM GAS  /tmp/ccensLbD.s 			page 14
 
 
  733 002a 10BD     		pop	{r4, pc}
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  784      AFF30080 
  784      AFF30080 
  785              	.Letext0:
-ARM GAS  /tmp/ccJgWSzD.s 			page 15
+ARM GAS  /tmp/ccensLbD.s 			page 15
 
 
  786              		.file 2 "/home/formica/toolchains/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/include/stddef.h
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  840 0057 59030000 		.4byte	.LASF4
  841 005b 04       		.uleb128 0x4
  842 005c 02       		.byte	0x2
-ARM GAS  /tmp/ccJgWSzD.s 			page 16
+ARM GAS  /tmp/ccensLbD.s 			page 16
 
 
  843 005d 05       		.byte	0x5
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  897 00cc 04       		.byte	0x4
  898 00cd 2B       		.byte	0x2b
  899 00ce 49000000 		.4byte	0x49
-ARM GAS  /tmp/ccJgWSzD.s 			page 17
+ARM GAS  /tmp/ccensLbD.s 			page 17
 
 
  900 00d2 03       		.uleb128 0x3
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  954 013e 08       		.uleb128 0x8
  955 013f 06       		.uleb128 0x6
  956 0140 2E050000 		.4byte	.LASF26
-ARM GAS  /tmp/ccJgWSzD.s 			page 18
+ARM GAS  /tmp/ccensLbD.s 			page 18
 
 
  957 0144 06       		.byte	0x6
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1011 01a1 06       		.uleb128 0x6
  1012 01a2 96030000 		.4byte	.LASF33
  1013 01a6 06       		.byte	0x6
-ARM GAS  /tmp/ccJgWSzD.s 			page 19
+ARM GAS  /tmp/ccensLbD.s 			page 19
 
 
  1014 01a7 81       		.byte	0x81
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1068 0204 7A030000 		.4byte	.LASF39
  1069 0208 06       		.byte	0x6
  1070 0209 C9       		.byte	0xc9
-ARM GAS  /tmp/ccJgWSzD.s 			page 20
+ARM GAS  /tmp/ccensLbD.s 			page 20
 
 
  1071 020a 45040000 		.4byte	0x445
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1125 0267 64       		.byte	0x64
  1126 0268 7B020000 		.4byte	0x27b
  1127 026c 06       		.uleb128 0x6
-ARM GAS  /tmp/ccJgWSzD.s 			page 21
+ARM GAS  /tmp/ccensLbD.s 			page 21
 
 
  1128 026d B5030000 		.4byte	.LASF23
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1182 02d1 86020000 		.4byte	0x286
  1183 02d5 02       		.byte	0x2
  1184 02d6 23       		.byte	0x23
-ARM GAS  /tmp/ccJgWSzD.s 			page 22
+ARM GAS  /tmp/ccensLbD.s 			page 22
 
 
  1185 02d7 0C       		.uleb128 0xc
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1239 033b 23       		.byte	0x23
  1240 033c 00       		.uleb128 0
  1241 033d 00       		.byte	0
-ARM GAS  /tmp/ccJgWSzD.s 			page 23
+ARM GAS  /tmp/ccensLbD.s 			page 23
 
 
  1242 033e 09       		.uleb128 0x9
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1296 03a1 08       		.byte	0x8
  1297 03a2 62       		.byte	0x62
  1298 03a3 53020000 		.4byte	0x253
-ARM GAS  /tmp/ccJgWSzD.s 			page 24
+ARM GAS  /tmp/ccensLbD.s 			page 24
 
 
  1299 03a7 02       		.byte	0x2
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1353 0407 0D000000 		.4byte	.LASF58
  1354 040b 06       		.byte	0x6
  1355 040c 96       		.byte	0x96
-ARM GAS  /tmp/ccJgWSzD.s 			page 25
+ARM GAS  /tmp/ccensLbD.s 			page 25
 
 
  1356 040d DD000000 		.4byte	0xdd
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1410 047c 12       		.uleb128 0x12
  1411 047d DD010000 		.4byte	.LASF64
  1412 0481 0A       		.byte	0xa
-ARM GAS  /tmp/ccJgWSzD.s 			page 26
+ARM GAS  /tmp/ccensLbD.s 			page 26
 
 
  1413 0482 3103     		.2byte	0x331
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1467 04ea 23       		.byte	0x23
  1468 04eb 0C       		.uleb128 0xc
  1469 04ec 12       		.uleb128 0x12
-ARM GAS  /tmp/ccJgWSzD.s 			page 27
+ARM GAS  /tmp/ccensLbD.s 			page 27
 
 
  1470 04ed B9000000 		.4byte	.LASF67
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1524 0555 4B040000 		.4byte	0x44b
  1525 0559 02       		.byte	0x2
  1526 055a 23       		.byte	0x23
-ARM GAS  /tmp/ccJgWSzD.s 			page 28
+ARM GAS  /tmp/ccensLbD.s 			page 28
 
 
  1527 055b 04       		.uleb128 0x4
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1581 05c0 02       		.byte	0x2
  1582 05c1 23       		.byte	0x23
  1583 05c2 12       		.uleb128 0x12
-ARM GAS  /tmp/ccJgWSzD.s 			page 29
+ARM GAS  /tmp/ccensLbD.s 			page 29
 
 
  1584 05c3 12       		.uleb128 0x12
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1638 062a 23       		.byte	0x23
  1639 062b 20       		.uleb128 0x20
  1640 062c 12       		.uleb128 0x12
-ARM GAS  /tmp/ccJgWSzD.s 			page 30
+ARM GAS  /tmp/ccensLbD.s 			page 30
 
 
  1641 062d 39030000 		.4byte	.LASF83
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1695 068f 49000000 		.4byte	0x49
  1696 0693 02       		.byte	0x2
  1697 0694 23       		.byte	0x23
-ARM GAS  /tmp/ccJgWSzD.s 			page 31
+ARM GAS  /tmp/ccensLbD.s 			page 31
 
 
  1698 0695 0A       		.uleb128 0xa
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1752 0702 30       		.byte	0x30
  1753 0703 0E       		.byte	0xe
  1754 0704 4B01     		.2byte	0x14b
-ARM GAS  /tmp/ccJgWSzD.s 			page 32
+ARM GAS  /tmp/ccensLbD.s 			page 32
 
 
  1755 0706 92070000 		.4byte	0x792
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1809 0770 02       		.byte	0x2
  1810 0771 23       		.byte	0x23
  1811 0772 24       		.uleb128 0x24
-ARM GAS  /tmp/ccJgWSzD.s 			page 33
+ARM GAS  /tmp/ccensLbD.s 			page 33
 
 
  1812 0773 12       		.uleb128 0x12
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1866 07dc 04       		.uleb128 0x4
  1867 07dd 12       		.uleb128 0x12
  1868 07de 47000000 		.4byte	.LASF110
-ARM GAS  /tmp/ccJgWSzD.s 			page 34
+ARM GAS  /tmp/ccensLbD.s 			page 34
 
 
  1869 07e2 0E       		.byte	0xe
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1923 084b 00       		.sleb128 0
  1924 084c 60080000 		.4byte	0x860
  1925 0850 1A       		.uleb128 0x1a
-ARM GAS  /tmp/ccJgWSzD.s 			page 35
+ARM GAS  /tmp/ccensLbD.s 			page 35
 
 
  1926 0851 FB040000 		.4byte	.LASF114
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  1980 08d2 01       		.byte	0x1
  1981 08d3 00000000 		.4byte	.LFB66
  1982 08d7 20000000 		.4byte	.LFE66
-ARM GAS  /tmp/ccJgWSzD.s 			page 36
+ARM GAS  /tmp/ccensLbD.s 			page 36
 
 
  1983 08db 97000000 		.4byte	.LLST6
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2037 0965 2E010000 		.4byte	.LLST12
  2038 0969 00       		.byte	0
  2039 096a 1E       		.uleb128 0x1e
-ARM GAS  /tmp/ccJgWSzD.s 			page 37
+ARM GAS  /tmp/ccensLbD.s 			page 37
 
 
  2040 096b 0C000000 		.4byte	.LBB9
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2094 09ec 00000000 		.4byte	.LFB69
  2095 09f0 18000000 		.4byte	.LFE69
  2096 09f4 AD010000 		.4byte	.LLST18
-ARM GAS  /tmp/ccJgWSzD.s 			page 38
+ARM GAS  /tmp/ccensLbD.s 			page 38
 
 
  2097 09f8 4F0A0000 		.4byte	0xa4f
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2151 0a7b D2       		.byte	0xd2
  2152 0a7c 30000000 		.4byte	0x30
  2153 0a80 4C020000 		.4byte	.LLST25
-ARM GAS  /tmp/ccJgWSzD.s 			page 39
+ARM GAS  /tmp/ccensLbD.s 			page 39
 
 
  2154 0a84 1A       		.uleb128 0x1a
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2208 0b08 20       		.uleb128 0x20
  2209 0b09 6E00     		.ascii	"n\000"
  2210 0b0b 01       		.byte	0x1
-ARM GAS  /tmp/ccJgWSzD.s 			page 40
+ARM GAS  /tmp/ccensLbD.s 			page 40
 
 
  2211 0b0c ED       		.byte	0xed
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2265 0b94 41000000 		.4byte	.LASF121
  2266 0b98 01       		.byte	0x1
  2267 0b99 0701     		.2byte	0x107
-ARM GAS  /tmp/ccJgWSzD.s 			page 41
+ARM GAS  /tmp/ccensLbD.s 			page 41
 
 
  2268 0b9b 91020000 		.4byte	0x291
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2322 0c29 10040000 		.4byte	.LLST45
  2323 0c2d 00       		.byte	0
  2324 0c2e 1E       		.uleb128 0x1e
-ARM GAS  /tmp/ccJgWSzD.s 			page 42
+ARM GAS  /tmp/ccensLbD.s 			page 42
 
 
  2325 0c2f 24000000 		.4byte	.LBB22
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2379 0cbe 00       		.byte	0
  2380 0cbf 1E       		.uleb128 0x1e
  2381 0cc0 28000000 		.4byte	.LBB24
-ARM GAS  /tmp/ccJgWSzD.s 			page 43
+ARM GAS  /tmp/ccensLbD.s 			page 43
 
 
  2382 0cc4 2E000000 		.4byte	.LBE24
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2436 0d4d 86000000 		.4byte	0x86
  2437 0d51 60050000 		.4byte	.LLST59
  2438 0d55 00       		.byte	0
-ARM GAS  /tmp/ccJgWSzD.s 			page 44
+ARM GAS  /tmp/ccensLbD.s 			page 44
 
 
  2439 0d56 00       		.byte	0
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2493 0ddb 9501     		.2byte	0x195
  2494 0ddd 01       		.byte	0x1
  2495 0dde 00000000 		.4byte	.LFB77
-ARM GAS  /tmp/ccJgWSzD.s 			page 45
+ARM GAS  /tmp/ccensLbD.s 			page 45
 
 
  2496 0de2 06000000 		.4byte	.LFE77
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2550 0006 0B       		.uleb128 0xb
  2551 0007 03       		.uleb128 0x3
  2552 0008 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccJgWSzD.s 			page 46
+ARM GAS  /tmp/ccensLbD.s 			page 46
 
 
  2553 0009 1B       		.uleb128 0x1b
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2607 003f 3A       		.uleb128 0x3a
  2608 0040 0B       		.uleb128 0xb
  2609 0041 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccJgWSzD.s 			page 47
+ARM GAS  /tmp/ccensLbD.s 			page 47
 
 
  2610 0042 0B       		.uleb128 0xb
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2664 0078 13       		.uleb128 0x13
  2665 0079 00       		.byte	0
  2666 007a 00       		.byte	0
-ARM GAS  /tmp/ccJgWSzD.s 			page 48
+ARM GAS  /tmp/ccensLbD.s 			page 48
 
 
  2667 007b 0A       		.uleb128 0xa
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2721 00b1 13       		.uleb128 0x13
  2722 00b2 00       		.byte	0
  2723 00b3 00       		.byte	0
-ARM GAS  /tmp/ccJgWSzD.s 			page 49
+ARM GAS  /tmp/ccensLbD.s 			page 49
 
 
  2724 00b4 0F       		.uleb128 0xf
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2778 00ea 0B       		.uleb128 0xb
  2779 00eb 3B       		.uleb128 0x3b
  2780 00ec 05       		.uleb128 0x5
-ARM GAS  /tmp/ccJgWSzD.s 			page 50
+ARM GAS  /tmp/ccensLbD.s 			page 50
 
 
  2781 00ed 49       		.uleb128 0x49
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2835 0123 0C       		.uleb128 0xc
  2836 0124 11       		.uleb128 0x11
  2837 0125 01       		.uleb128 0x1
-ARM GAS  /tmp/ccJgWSzD.s 			page 51
+ARM GAS  /tmp/ccensLbD.s 			page 51
 
 
  2838 0126 12       		.uleb128 0x12
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2892 015c 0B       		.uleb128 0xb
  2893 015d 27       		.uleb128 0x27
  2894 015e 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccJgWSzD.s 			page 52
+ARM GAS  /tmp/ccensLbD.s 			page 52
 
 
  2895 015f 11       		.uleb128 0x11
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  2949 0195 20       		.uleb128 0x20
  2950 0196 05       		.uleb128 0x5
  2951 0197 00       		.byte	0
-ARM GAS  /tmp/ccJgWSzD.s 			page 53
+ARM GAS  /tmp/ccensLbD.s 			page 53
 
 
  2952 0198 03       		.uleb128 0x3
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3006 01ce 00       		.byte	0
  3007 01cf 24       		.uleb128 0x24
  3008 01d0 05       		.uleb128 0x5
-ARM GAS  /tmp/ccJgWSzD.s 			page 54
+ARM GAS  /tmp/ccensLbD.s 			page 54
 
 
  3009 01d1 00       		.byte	0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3063 0207 03       		.uleb128 0x3
  3064 0208 0E       		.uleb128 0xe
  3065 0209 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccJgWSzD.s 			page 55
+ARM GAS  /tmp/ccensLbD.s 			page 55
 
 
  3066 020a 0B       		.uleb128 0xb
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3120 0037 08       		.sleb128 8
  3121 0038 00000000 		.4byte	0
  3122 003c 00000000 		.4byte	0
-ARM GAS  /tmp/ccJgWSzD.s 			page 56
+ARM GAS  /tmp/ccensLbD.s 			page 56
 
 
  3123              	.LLST2:
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3177 00cd 00000000 		.4byte	0
  3178 00d1 00000000 		.4byte	0
  3179              	.LLST8:
-ARM GAS  /tmp/ccJgWSzD.s 			page 57
+ARM GAS  /tmp/ccensLbD.s 			page 57
 
 
  3180 00d5 0A000000 		.4byte	.LVL11
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3234 0164 14000000 		.4byte	.LFE68
  3235 0168 0200     		.2byte	0x2
  3236 016a 7D       		.byte	0x7d
-ARM GAS  /tmp/ccJgWSzD.s 			page 58
+ARM GAS  /tmp/ccensLbD.s 			page 58
 
 
  3237 016b 08       		.sleb128 8
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3291 01fb 0100     		.2byte	0x1
  3292 01fd 53       		.byte	0x53
  3293 01fe 00000000 		.4byte	0
-ARM GAS  /tmp/ccJgWSzD.s 			page 59
+ARM GAS  /tmp/ccensLbD.s 			page 59
 
 
  3294 0202 00000000 		.4byte	0
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3348 0292 53       		.byte	0x53
  3349 0293 00000000 		.4byte	0
  3350 0297 00000000 		.4byte	0
-ARM GAS  /tmp/ccJgWSzD.s 			page 60
+ARM GAS  /tmp/ccensLbD.s 			page 60
 
 
  3351              	.LLST28:
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3405 0329 00000000 		.4byte	0
  3406              	.LLST35:
  3407 032d 16000000 		.4byte	.LVL48
-ARM GAS  /tmp/ccJgWSzD.s 			page 61
+ARM GAS  /tmp/ccensLbD.s 			page 61
 
 
  3408 0331 18000000 		.4byte	.LFE71
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3462 03bf 00000000 		.4byte	.LFB73
  3463 03c3 02000000 		.4byte	.LCFI8
  3464 03c7 0200     		.2byte	0x2
-ARM GAS  /tmp/ccJgWSzD.s 			page 62
+ARM GAS  /tmp/ccensLbD.s 			page 62
 
 
  3465 03c9 7D       		.byte	0x7d
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3519              	.LLST48:
  3520 0456 00000000 		.4byte	.LVL62
  3521 045a 15000000 		.4byte	.LVL67-1
-ARM GAS  /tmp/ccJgWSzD.s 			page 63
+ARM GAS  /tmp/ccensLbD.s 			page 63
 
 
  3522 045e 0100     		.2byte	0x1
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3576 04f1 0200     		.2byte	0x2
  3577 04f3 7D       		.byte	0x7d
  3578 04f4 00       		.sleb128 0
-ARM GAS  /tmp/ccJgWSzD.s 			page 64
+ARM GAS  /tmp/ccensLbD.s 			page 64
 
 
  3579 04f5 02000000 		.4byte	.LCFI10
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3633 0587 0200     		.2byte	0x2
  3634 0589 7D       		.byte	0x7d
  3635 058a 08       		.sleb128 8
-ARM GAS  /tmp/ccJgWSzD.s 			page 65
+ARM GAS  /tmp/ccensLbD.s 			page 65
 
 
  3636 058b 00000000 		.4byte	0
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3690              	.LLST67:
  3691 061d 00000000 		.4byte	.LVL87
  3692 0621 03000000 		.4byte	.LVL88-1
-ARM GAS  /tmp/ccJgWSzD.s 			page 66
+ARM GAS  /tmp/ccensLbD.s 			page 66
 
 
  3693 0625 0100     		.2byte	0x1
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3747 0018 02000000 		.4byte	.LBB5
  3748 001c 04000000 		.4byte	.LBE5
  3749 0020 06000000 		.4byte	.LBB6
-ARM GAS  /tmp/ccJgWSzD.s 			page 67
+ARM GAS  /tmp/ccensLbD.s 			page 67
 
 
  3750 0024 0A000000 		.4byte	.LBE6
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3804 00fc 00000000 		.4byte	0
  3805              		.section	.debug_line,"",%progbits
  3806              	.Ldebug_line0:
-ARM GAS  /tmp/ccJgWSzD.s 			page 68
+ARM GAS  /tmp/ccensLbD.s 			page 68
 
 
  3807 0000 E7030000 		.section	.debug_str,"MS",%progbits,1
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3835 0084 7373706F 		.ascii	"ssport\000"
  3835      727400
  3836              	.LASF131:
-ARM GAS  /tmp/ccJgWSzD.s 			page 69
+ARM GAS  /tmp/ccensLbD.s 			page 69
 
 
  3837 008b 49544D5F 		.ascii	"ITM_RxBuffer\000"
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3864              	.LASF101:
  3865 0117 74687265 		.ascii	"thread\000"
  3865      616400
-ARM GAS  /tmp/ccJgWSzD.s 			page 70
+ARM GAS  /tmp/ccensLbD.s 			page 70
 
 
  3866              	.LASF6:
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3893              	.LASF120:
  3894 01cc 74786275 		.ascii	"txbuf\000"
  3894      6600
-ARM GAS  /tmp/ccJgWSzD.s 			page 71
+ARM GAS  /tmp/ccensLbD.s 			page 71
 
 
  3895              	.LASF127:
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3923              	.LASF22:
  3924 025e 54687265 		.ascii	"Thread\000"
  3924      616400
-ARM GAS  /tmp/ccJgWSzD.s 			page 72
+ARM GAS  /tmp/ccensLbD.s 			page 72
 
 
  3925              	.LASF48:
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3954      52564544 
  3954      3000
  3955              	.LASF71:
-ARM GAS  /tmp/ccJgWSzD.s 			page 73
+ARM GAS  /tmp/ccensLbD.s 			page 73
 
 
  3956 02f6 52455345 		.ascii	"RESERVED1\000"
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  3983              	.LASF5:
  3984 0384 73686F72 		.ascii	"short int\000"
  3984      7420696E 
-ARM GAS  /tmp/ccJgWSzD.s 			page 74
+ARM GAS  /tmp/ccensLbD.s 			page 74
 
 
  3984      7400
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  4014      6420696E 
  4014      7400
  4015              	.LASF84:
-ARM GAS  /tmp/ccJgWSzD.s 			page 75
+ARM GAS  /tmp/ccensLbD.s 			page 75
 
 
  4016 041d 5350495F 		.ascii	"SPI_TypeDef\000"
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  4044 04a7 696E7463 		.ascii	"intctx\000"
  4044      747800
  4045              	.LASF94:
-ARM GAS  /tmp/ccJgWSzD.s 			page 76
+ARM GAS  /tmp/ccensLbD.s 			page 76
 
 
  4046 04ae 5350495F 		.ascii	"SPI_READY\000"
@@ -4558,50 +4558,50 @@ ARM GAS  /tmp/ccJgWSzD.s 			page 1
  4078 052e 705F6374 		.ascii	"p_ctx\000"
  4078      7800
  4079              	.LASF35:
-ARM GAS  /tmp/ccJgWSzD.s 			page 77
+ARM GAS  /tmp/ccensLbD.s 			page 77
 
 
  4080 0534 705F7761 		.ascii	"p_waiting\000"
  4080      6974696E 
  4080      6700
  4081              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccJgWSzD.s 			page 78
+ARM GAS  /tmp/ccensLbD.s 			page 78
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 spi.c
-     /tmp/ccJgWSzD.s:19     .text.spiInit:0000000000000000 $t
-     /tmp/ccJgWSzD.s:25     .text.spiInit:0000000000000000 spiInit
-     /tmp/ccJgWSzD.s:40     .text.spiObjectInit:0000000000000000 $t
-     /tmp/ccJgWSzD.s:46     .text.spiObjectInit:0000000000000000 spiObjectInit
-     /tmp/ccJgWSzD.s:74     .text.spiStart:0000000000000000 $t
-     /tmp/ccJgWSzD.s:80     .text.spiStart:0000000000000000 spiStart
-     /tmp/ccJgWSzD.s:131    .text.spiStop:0000000000000000 $t
-     /tmp/ccJgWSzD.s:137    .text.spiStop:0000000000000000 spiStop
-     /tmp/ccJgWSzD.s:189    .text.spiSelect:0000000000000000 $t
-     /tmp/ccJgWSzD.s:195    .text.spiSelect:0000000000000000 spiSelect
-     /tmp/ccJgWSzD.s:236    .text.spiUnselect:0000000000000000 $t
-     /tmp/ccJgWSzD.s:242    .text.spiUnselect:0000000000000000 spiUnselect
-     /tmp/ccJgWSzD.s:283    .text.spiStartIgnore:0000000000000000 $t
-     /tmp/ccJgWSzD.s:289    .text.spiStartIgnore:0000000000000000 spiStartIgnore
-     /tmp/ccJgWSzD.s:333    .text.spiStartExchange:0000000000000000 $t
-     /tmp/ccJgWSzD.s:339    .text.spiStartExchange:0000000000000000 spiStartExchange
-     /tmp/ccJgWSzD.s:389    .text.spiStartSend:0000000000000000 $t
-     /tmp/ccJgWSzD.s:395    .text.spiStartSend:0000000000000000 spiStartSend
-     /tmp/ccJgWSzD.s:439    .text.spiStartReceive:0000000000000000 $t
-     /tmp/ccJgWSzD.s:445    .text.spiStartReceive:0000000000000000 spiStartReceive
-     /tmp/ccJgWSzD.s:489    .text.spiIgnore:0000000000000000 $t
-     /tmp/ccJgWSzD.s:495    .text.spiIgnore:0000000000000000 spiIgnore
-     /tmp/ccJgWSzD.s:550    .text.spiExchange:0000000000000000 $t
-     /tmp/ccJgWSzD.s:556    .text.spiExchange:0000000000000000 spiExchange
-     /tmp/ccJgWSzD.s:614    .text.spiSend:0000000000000000 $t
-     /tmp/ccJgWSzD.s:620    .text.spiSend:0000000000000000 spiSend
-     /tmp/ccJgWSzD.s:676    .text.spiReceive:0000000000000000 $t
-     /tmp/ccJgWSzD.s:682    .text.spiReceive:0000000000000000 spiReceive
-     /tmp/ccJgWSzD.s:738    .text.spiAcquireBus:0000000000000000 $t
-     /tmp/ccJgWSzD.s:744    .text.spiAcquireBus:0000000000000000 spiAcquireBus
-     /tmp/ccJgWSzD.s:763    .text.spiReleaseBus:0000000000000000 $t
-     /tmp/ccJgWSzD.s:769    .text.spiReleaseBus:0000000000000000 spiReleaseBus
+     /tmp/ccensLbD.s:19     .text.spiInit:0000000000000000 $t
+     /tmp/ccensLbD.s:25     .text.spiInit:0000000000000000 spiInit
+     /tmp/ccensLbD.s:40     .text.spiObjectInit:0000000000000000 $t
+     /tmp/ccensLbD.s:46     .text.spiObjectInit:0000000000000000 spiObjectInit
+     /tmp/ccensLbD.s:74     .text.spiStart:0000000000000000 $t
+     /tmp/ccensLbD.s:80     .text.spiStart:0000000000000000 spiStart
+     /tmp/ccensLbD.s:131    .text.spiStop:0000000000000000 $t
+     /tmp/ccensLbD.s:137    .text.spiStop:0000000000000000 spiStop
+     /tmp/ccensLbD.s:189    .text.spiSelect:0000000000000000 $t
+     /tmp/ccensLbD.s:195    .text.spiSelect:0000000000000000 spiSelect
+     /tmp/ccensLbD.s:236    .text.spiUnselect:0000000000000000 $t
+     /tmp/ccensLbD.s:242    .text.spiUnselect:0000000000000000 spiUnselect
+     /tmp/ccensLbD.s:283    .text.spiStartIgnore:0000000000000000 $t
+     /tmp/ccensLbD.s:289    .text.spiStartIgnore:0000000000000000 spiStartIgnore
+     /tmp/ccensLbD.s:333    .text.spiStartExchange:0000000000000000 $t
+     /tmp/ccensLbD.s:339    .text.spiStartExchange:0000000000000000 spiStartExchange
+     /tmp/ccensLbD.s:389    .text.spiStartSend:0000000000000000 $t
+     /tmp/ccensLbD.s:395    .text.spiStartSend:0000000000000000 spiStartSend
+     /tmp/ccensLbD.s:439    .text.spiStartReceive:0000000000000000 $t
+     /tmp/ccensLbD.s:445    .text.spiStartReceive:0000000000000000 spiStartReceive
+     /tmp/ccensLbD.s:489    .text.spiIgnore:0000000000000000 $t
+     /tmp/ccensLbD.s:495    .text.spiIgnore:0000000000000000 spiIgnore
+     /tmp/ccensLbD.s:550    .text.spiExchange:0000000000000000 $t
+     /tmp/ccensLbD.s:556    .text.spiExchange:0000000000000000 spiExchange
+     /tmp/ccensLbD.s:614    .text.spiSend:0000000000000000 $t
+     /tmp/ccensLbD.s:620    .text.spiSend:0000000000000000 spiSend
+     /tmp/ccensLbD.s:676    .text.spiReceive:0000000000000000 $t
+     /tmp/ccensLbD.s:682    .text.spiReceive:0000000000000000 spiReceive
+     /tmp/ccensLbD.s:738    .text.spiAcquireBus:0000000000000000 $t
+     /tmp/ccensLbD.s:744    .text.spiAcquireBus:0000000000000000 spiAcquireBus
+     /tmp/ccensLbD.s:763    .text.spiReleaseBus:0000000000000000 $t
+     /tmp/ccensLbD.s:769    .text.spiReleaseBus:0000000000000000 spiReleaseBus
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

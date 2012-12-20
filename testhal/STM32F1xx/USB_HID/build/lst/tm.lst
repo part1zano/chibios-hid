@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cctBv1uM.s 			page 1
+ARM GAS  /tmp/ccqy6BGI.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
   55              		@ link register save eliminated.
   56              	.LVL1:
   57 0000 10B4     		push	{r4}
-ARM GAS  /tmp/cctBv1uM.s 			page 2
+ARM GAS  /tmp/ccqy6BGI.s 			page 2
 
 
   58              	.LCFI0:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  110              		.thumb
  111              		.thumb_func
  112              		.type	tmInit, %function
-ARM GAS  /tmp/cctBv1uM.s 			page 3
+ARM GAS  /tmp/ccqy6BGI.s 			page 3
 
 
  113              	tmInit:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  167              	.LBE18:
  168              		.loc 1 103 0
  169 0026 2360     		str	r3, [r4, #0]
-ARM GAS  /tmp/cctBv1uM.s 			page 4
+ARM GAS  /tmp/ccqy6BGI.s 			page 4
 
 
  170              	.LVL5:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  221              		.loc 1 119 0
  222 000c C0F20002 		movt	r2, #:upper16:tm_start
  223              		.loc 1 121 0
-ARM GAS  /tmp/cctBv1uM.s 			page 5
+ARM GAS  /tmp/ccqy6BGI.s 			page 5
 
 
  224 0010 0021     		movs	r1, #0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  275 0032 07       		.byte	0x7
  276 0033 10010000 		.4byte	.LASF0
  277 0037 03       		.uleb128 0x3
-ARM GAS  /tmp/cctBv1uM.s 			page 6
+ARM GAS  /tmp/ccqy6BGI.s 			page 6
 
 
  278 0038 01       		.byte	0x1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  332 009f 23       		.byte	0x23
  333 00a0 00       		.uleb128 0
  334 00a1 07       		.uleb128 0x7
-ARM GAS  /tmp/cctBv1uM.s 			page 7
+ARM GAS  /tmp/ccqy6BGI.s 			page 7
 
 
  335 00a2 A3000000 		.4byte	.LASF12
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  389 0109 1C       		.uleb128 0x1c
  390 010a 00       		.byte	0
  391 010b 08       		.uleb128 0x8
-ARM GAS  /tmp/cctBv1uM.s 			page 8
+ARM GAS  /tmp/ccqy6BGI.s 			page 8
 
 
  392 010c 75010000 		.4byte	.LASF19
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  446 0176 23010000 		.4byte	0x123
  447 017a 02       		.byte	0x2
  448 017b 23       		.byte	0x23
-ARM GAS  /tmp/cctBv1uM.s 			page 9
+ARM GAS  /tmp/ccqy6BGI.s 			page 9
 
 
  449 017c 0C       		.uleb128 0xc
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  503 01e2 12       		.uleb128 0x12
  504 01e3 2D010000 		.4byte	.LASF34
  505 01e7 01       		.byte	0x1
-ARM GAS  /tmp/cctBv1uM.s 			page 10
+ARM GAS  /tmp/ccqy6BGI.s 			page 10
 
 
  506 01e8 3E       		.byte	0x3e
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  560 0260 42000000 		.4byte	.LFE65
  561 0264 33000000 		.4byte	.LLST2
  562 0268 93020000 		.4byte	0x293
-ARM GAS  /tmp/cctBv1uM.s 			page 11
+ARM GAS  /tmp/ccqy6BGI.s 			page 11
 
 
  563 026c 1C       		.uleb128 0x1c
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  617 0004 0E       		.uleb128 0xe
  618 0005 13       		.uleb128 0x13
  619 0006 0B       		.uleb128 0xb
-ARM GAS  /tmp/cctBv1uM.s 			page 12
+ARM GAS  /tmp/ccqy6BGI.s 			page 12
 
 
  620 0007 03       		.uleb128 0x3
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  674 003d 00       		.byte	0
  675 003e 00       		.byte	0
  676 003f 06       		.uleb128 0x6
-ARM GAS  /tmp/cctBv1uM.s 			page 13
+ARM GAS  /tmp/ccqy6BGI.s 			page 13
 
 
  677 0040 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  731 0076 00       		.byte	0
  732 0077 0A       		.uleb128 0xa
  733 0078 0D       		.uleb128 0xd
-ARM GAS  /tmp/cctBv1uM.s 			page 14
+ARM GAS  /tmp/ccqy6BGI.s 			page 14
 
 
  734 0079 00       		.byte	0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  788 00af 00       		.byte	0
  789 00b0 0F       		.uleb128 0xf
  790 00b1 05       		.uleb128 0x5
-ARM GAS  /tmp/cctBv1uM.s 			page 15
+ARM GAS  /tmp/ccqy6BGI.s 			page 15
 
 
  791 00b2 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  845 00e8 11       		.uleb128 0x11
  846 00e9 01       		.uleb128 0x1
  847 00ea 12       		.uleb128 0x12
-ARM GAS  /tmp/cctBv1uM.s 			page 16
+ARM GAS  /tmp/ccqy6BGI.s 			page 16
 
 
  848 00eb 01       		.uleb128 0x1
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  902 0121 00       		.byte	0
  903 0122 17       		.uleb128 0x17
  904 0123 1D       		.uleb128 0x1d
-ARM GAS  /tmp/cctBv1uM.s 			page 17
+ARM GAS  /tmp/ccqy6BGI.s 			page 17
 
 
  905 0124 01       		.byte	0x1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  959 015a 01       		.uleb128 0x1
  960 015b 40       		.uleb128 0x40
  961 015c 06       		.uleb128 0x6
-ARM GAS  /tmp/cctBv1uM.s 			page 18
+ARM GAS  /tmp/ccqy6BGI.s 			page 18
 
 
  962 015d 01       		.uleb128 0x1
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  1016 0193 3A       		.uleb128 0x3a
  1017 0194 0B       		.uleb128 0xb
  1018 0195 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cctBv1uM.s 			page 19
+ARM GAS  /tmp/ccqy6BGI.s 			page 19
 
 
  1019 0196 0B       		.uleb128 0xb
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  1073 0043 08000000 		.4byte	.LCFI2
  1074 0047 0200     		.2byte	0x2
  1075 0049 7D       		.byte	0x7d
-ARM GAS  /tmp/cctBv1uM.s 			page 20
+ARM GAS  /tmp/ccqy6BGI.s 			page 20
 
 
  1076 004a 08       		.sleb128 8
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  1130 000c 0C000000 		.4byte	.LBE15
  1131 0010 10000000 		.4byte	.LBB16
  1132 0014 14000000 		.4byte	.LBE16
-ARM GAS  /tmp/cctBv1uM.s 			page 21
+ARM GAS  /tmp/ccqy6BGI.s 			page 21
 
 
  1133 0018 16000000 		.4byte	.LBB17
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  1168      50434E54 
  1168      00
  1169              	.LASF24:
-ARM GAS  /tmp/cctBv1uM.s 			page 22
+ARM GAS  /tmp/ccqy6BGI.s 			page 22
 
 
  1170 0079 73746F70 		.ascii	"stop\000"
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  1195              	.LASF0:
  1196 0110 756E7369 		.ascii	"unsigned int\000"
  1196      676E6564 
-ARM GAS  /tmp/cctBv1uM.s 			page 23
+ARM GAS  /tmp/ccqy6BGI.s 			page 23
 
 
  1196      20696E74 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  1224      68617200 
  1225              	.LASF22:
  1226 01a0 54696D65 		.ascii	"TimeMeasurement\000"
-ARM GAS  /tmp/cctBv1uM.s 			page 24
+ARM GAS  /tmp/ccqy6BGI.s 			page 24
 
 
  1226      4D656173 
@@ -1388,22 +1388,22 @@ ARM GAS  /tmp/cctBv1uM.s 			page 1
  1228 01b0 6C617374 		.ascii	"last\000"
  1228      00
  1229              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/cctBv1uM.s 			page 25
+ARM GAS  /tmp/ccqy6BGI.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 tm.c
-     /tmp/cctBv1uM.s:19     .text.tm_start:0000000000000000 $t
-     /tmp/cctBv1uM.s:24     .text.tm_start:0000000000000000 tm_start
-     /tmp/cctBv1uM.s:44     .text.tm_stop:0000000000000000 $t
-     /tmp/cctBv1uM.s:49     .text.tm_stop:0000000000000000 tm_stop
-     /tmp/cctBv1uM.s:242    .bss.measurement_offset:0000000000000000 .LANCHOR0
-     /tmp/cctBv1uM.s:107    .text.tmInit:0000000000000000 $t
-     /tmp/cctBv1uM.s:113    .text.tmInit:0000000000000000 tmInit
-     /tmp/cctBv1uM.s:202    .text.tmObjectInit:0000000000000000 $t
-     /tmp/cctBv1uM.s:208    .text.tmObjectInit:0000000000000000 tmObjectInit
-     /tmp/cctBv1uM.s:241    .bss.measurement_offset:0000000000000000 $d
-     /tmp/cctBv1uM.s:245    .bss.measurement_offset:0000000000000000 measurement_offset
+     /tmp/ccqy6BGI.s:19     .text.tm_start:0000000000000000 $t
+     /tmp/ccqy6BGI.s:24     .text.tm_start:0000000000000000 tm_start
+     /tmp/ccqy6BGI.s:44     .text.tm_stop:0000000000000000 $t
+     /tmp/ccqy6BGI.s:49     .text.tm_stop:0000000000000000 tm_stop
+     /tmp/ccqy6BGI.s:242    .bss.measurement_offset:0000000000000000 .LANCHOR0
+     /tmp/ccqy6BGI.s:107    .text.tmInit:0000000000000000 $t
+     /tmp/ccqy6BGI.s:113    .text.tmInit:0000000000000000 tmInit
+     /tmp/ccqy6BGI.s:202    .text.tmObjectInit:0000000000000000 $t
+     /tmp/ccqy6BGI.s:208    .text.tmObjectInit:0000000000000000 tmObjectInit
+     /tmp/ccqy6BGI.s:241    .bss.measurement_offset:0000000000000000 $d
+     /tmp/ccqy6BGI.s:245    .bss.measurement_offset:0000000000000000 measurement_offset
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

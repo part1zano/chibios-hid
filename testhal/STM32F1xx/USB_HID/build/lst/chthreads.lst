@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccdgDC24.s 			page 1
+ARM GAS  /tmp/ccLFtTfZ.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
   55              		.loc 1 92 0
   56 001a 4561     		str	r5, [r0, #20]
   57              		.loc 1 72 0
-ARM GAS  /tmp/ccdgDC24.s 			page 2
+ARM GAS  /tmp/ccLFtTfZ.s 			page 2
 
 
   58 001c 0223     		movs	r3, #2
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  109              		@ frame_needed = 0, uses_anonymous_args = 0
  110              		@ link register save eliminated.
  111              	.LVL2:
-ARM GAS  /tmp/ccdgDC24.s 			page 3
+ARM GAS  /tmp/ccLFtTfZ.s 			page 3
 
 
  112 0000 2DE9F007 		push	{r4, r5, r6, r7, r8, r9, sl}
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  166              	.LVL7:
  167              	.LBB19:
  168              	.LBB15:
-ARM GAS  /tmp/ccdgDC24.s 			page 4
+ARM GAS  /tmp/ccLFtTfZ.s 			page 4
 
 
  169              		.loc 1 95 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  223              		.thumb
  224              		.thumb_func
  225              		.type	chThdCreateStatic, %function
-ARM GAS  /tmp/ccdgDC24.s 			page 5
+ARM GAS  /tmp/ccLFtTfZ.s 			page 5
 
 
  226              	chThdCreateStatic:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  280              		.size	chThdCreateStatic, .-chThdCreateStatic
  281 002a 00BFAFF3 		.section	.text.chThdSetPriority,"ax",%progbits
  281      0080
-ARM GAS  /tmp/ccdgDC24.s 			page 6
+ARM GAS  /tmp/ccLFtTfZ.s 			page 6
 
 
  282              		.align	2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  336              	.LVL24:
  337              	@ 226 "../../../os/kernel/src/chthreads.c" 1
  338 0028 83F31188 		msr     BASEPRI, r3
-ARM GAS  /tmp/ccdgDC24.s 			page 7
+ARM GAS  /tmp/ccLFtTfZ.s 			page 7
 
 
  339              	@ 0 "" 2
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  393              	@ 0 "" 2
  394              	.LVL31:
  395              		.thumb
-ARM GAS  /tmp/ccdgDC24.s 			page 8
+ARM GAS  /tmp/ccLFtTfZ.s 			page 8
 
 
  396              	.LBE26:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  449              	.LFE12:
  450              		.size	chThdTerminate, .-chThdTerminate
  451 0016 00BFAFF3 		.section	.text.chThdSleep,"ax",%progbits
-ARM GAS  /tmp/ccdgDC24.s 			page 9
+ARM GAS  /tmp/ccLFtTfZ.s 			page 9
 
 
  451      0080AFF3 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  503              		.align	2
  504              		.p2align 4,,15
  505              		.global	chThdSleepUntil
-ARM GAS  /tmp/ccdgDC24.s 			page 10
+ARM GAS  /tmp/ccLFtTfZ.s 			page 10
 
 
  506              		.thumb
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  560 0024 AFF30080 		.section	.text.chThdYield,"ax",%progbits
  560      AFF30080 
  560      AFF30080 
-ARM GAS  /tmp/ccdgDC24.s 			page 11
+ARM GAS  /tmp/ccLFtTfZ.s 			page 11
 
 
  561              		.align	2
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  615              		.size	chThdYield, .-chThdYield
  616 002c AFF30080 		.section	.text.chThdExitS,"ax",%progbits
  617              		.align	2
-ARM GAS  /tmp/ccdgDC24.s 			page 12
+ARM GAS  /tmp/ccLFtTfZ.s 			page 12
 
 
  618              		.p2align 4,,15
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  672 0022 A36A     		ldr	r3, [r4, #40]
  673 0024 AB42     		cmp	r3, r5
  674 0026 F7D1     		bne	.L19
-ARM GAS  /tmp/ccdgDC24.s 			page 13
+ARM GAS  /tmp/ccLFtTfZ.s 			page 13
 
 
  675              	.LVL63:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  727              		.cfi_endproc
  728              	.LFE16:
  729              		.size	chThdExit, .-chThdExit
-ARM GAS  /tmp/ccdgDC24.s 			page 14
+ARM GAS  /tmp/ccLFtTfZ.s 			page 14
 
 
  730 000a 00BFAFF3 		.section	.text.chThdWait,"ax",%progbits
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  783              	.LBB45:
  784              	.LBB44:
  785              		.loc 2 75 0
-ARM GAS  /tmp/ccdgDC24.s 			page 15
+ARM GAS  /tmp/ccLFtTfZ.s 			page 15
 
 
  786 001e 0A60     		str	r2, [r1, #0]
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  839 0015 B7000000 		.4byte	.LASF92
  840 0019 00000000 		.4byte	0
  841 001d 00000000 		.4byte	0
-ARM GAS  /tmp/ccdgDC24.s 			page 16
+ARM GAS  /tmp/ccLFtTfZ.s 			page 16
 
 
  842 0021 A8000000 		.4byte	.Ldebug_ranges0+0xa8
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  896 008d 04       		.uleb128 0x4
  897 008e 08       		.byte	0x8
  898 008f 05       		.byte	0x5
-ARM GAS  /tmp/ccdgDC24.s 			page 17
+ARM GAS  /tmp/ccLFtTfZ.s 			page 17
 
 
  899 0090 5A000000 		.4byte	.LASF11
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  953 0105 57       		.byte	0x57
  954 0106 23020000 		.4byte	0x223
  955 010a 06       		.uleb128 0x6
-ARM GAS  /tmp/ccdgDC24.s 			page 18
+ARM GAS  /tmp/ccLFtTfZ.s 			page 18
 
 
  956 010b A0020000 		.4byte	.LASF22
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1010 016b 18       		.uleb128 0x18
  1011 016c 06       		.uleb128 0x6
  1012 016d 80020000 		.4byte	.LASF29
-ARM GAS  /tmp/ccdgDC24.s 			page 19
+ARM GAS  /tmp/ccLFtTfZ.s 			page 19
 
 
  1013 0171 07       		.byte	0x7
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1067 01ce 06       		.uleb128 0x6
  1068 01cf 53030000 		.4byte	.LASF35
  1069 01d3 07       		.byte	0x7
-ARM GAS  /tmp/ccdgDC24.s 			page 20
+ARM GAS  /tmp/ccLFtTfZ.s 			page 20
 
 
  1070 01d4 B8       		.byte	0xb8
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1124 0231 5B       		.byte	0x5b
  1125 0232 48020000 		.4byte	0x248
  1126 0236 02       		.byte	0x2
-ARM GAS  /tmp/ccdgDC24.s 			page 21
+ARM GAS  /tmp/ccLFtTfZ.s 			page 21
 
 
  1127 0237 23       		.byte	0x23
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1181 029a 1801     		.2byte	0x118
  1182 029c 7B020000 		.4byte	0x27b
  1183 02a0 02       		.byte	0x2
-ARM GAS  /tmp/ccdgDC24.s 			page 22
+ARM GAS  /tmp/ccLFtTfZ.s 			page 22
 
 
  1184 02a1 23       		.byte	0x23
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1238 0300 7B020000 		.4byte	0x27b
  1239 0304 02       		.byte	0x2
  1240 0305 23       		.byte	0x23
-ARM GAS  /tmp/ccdgDC24.s 			page 23
+ARM GAS  /tmp/ccLFtTfZ.s 			page 23
 
 
  1241 0306 1C       		.uleb128 0x1c
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1295 036e 3E010000 		.4byte	.LASF48
  1296 0372 09       		.byte	0x9
  1297 0373 5B       		.byte	0x5b
-ARM GAS  /tmp/ccdgDC24.s 			page 24
+ARM GAS  /tmp/ccLFtTfZ.s 			page 24
 
 
  1298 0374 B4030000 		.4byte	0x3b4
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1352 03d1 18010000 		.4byte	.LASF49
  1353 03d5 09       		.byte	0x9
  1354 03d6 6F       		.byte	0x6f
-ARM GAS  /tmp/ccdgDC24.s 			page 25
+ARM GAS  /tmp/ccLFtTfZ.s 			page 25
 
 
  1355 03d7 B4030000 		.4byte	0x3b4
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1409 043a 02       		.byte	0x2
  1410 043b 23       		.byte	0x23
  1411 043c 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccdgDC24.s 			page 26
+ARM GAS  /tmp/ccLFtTfZ.s 			page 26
 
 
  1412 043d 06       		.uleb128 0x6
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1466 04a0 0B       		.byte	0xb
  1467 04a1 2A       		.byte	0x2a
  1468 04a2 AA040000 		.4byte	0x4aa
-ARM GAS  /tmp/ccdgDC24.s 			page 27
+ARM GAS  /tmp/ccLFtTfZ.s 			page 27
 
 
  1469 04a6 02       		.byte	0x2
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1523 050f 13050000 		.4byte	0x513
  1524 0513 09       		.uleb128 0x9
  1525 0514 04       		.byte	0x4
-ARM GAS  /tmp/ccdgDC24.s 			page 28
+ARM GAS  /tmp/ccLFtTfZ.s 			page 28
 
 
  1526 0515 19050000 		.4byte	0x519
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1580 0585 01       		.byte	0x1
  1581 0586 03       		.byte	0x3
  1582 0587 A1050000 		.4byte	0x5a1
-ARM GAS  /tmp/ccdgDC24.s 			page 29
+ARM GAS  /tmp/ccLFtTfZ.s 			page 29
 
 
  1583 058b 15       		.uleb128 0x15
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1637 060b 7F000000 		.4byte	.LLST4
  1638 060f 20       		.uleb128 0x20
  1639 0610 706600   		.ascii	"pf\000"
-ARM GAS  /tmp/ccdgDC24.s 			page 30
+ARM GAS  /tmp/ccLFtTfZ.s 			page 30
 
 
  1640 0613 01       		.byte	0x1
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1694 068a B4       		.byte	0xb4
  1695 068b 30000000 		.4byte	0x30
  1696 068f 0E010000 		.4byte	.LLST9
-ARM GAS  /tmp/ccdgDC24.s 			page 31
+ARM GAS  /tmp/ccLFtTfZ.s 			page 31
 
 
  1697 0693 1F       		.uleb128 0x1f
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1751 070c C7000000 		.4byte	0xc7
  1752 0710 00000000 		.4byte	.LFB10
  1753 0714 30000000 		.4byte	.LFE10
-ARM GAS  /tmp/ccdgDC24.s 			page 32
+ARM GAS  /tmp/ccLFtTfZ.s 			page 32
 
 
  1754 0718 96010000 		.4byte	.LLST15
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1808 07a1 30000000 		.4byte	.Ldebug_ranges0+0x30
  1809 07a5 B9070000 		.4byte	0x7b9
  1810 07a9 23       		.uleb128 0x23
-ARM GAS  /tmp/ccdgDC24.s 			page 33
+ARM GAS  /tmp/ccLFtTfZ.s 			page 33
 
 
  1811 07aa 746D7000 		.ascii	"tmp\000"
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1865 0828 79020000 		.4byte	.LLST25
  1866 082c 00       		.byte	0
  1867 082d 00       		.byte	0
-ARM GAS  /tmp/ccdgDC24.s 			page 34
+ARM GAS  /tmp/ccLFtTfZ.s 			page 34
 
 
  1868 082e 2C       		.uleb128 0x2c
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1922 08bb 24       		.uleb128 0x24
  1923 08bc 02000000 		.4byte	.LBB32
  1924 08c0 08000000 		.4byte	.LBE32
-ARM GAS  /tmp/ccdgDC24.s 			page 35
+ARM GAS  /tmp/ccLFtTfZ.s 			page 35
 
 
  1925 08c4 D9080000 		.4byte	0x8d9
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  1979 094d 01       		.byte	0x1
  1980 094e 6701     		.2byte	0x167
  1981 0950 01       		.byte	0x1
-ARM GAS  /tmp/ccdgDC24.s 			page 36
+ARM GAS  /tmp/ccLFtTfZ.s 			page 36
 
 
  1982 0951 00000000 		.4byte	.LFB17
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2036 09dc 2A       		.uleb128 0x2a
  2037 09dd 746D7000 		.ascii	"tmp\000"
  2038 09e1 01       		.byte	0x1
-ARM GAS  /tmp/ccdgDC24.s 			page 37
+ARM GAS  /tmp/ccLFtTfZ.s 			page 37
 
 
  2039 09e2 5401     		.2byte	0x154
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2093 0a71 28000000 		.4byte	.LBB46
  2094 0a75 2E000000 		.4byte	.LBE46
  2095 0a79 2A       		.uleb128 0x2a
-ARM GAS  /tmp/ccdgDC24.s 			page 38
+ARM GAS  /tmp/ccLFtTfZ.s 			page 38
 
 
  2096 0a7a 746D7000 		.ascii	"tmp\000"
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2150 001e 00       		.byte	0
  2151 001f 00       		.byte	0
  2152 0020 03       		.uleb128 0x3
-ARM GAS  /tmp/ccdgDC24.s 			page 39
+ARM GAS  /tmp/ccLFtTfZ.s 			page 39
 
 
  2153 0021 16       		.uleb128 0x16
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2207 0057 0D       		.uleb128 0xd
  2208 0058 00       		.byte	0
  2209 0059 03       		.uleb128 0x3
-ARM GAS  /tmp/ccdgDC24.s 			page 40
+ARM GAS  /tmp/ccLFtTfZ.s 			page 40
 
 
  2210 005a 08       		.uleb128 0x8
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2264 0090 00       		.byte	0
  2265 0091 0C       		.uleb128 0xc
  2266 0092 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccdgDC24.s 			page 41
+ARM GAS  /tmp/ccLFtTfZ.s 			page 41
 
 
  2267 0093 00       		.byte	0
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2321 00c9 3A       		.uleb128 0x3a
  2322 00ca 0B       		.uleb128 0xb
  2323 00cb 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccdgDC24.s 			page 42
+ARM GAS  /tmp/ccLFtTfZ.s 			page 42
 
 
  2324 00cc 0B       		.uleb128 0xb
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2378 0102 13       		.uleb128 0x13
  2379 0103 00       		.byte	0
  2380 0104 00       		.byte	0
-ARM GAS  /tmp/ccdgDC24.s 			page 43
+ARM GAS  /tmp/ccLFtTfZ.s 			page 43
 
 
  2381 0105 16       		.uleb128 0x16
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2435 013b 27       		.uleb128 0x27
  2436 013c 0C       		.uleb128 0xc
  2437 013d 20       		.uleb128 0x20
-ARM GAS  /tmp/ccdgDC24.s 			page 44
+ARM GAS  /tmp/ccLFtTfZ.s 			page 44
 
 
  2438 013e 0B       		.uleb128 0xb
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2492 0174 01       		.uleb128 0x1
  2493 0175 12       		.uleb128 0x12
  2494 0176 01       		.uleb128 0x1
-ARM GAS  /tmp/ccdgDC24.s 			page 45
+ARM GAS  /tmp/ccLFtTfZ.s 			page 45
 
 
  2495 0177 40       		.uleb128 0x40
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2549 01ad 03       		.uleb128 0x3
  2550 01ae 08       		.uleb128 0x8
  2551 01af 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccdgDC24.s 			page 46
+ARM GAS  /tmp/ccLFtTfZ.s 			page 46
 
 
  2552 01b0 0B       		.uleb128 0xb
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2606 01e6 01       		.uleb128 0x1
  2607 01e7 12       		.uleb128 0x12
  2608 01e8 01       		.uleb128 0x1
-ARM GAS  /tmp/ccdgDC24.s 			page 47
+ARM GAS  /tmp/ccLFtTfZ.s 			page 47
 
 
  2609 01e9 00       		.byte	0
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2663 021f 3A       		.uleb128 0x3a
  2664 0220 0B       		.uleb128 0xb
  2665 0221 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccdgDC24.s 			page 48
+ARM GAS  /tmp/ccLFtTfZ.s 			page 48
 
 
  2666 0222 05       		.uleb128 0x5
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2720 0258 00       		.byte	0
  2721 0259 03       		.uleb128 0x3
  2722 025a 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccdgDC24.s 			page 49
+ARM GAS  /tmp/ccLFtTfZ.s 			page 49
 
 
  2723 025b 3A       		.uleb128 0x3a
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2777 0291 03       		.uleb128 0x3
  2778 0292 0E       		.uleb128 0xe
  2779 0293 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccdgDC24.s 			page 50
+ARM GAS  /tmp/ccLFtTfZ.s 			page 50
 
 
  2780 0294 0B       		.uleb128 0xb
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2834              	.LLST0:
  2835 0000 00000000 		.4byte	.LFB7
  2836 0004 02000000 		.4byte	.LCFI0
-ARM GAS  /tmp/ccdgDC24.s 			page 51
+ARM GAS  /tmp/ccLFtTfZ.s 			page 51
 
 
  2837 0008 0200     		.2byte	0x2
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2891 008e 00000000 		.4byte	0
  2892              	.LLST5:
  2893 0092 00000000 		.4byte	.LVL2
-ARM GAS  /tmp/ccdgDC24.s 			page 52
+ARM GAS  /tmp/ccLFtTfZ.s 			page 52
 
 
  2894 0096 20000000 		.4byte	.LVL4
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  2948 0121 00000000 		.4byte	.LVL9
  2949 0125 15000000 		.4byte	.LVL13-1
  2950 0129 0100     		.2byte	0x1
-ARM GAS  /tmp/ccdgDC24.s 			page 53
+ARM GAS  /tmp/ccLFtTfZ.s 			page 53
 
 
  2951 012b 52       		.byte	0x52
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3005 01ba 25000000 		.4byte	.LVL23-1
  3006 01be 0100     		.2byte	0x1
  3007 01c0 50       		.byte	0x50
-ARM GAS  /tmp/ccdgDC24.s 			page 54
+ARM GAS  /tmp/ccLFtTfZ.s 			page 54
 
 
  3008 01c1 00000000 		.4byte	0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3062              	.LLST23:
  3063 0253 16000000 		.4byte	.LVL31
  3064 0257 1A000000 		.4byte	.LFE11
-ARM GAS  /tmp/ccdgDC24.s 			page 55
+ARM GAS  /tmp/ccLFtTfZ.s 			page 55
 
 
  3065 025b 0100     		.2byte	0x1
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3119 02e8 00000000 		.4byte	0
  3120 02ec 00000000 		.4byte	0
  3121              	.LLST30:
-ARM GAS  /tmp/ccdgDC24.s 			page 56
+ARM GAS  /tmp/ccLFtTfZ.s 			page 56
 
 
  3122 02f0 00000000 		.4byte	.LFB14
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3176 0378 0200     		.2byte	0x2
  3177 037a 7D       		.byte	0x7d
  3178 037b 08       		.sleb128 8
-ARM GAS  /tmp/ccdgDC24.s 			page 57
+ARM GAS  /tmp/ccLFtTfZ.s 			page 57
 
 
  3179 037c 00000000 		.4byte	0
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3233 0408 9F       		.byte	0x9f
  3234 0409 00000000 		.4byte	0
  3235 040d 00000000 		.4byte	0
-ARM GAS  /tmp/ccdgDC24.s 			page 58
+ARM GAS  /tmp/ccLFtTfZ.s 			page 58
 
 
  3236              	.LLST41:
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3290 049e 55       		.byte	0x55
  3291 049f 00000000 		.4byte	0
  3292 04a3 00000000 		.4byte	0
-ARM GAS  /tmp/ccdgDC24.s 			page 59
+ARM GAS  /tmp/ccLFtTfZ.s 			page 59
 
 
  3293              	.LLST47:
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3347 0034 1A000000 		.4byte	.LFE11-.LFB11
  3348 0038 00000000 		.4byte	.LFB12
  3349 003c 16000000 		.4byte	.LFE12-.LFB12
-ARM GAS  /tmp/ccdgDC24.s 			page 60
+ARM GAS  /tmp/ccLFtTfZ.s 			page 60
 
 
  3350 0040 00000000 		.4byte	.LFB13
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3404 0098 1E000000 		.4byte	.LBB45
  3405 009c 22000000 		.4byte	.LBE45
  3406 00a0 00000000 		.4byte	0
-ARM GAS  /tmp/ccdgDC24.s 			page 61
+ARM GAS  /tmp/ccLFtTfZ.s 			page 61
 
 
  3407 00a4 00000000 		.4byte	0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3450      64457869 
  3450      745300
  3451              	.LASF12:
-ARM GAS  /tmp/ccdgDC24.s 			page 62
+ARM GAS  /tmp/ccLFtTfZ.s 			page 62
 
 
  3452 0033 6C6F6E67 		.ascii	"long long unsigned int\000"
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3477 00ea 2F555342 		.ascii	"/USB_HID\000"
  3477      5F484944 
  3477      00
-ARM GAS  /tmp/ccdgDC24.s 			page 63
+ARM GAS  /tmp/ccLFtTfZ.s 			page 63
 
 
  3478              	.LASF26:
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3505      72696F00 
  3506              	.LASF13:
  3507 0186 746D6F64 		.ascii	"tmode_t\000"
-ARM GAS  /tmp/ccdgDC24.s 			page 64
+ARM GAS  /tmp/ccLFtTfZ.s 			page 64
 
 
  3507      655F7400 
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3536              	.LASF60:
  3537 021d 725F6375 		.ascii	"r_current\000"
  3537      7272656E 
-ARM GAS  /tmp/ccdgDC24.s 			page 65
+ARM GAS  /tmp/ccLFtTfZ.s 			page 65
 
 
  3537      7400
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3569 02af 54687265 		.ascii	"Thread\000"
  3569      616400
  3570              	.LASF37:
-ARM GAS  /tmp/ccdgDC24.s 			page 66
+ARM GAS  /tmp/ccLFtTfZ.s 			page 66
 
 
  3571 02b6 705F6570 		.ascii	"p_epending\000"
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3598              	.LASF35:
  3599 0353 705F6D73 		.ascii	"p_msgqueue\000"
  3599      67717565 
-ARM GAS  /tmp/ccdgDC24.s 			page 67
+ARM GAS  /tmp/ccLFtTfZ.s 			page 67
 
 
  3599      756500
@@ -4014,35 +4014,35 @@ ARM GAS  /tmp/ccdgDC24.s 			page 1
  3629      6974696E 
  3629      6700
  3630              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccdgDC24.s 			page 68
+ARM GAS  /tmp/ccLFtTfZ.s 			page 68
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chthreads.c
-     /tmp/ccdgDC24.s:19     .text._thread_init:0000000000000000 $t
-     /tmp/ccdgDC24.s:25     .text._thread_init:0000000000000000 _thread_init
-     /tmp/ccdgDC24.s:98     .text.chThdCreateI:0000000000000000 $t
-     /tmp/ccdgDC24.s:104    .text.chThdCreateI:0000000000000000 chThdCreateI
-     /tmp/ccdgDC24.s:220    .text.chThdCreateStatic:0000000000000000 $t
-     /tmp/ccdgDC24.s:226    .text.chThdCreateStatic:0000000000000000 chThdCreateStatic
-     /tmp/ccdgDC24.s:282    .text.chThdSetPriority:0000000000000000 $t
-     /tmp/ccdgDC24.s:288    .text.chThdSetPriority:0000000000000000 chThdSetPriority
-     /tmp/ccdgDC24.s:350    .text.chThdResume:0000000000000000 $t
-     /tmp/ccdgDC24.s:356    .text.chThdResume:0000000000000000 chThdResume
-     /tmp/ccdgDC24.s:404    .text.chThdTerminate:0000000000000000 $t
-     /tmp/ccdgDC24.s:410    .text.chThdTerminate:0000000000000000 chThdTerminate
-     /tmp/ccdgDC24.s:452    .text.chThdSleep:0000000000000000 $t
-     /tmp/ccdgDC24.s:458    .text.chThdSleep:0000000000000000 chThdSleep
-     /tmp/ccdgDC24.s:503    .text.chThdSleepUntil:0000000000000000 $t
-     /tmp/ccdgDC24.s:509    .text.chThdSleepUntil:0000000000000000 chThdSleepUntil
-     /tmp/ccdgDC24.s:561    .text.chThdYield:0000000000000000 $t
-     /tmp/ccdgDC24.s:567    .text.chThdYield:0000000000000000 chThdYield
-     /tmp/ccdgDC24.s:617    .text.chThdExitS:0000000000000000 $t
-     /tmp/ccdgDC24.s:623    .text.chThdExitS:0000000000000000 chThdExitS
-     /tmp/ccdgDC24.s:698    .text.chThdExit:0000000000000000 $t
-     /tmp/ccdgDC24.s:704    .text.chThdExit:0000000000000000 chThdExit
-     /tmp/ccdgDC24.s:731    .text.chThdWait:0000000000000000 $t
-     /tmp/ccdgDC24.s:737    .text.chThdWait:0000000000000000 chThdWait
+     /tmp/ccLFtTfZ.s:19     .text._thread_init:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:25     .text._thread_init:0000000000000000 _thread_init
+     /tmp/ccLFtTfZ.s:98     .text.chThdCreateI:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:104    .text.chThdCreateI:0000000000000000 chThdCreateI
+     /tmp/ccLFtTfZ.s:220    .text.chThdCreateStatic:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:226    .text.chThdCreateStatic:0000000000000000 chThdCreateStatic
+     /tmp/ccLFtTfZ.s:282    .text.chThdSetPriority:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:288    .text.chThdSetPriority:0000000000000000 chThdSetPriority
+     /tmp/ccLFtTfZ.s:350    .text.chThdResume:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:356    .text.chThdResume:0000000000000000 chThdResume
+     /tmp/ccLFtTfZ.s:404    .text.chThdTerminate:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:410    .text.chThdTerminate:0000000000000000 chThdTerminate
+     /tmp/ccLFtTfZ.s:452    .text.chThdSleep:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:458    .text.chThdSleep:0000000000000000 chThdSleep
+     /tmp/ccLFtTfZ.s:503    .text.chThdSleepUntil:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:509    .text.chThdSleepUntil:0000000000000000 chThdSleepUntil
+     /tmp/ccLFtTfZ.s:561    .text.chThdYield:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:567    .text.chThdYield:0000000000000000 chThdYield
+     /tmp/ccLFtTfZ.s:617    .text.chThdExitS:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:623    .text.chThdExitS:0000000000000000 chThdExitS
+     /tmp/ccLFtTfZ.s:698    .text.chThdExit:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:704    .text.chThdExit:0000000000000000 chThdExit
+     /tmp/ccLFtTfZ.s:731    .text.chThdWait:0000000000000000 $t
+     /tmp/ccLFtTfZ.s:737    .text.chThdWait:0000000000000000 chThdWait
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

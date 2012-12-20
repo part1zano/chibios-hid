@@ -50,14 +50,14 @@ static const uint8_t hid_device_descriptor_data[18] = {
                          0x00,          /* bDeviceClass (in interface).     						*/
                          0x00,          /* bDeviceSubClass.                 						*/
                          0x00,          /* bDeviceProtocol.                 						*/
-                         0x64,          /* bMaxPacketSize. Maximum Packet Size for Zero Endpoint (8,16,32,64) 		*/
-                         0x0483,        /* idVendor (ST). Assigned by USB.org 						*/
-                         0x2004,        /* idProduct. Assigned by the manufacture 					*/
-                         0x0200,        /* bcdDevice. Device Version Number assigned by the developer 			*/
-                         1,             /* iManufacturer.                   						*/
-                         2,             /* iProduct.                        						*/
-                         3,             /* iSerialNumber.                   						*/
-                         1)             /* bNumConfigurations. The system has only one configuration             	*/
+                         0x40,          /* bMaxPacketSize. Maximum Packet Size for Zero Endpoint (8,16,32,64) 		*/
+                         0x1234,        /* idVendor (ST). Assigned by USB.org 						*/
+                         0x5678,        /* idProduct. Assigned by the manufacture 					*/
+                         0x9876,        /* bcdDevice. Device Version Number assigned by the developer 			*/
+                         0x01,             /* iManufacturer.                   						*/
+                         0x02,             /* iProduct.                        						*/
+                         0x03,             /* iSerialNumber.                   						*/
+                         0x01)             /* bNumConfigurations. The system has only one configuration             	*/
 };
 
 /*
@@ -74,14 +74,14 @@ static const USBDescriptor hid_device_descriptor = {
  * USB Configuration Descriptor.
  */
 
-static const uint8_t hid_configuration_descriptor_data[100] = {
+static const uint8_t hid_configuration_descriptor_data[78] = {
   /* Configuration Descriptor.*/
-  USB_DESC_CONFIGURATION(100,            /* wTotalLength.                    */
+  USB_DESC_CONFIGURATION(0x4E00,        /* wTotalLength.                    */
                          0x01,          /* bNumInterfaces.                  */
                          0x01,          /* bConfigurationValue.             */
-                         0,             /* iConfiguration.                  */
+                         0x00,          /* iConfiguration.                  */
                          0xC0,          /* bmAttributes (self powered).     */
-                         25),           /* bMaxPower (50mA).                */
+                         0x19),         /* bMaxPower (50mA).                */
   /* Interface Descriptor.*/
   USB_DESC_INTERFACE    (0x00,          /* bInterfaceNumber.                */
                          0x00,          /* bAlternateSetting.               */
@@ -89,23 +89,23 @@ static const uint8_t hid_configuration_descriptor_data[100] = {
                          0x03,          /* bInterfaceClass (Human Device Interface).   */
                          0x00,          /* bInterfaceSubClass  (DCDHID page 8)         */
                          0x00,          /* bInterfaceProtocol  (DCDHID page 9)         */
-                         4),            /* iInterface.                                 */
+                         0x04),            /* iInterface.                                 */
   /* Endpoint 1 Descriptor INTERRUPT IN  */
   USB_DESC_ENDPOINT     (0x81,   	/* bEndpointAddress.   (0x80 = Direction IN) + (0x01 = Address 1)     */
                          0x03,          /* bmAttributes (Interrupt).             		 	      */
-                         0x64,          /* wMaxPacketSize.     0x64 = 100 BYTES                               */
+                         0x40,          /* wMaxPacketSize.     0x40 = 64 BYTES                               */
                          0x32),         /* bInterval (Polling every 50ms)                                     */
   /* Endpoint 2 Descriptor INTERRUPT OUT */
   USB_DESC_ENDPOINT     (0x02,       	/* bEndpointAddress.   (0x00 = Direction OUT) + (0x02 = Address 2)    */
                          0x03,          /* bmAttributes (Interrupt).             */
-                         0x64,          /* wMaxPacketSize.     0x64 = 100 BYTES  */
+                         0x40,          /* wMaxPacketSize.     0x40 = 64 BYTES  */
                          0x32),         /* bInterval (Polling every 50ms)        */
   /* Specific Class HID Descriptor */
   USB_DESC_HID		(0x0101,	/* bcdHID 		*/
 			 0x00,		/* bCountryCode 	*/
 			 0x01,		/* bNumDescriptor 	*/
 			 0x22,		/* bDescriptorType	*/
-			 0xFF),		/* Report Descriptor Lenght. Compute it! */
+			 0x4E),		/* Report Descriptor Lenght. Compute it! */	// Till now 38(0x26) bytes, considering masked ones
 
   /* HID Report Descriptor */
   HID_USAGE_PAGE	(HID_USAGE_PAGE_GENERIC_DESKTOP),
@@ -121,8 +121,8 @@ static const uint8_t hid_configuration_descriptor_data[100] = {
   		HID_USAGE		(HID_USAGE_RY),
   		HID_USAGE		(HID_USAGE_RZ),
 		HID_USAGE		(HID_USAGE_VNO),
-		HID_LOGICAL_MINIMUM     (-32768),
-		HID_LOGICAL_MAXIMUM	(32767),
+		HID_LOGICAL_MINIMUM     (-10),
+		HID_LOGICAL_MAXIMUM	(9),
 		HID_REPORT_SIZE		(16),
 		HID_REPORT_COUNT	(10),
 		HID_INPUT		(HID_INPUT_DATA_VAR_REL),
@@ -150,10 +150,10 @@ static const uint8_t hid_string0[] = {
  * Vendor string.
  */
 static const uint8_t hid_string1[] = {
-  USB_DESC_BYTE(29),                    /* bLength.                         */
+  USB_DESC_BYTE(31),                    /* bLength.                         */
   USB_DESC_BYTE(USB_DESCRIPTOR_STRING), /* bDescriptorType.                 */
   'E', 0, 'A', 0, 'R', 0, 'T', 0, 'H', 0, '-', 0, 'R', 0, 'O', 0,
-  'B', 0, 'O', 0, 'T', 0, 'I', 0, 'C', 0, 'S', 
+  'B', 0, 'O', 0, 'T', 0, 'I', 0, 'C', 0, 'S', 0, 
 };
 
 /*
@@ -257,9 +257,49 @@ static const USBConfig usbcfg = {
 };
 
 
-// Thread
+// Possible Threads
+
+/*
+ * Red LED blinker thread, times are in milliseconds.
+ */
+static WORKING_AREA(waThread1, 128);
+static msg_t Thread1(void *arg) {
+
+  (void)arg;
+  chRegSetThreadName("blinker");
+  while (TRUE) {
+    palClearPad(IOPORT3, GPIOC_LED);
+    chThdSleepMilliseconds(500);
+    palSetPad(IOPORT3, GPIOC_LED);
+    chThdSleepMilliseconds(500);
+  }
+}
+
 
 // Main
 
+int main(void) {
+	halInit();
+	chSysInit();
+	usbStart(&USBD1, &usbcfg);
+	
+	/*
+	 * Creates the blinker thread.
+	 */
+	chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
+
+	/*
+	 * Normal main() thread activity, in this demo it does nothing except
+	 * sleeping in a loop and check the button state.
+	 */
+	while (TRUE) {
+		if (palReadPad(IOPORT1, GPIOA_BUTTON))
+			TestThread(&SD2);
+		chThdSleepMilliseconds(1000);
+	}
+
+
+
+}
 
 

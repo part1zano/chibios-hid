@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc9zKvwL.s 			page 1
+ARM GAS  /tmp/cceaImSL.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
   53              		.type	chSysInit, %function
   54              	chSysInit:
   55              	.LFB8:
-ARM GAS  /tmp/cc9zKvwL.s 			page 2
+ARM GAS  /tmp/cceaImSL.s 			page 2
 
 
   56              		.loc 1 77 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  110              		.loc 1 108 0
  111 0050 A961     		str	r1, [r5, #24]
  112              		.loc 1 114 0
-ARM GAS  /tmp/cc9zKvwL.s 			page 3
+ARM GAS  /tmp/cceaImSL.s 			page 3
 
 
  113 0052 C0F20003 		movt	r3, #:upper16:_idle_thread
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  165              		.loc 1 143 0
  166 0022 E368     		ldr	r3, [r4, #12]
  167 0024 2168     		ldr	r1, [r4, #0]
-ARM GAS  /tmp/cc9zKvwL.s 			page 4
+ARM GAS  /tmp/cceaImSL.s 			page 4
 
 
  168 0026 581C     		adds	r0, r3, #1
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  222              		.size	chSysTimerHandlerI, .-chSysTimerHandlerI
  223              		.global	_idle_thread_wa
  224 005a 00BFAFF3 		.section	.bss.mainthread.4649,"aw",%nobits
-ARM GAS  /tmp/cc9zKvwL.s 			page 5
+ARM GAS  /tmp/cceaImSL.s 			page 5
 
 
  224      0080
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  269 002a 04       		.byte	0x4
  270 002b 05       		.byte	0x5
  271 002c 696E7400 		.ascii	"int\000"
-ARM GAS  /tmp/cc9zKvwL.s 			page 6
+ARM GAS  /tmp/cceaImSL.s 			page 6
 
 
  272 0030 03       		.uleb128 0x3
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  326 0099 02       		.byte	0x2
  327 009a 78       		.byte	0x78
  328 009b 9F000000 		.4byte	0x9f
-ARM GAS  /tmp/cc9zKvwL.s 			page 7
+ARM GAS  /tmp/cceaImSL.s 			page 7
 
 
  329 009f 03       		.uleb128 0x3
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  383 0111 2E020000 		.4byte	0x22e
  384 0115 06       		.uleb128 0x6
  385 0116 24030000 		.4byte	.LASF23
-ARM GAS  /tmp/cc9zKvwL.s 			page 8
+ARM GAS  /tmp/cceaImSL.s 			page 8
 
 
  386 011a 05       		.byte	0x5
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  440 0177 06       		.uleb128 0x6
  441 0178 F8020000 		.4byte	.LASF30
  442 017c 05       		.byte	0x5
-ARM GAS  /tmp/cc9zKvwL.s 			page 9
+ARM GAS  /tmp/cceaImSL.s 			page 9
 
 
  443 017d 72       		.byte	0x72
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  497 01da CF030000 		.4byte	.LASF36
  498 01de 05       		.byte	0x5
  499 01df B8       		.byte	0xb8
-ARM GAS  /tmp/cc9zKvwL.s 			page 10
+ARM GAS  /tmp/cceaImSL.s 			page 10
 
 
  500 01e0 59020000 		.4byte	0x259
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  554 023d 53020000 		.4byte	0x253
  555 0241 02       		.byte	0x2
  556 0242 23       		.byte	0x23
-ARM GAS  /tmp/cc9zKvwL.s 			page 11
+ARM GAS  /tmp/cceaImSL.s 			page 11
 
 
  557 0243 00       		.uleb128 0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  611 02a7 2C030000 		.4byte	0x32c
  612 02ab 0C       		.uleb128 0xc
  613 02ac 723400   		.ascii	"r4\000"
-ARM GAS  /tmp/cc9zKvwL.s 			page 12
+ARM GAS  /tmp/cceaImSL.s 			page 12
 
 
  614 02af 06       		.byte	0x6
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  668 030e 0C       		.uleb128 0xc
  669 030f 72313100 		.ascii	"r11\000"
  670 0313 06       		.byte	0x6
-ARM GAS  /tmp/cc9zKvwL.s 			page 13
+ARM GAS  /tmp/cceaImSL.s 			page 13
 
 
  671 0314 1F01     		.2byte	0x11f
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  725 037d 07       		.byte	0x7
  726 037e 5A       		.byte	0x5a
  727 037f CA030000 		.4byte	0x3ca
-ARM GAS  /tmp/cc9zKvwL.s 			page 14
+ARM GAS  /tmp/cceaImSL.s 			page 14
 
 
  728 0383 06       		.uleb128 0x6
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  782 03e3 02       		.byte	0x2
  783 03e4 23       		.byte	0x23
  784 03e5 00       		.uleb128 0
-ARM GAS  /tmp/cc9zKvwL.s 			page 15
+ARM GAS  /tmp/cceaImSL.s 			page 15
 
 
  785 03e6 06       		.uleb128 0x6
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  839 0446 72020000 		.4byte	.LASF59
  840 044a 08       		.byte	0x8
  841 044b 5B       		.byte	0x5b
-ARM GAS  /tmp/cc9zKvwL.s 			page 16
+ARM GAS  /tmp/cceaImSL.s 			page 16
 
 
  842 044c 2C030000 		.4byte	0x32c
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  896 04af 23       		.byte	0x23
  897 04b0 08       		.uleb128 0x8
  898 04b1 06       		.uleb128 0x6
-ARM GAS  /tmp/cc9zKvwL.s 			page 17
+ARM GAS  /tmp/cceaImSL.s 			page 17
 
 
  899 04b2 9C030000 		.4byte	.LASF67
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  953 051e 04       		.uleb128 0x4
  954 051f 00000000 		.4byte	.LASF73
  955 0523 05       		.byte	0x5
-ARM GAS  /tmp/cc9zKvwL.s 			page 18
+ARM GAS  /tmp/cceaImSL.s 			page 18
 
 
  956 0524 DE       		.byte	0xde
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1010 058a 02       		.byte	0x2
  1011 058b 23       		.byte	0x23
  1012 058c 08       		.uleb128 0x8
-ARM GAS  /tmp/cc9zKvwL.s 			page 19
+ARM GAS  /tmp/cceaImSL.s 			page 19
 
 
  1013 058d 06       		.uleb128 0x6
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1067 05ed 23       		.byte	0x23
  1068 05ee 0F       		.uleb128 0xf
  1069 05ef 06       		.uleb128 0x6
-ARM GAS  /tmp/cc9zKvwL.s 			page 20
+ARM GAS  /tmp/cceaImSL.s 			page 20
 
 
  1070 05f0 CB000000 		.4byte	.LASF86
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1124 0653 00       		.byte	0
  1125 0654 04       		.uleb128 0x4
  1126 0655 1D010000 		.4byte	.LASF92
-ARM GAS  /tmp/cc9zKvwL.s 			page 21
+ARM GAS  /tmp/cceaImSL.s 			page 21
 
 
  1127 0659 0A       		.byte	0xa
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1181 06cf 01       		.byte	0x1
  1182 06d0 82       		.byte	0x82
  1183 06d1 01       		.byte	0x1
-ARM GAS  /tmp/cc9zKvwL.s 			page 22
+ARM GAS  /tmp/cceaImSL.s 			page 22
 
 
  1184 06d2 00000000 		.4byte	.LFB9
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1238 0758 FD030000 		.4byte	.LASF98
  1239 075c 08       		.byte	0x8
  1240 075d 68       		.byte	0x68
-ARM GAS  /tmp/cc9zKvwL.s 			page 23
+ARM GAS  /tmp/cceaImSL.s 			page 23
 
 
  1241 075e 7E040000 		.4byte	0x47e
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1295 0017 00       		.byte	0
  1296 0018 0B       		.uleb128 0xb
  1297 0019 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc9zKvwL.s 			page 24
+ARM GAS  /tmp/cceaImSL.s 			page 24
 
 
  1298 001a 3E       		.uleb128 0x3e
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1352 0050 49       		.uleb128 0x49
  1353 0051 13       		.uleb128 0x13
  1354 0052 38       		.uleb128 0x38
-ARM GAS  /tmp/cc9zKvwL.s 			page 25
+ARM GAS  /tmp/cceaImSL.s 			page 25
 
 
  1355 0053 0A       		.uleb128 0xa
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1409 0089 3A       		.uleb128 0x3a
  1410 008a 0B       		.uleb128 0xb
  1411 008b 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cc9zKvwL.s 			page 26
+ARM GAS  /tmp/cceaImSL.s 			page 26
 
 
  1412 008c 05       		.uleb128 0x5
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1466 00c2 00       		.byte	0
  1467 00c3 00       		.byte	0
  1468 00c4 11       		.uleb128 0x11
-ARM GAS  /tmp/cc9zKvwL.s 			page 27
+ARM GAS  /tmp/cceaImSL.s 			page 27
 
 
  1469 00c5 0D       		.uleb128 0xd
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1523 00fb 0E       		.uleb128 0xe
  1524 00fc 3A       		.uleb128 0x3a
  1525 00fd 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc9zKvwL.s 			page 28
+ARM GAS  /tmp/cceaImSL.s 			page 28
 
 
  1526 00fe 3B       		.uleb128 0x3b
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1580 0134 00       		.byte	0
  1581 0135 03       		.uleb128 0x3
  1582 0136 0E       		.uleb128 0xe
-ARM GAS  /tmp/cc9zKvwL.s 			page 29
+ARM GAS  /tmp/cceaImSL.s 			page 29
 
 
  1583 0137 3A       		.uleb128 0x3a
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1637 016d 49       		.uleb128 0x49
  1638 016e 13       		.uleb128 0x13
  1639 016f 3F       		.uleb128 0x3f
-ARM GAS  /tmp/cc9zKvwL.s 			page 30
+ARM GAS  /tmp/cceaImSL.s 			page 30
 
 
  1640 0170 0C       		.uleb128 0xc
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1694 0049 53       		.byte	0x53
  1695 004a 5E000000 		.4byte	.LVL5
  1696 004e 66000000 		.4byte	.LFE8
-ARM GAS  /tmp/cc9zKvwL.s 			page 31
+ARM GAS  /tmp/cceaImSL.s 			page 31
 
 
  1697 0052 0100     		.2byte	0x1
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1751 00da 50000000 		.4byte	.LVL13
  1752 00de 5A000000 		.4byte	.LFE9
  1753 00e2 0100     		.2byte	0x1
-ARM GAS  /tmp/cc9zKvwL.s 			page 32
+ARM GAS  /tmp/cceaImSL.s 			page 32
 
 
  1754 00e4 53       		.byte	0x53
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1796              	.LASF97:
  1797 002b 76746C69 		.ascii	"vtlist\000"
  1797      737400
-ARM GAS  /tmp/cc9zKvwL.s 			page 33
+ARM GAS  /tmp/cceaImSL.s 			page 33
 
 
  1798              	.LASF96:
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1821 00db 63665F6F 		.ascii	"cf_off_flags\000"
  1821      66665F66 
  1821      6C616773 
-ARM GAS  /tmp/cc9zKvwL.s 			page 34
+ARM GAS  /tmp/cceaImSL.s 			page 34
 
 
  1821      00
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1849              	.LASF94:
  1850 0194 63685379 		.ascii	"chSysInit\000"
  1850      73496E69 
-ARM GAS  /tmp/cc9zKvwL.s 			page 35
+ARM GAS  /tmp/cceaImSL.s 			page 35
 
 
  1850      7400
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1877              	.LASF75:
  1878 022e 63685F7A 		.ascii	"ch_zero\000"
  1878      65726F00 
-ARM GAS  /tmp/cc9zKvwL.s 			page 36
+ARM GAS  /tmp/cceaImSL.s 			page 36
 
 
  1879              	.LASF89:
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1909              	.LASF18:
  1910 02c6 74707269 		.ascii	"tprio_t\000"
  1910      6F5F7400 
-ARM GAS  /tmp/cc9zKvwL.s 			page 37
+ARM GAS  /tmp/cceaImSL.s 			page 37
 
 
  1911              	.LASF7:
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1940      656E6469 
  1940      6E6700
  1941              	.LASF9:
-ARM GAS  /tmp/cc9zKvwL.s 			page 38
+ARM GAS  /tmp/cceaImSL.s 			page 38
 
 
  1942 0361 75696E74 		.ascii	"uint32_t\000"
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1971              	.LASF32:
  1972 03ec 705F7265 		.ascii	"p_refs\000"
  1972      667300
-ARM GAS  /tmp/cc9zKvwL.s 			page 39
+ARM GAS  /tmp/cceaImSL.s 			page 39
 
 
  1973              	.LASF63:
@@ -2319,25 +2319,25 @@ ARM GAS  /tmp/cc9zKvwL.s 			page 1
  1994      6974696E 
  1994      6700
  1995              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/cc9zKvwL.s 			page 40
+ARM GAS  /tmp/cceaImSL.s 			page 40
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chsys.c
-     /tmp/cc9zKvwL.s:19     .text._idle_thread:0000000000000000 $t
-     /tmp/cc9zKvwL.s:25     .text._idle_thread:0000000000000000 _idle_thread
-     /tmp/cc9zKvwL.s:233    .rodata.str1.4:0000000000000000 .LC0
-     /tmp/cc9zKvwL.s:48     .text.chSysInit:0000000000000000 $t
-     /tmp/cc9zKvwL.s:54     .text.chSysInit:0000000000000000 chSysInit
-     /tmp/cc9zKvwL.s:226    .bss.mainthread.4649:0000000000000000 .LANCHOR0
-     /tmp/cc9zKvwL.s:237    .bss._idle_thread_wa:0000000000000000 .LANCHOR1
-     /tmp/cc9zKvwL.s:126    .text.chSysTimerHandlerI:0000000000000000 $t
-     /tmp/cc9zKvwL.s:132    .text.chSysTimerHandlerI:0000000000000000 chSysTimerHandlerI
-     /tmp/cc9zKvwL.s:240    .bss._idle_thread_wa:0000000000000000 _idle_thread_wa
-     /tmp/cc9zKvwL.s:225    .bss.mainthread.4649:0000000000000000 $d
-     /tmp/cc9zKvwL.s:229    .bss.mainthread.4649:0000000000000000 mainthread.4649
-     /tmp/cc9zKvwL.s:232    .rodata.str1.4:0000000000000000 $d
-     /tmp/cc9zKvwL.s:236    .bss._idle_thread_wa:0000000000000000 $d
+     /tmp/cceaImSL.s:19     .text._idle_thread:0000000000000000 $t
+     /tmp/cceaImSL.s:25     .text._idle_thread:0000000000000000 _idle_thread
+     /tmp/cceaImSL.s:233    .rodata.str1.4:0000000000000000 .LC0
+     /tmp/cceaImSL.s:48     .text.chSysInit:0000000000000000 $t
+     /tmp/cceaImSL.s:54     .text.chSysInit:0000000000000000 chSysInit
+     /tmp/cceaImSL.s:226    .bss.mainthread.4649:0000000000000000 .LANCHOR0
+     /tmp/cceaImSL.s:237    .bss._idle_thread_wa:0000000000000000 .LANCHOR1
+     /tmp/cceaImSL.s:126    .text.chSysTimerHandlerI:0000000000000000 $t
+     /tmp/cceaImSL.s:132    .text.chSysTimerHandlerI:0000000000000000 chSysTimerHandlerI
+     /tmp/cceaImSL.s:240    .bss._idle_thread_wa:0000000000000000 _idle_thread_wa
+     /tmp/cceaImSL.s:225    .bss.mainthread.4649:0000000000000000 $d
+     /tmp/cceaImSL.s:229    .bss.mainthread.4649:0000000000000000 mainthread.4649
+     /tmp/cceaImSL.s:232    .rodata.str1.4:0000000000000000 $d
+     /tmp/cceaImSL.s:236    .bss._idle_thread_wa:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

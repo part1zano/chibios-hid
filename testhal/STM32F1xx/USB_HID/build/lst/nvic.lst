@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccNBx5lK.s 			page 1
+ARM GAS  /tmp/ccSQzQUK.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
   55              		.loc 1 43 0
   56 0016 0125     		movs	r5, #1
   57 0018 05FA04F5 		lsl	r5, r5, r4
-ARM GAS  /tmp/ccNBx5lK.s 			page 2
+ARM GAS  /tmp/ccSQzQUK.s 			page 2
 
 
   58              		.loc 1 42 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  111 0012 FF23     		movs	r3, #255
  112 0014 03FA01FC 		lsl	ip, r3, r1
  113              		.loc 1 56 0
-ARM GAS  /tmp/ccNBx5lK.s 			page 3
+ARM GAS  /tmp/ccSQzQUK.s 			page 3
 
 
  114 0018 4209     		lsrs	r2, r0, #5
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  168 0014 4FF46D44 		mov	r4, #60672
  169 0018 CEF20004 		movt	r4, 57344
  170 001c 0630     		adds	r0, r0, #6
-ARM GAS  /tmp/ccNBx5lK.s 			page 4
+ARM GAS  /tmp/ccSQzQUK.s 			page 4
 
 
  171 001e 54F82030 		ldr	r3, [r4, r0, lsl #2]
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  222 004c 03       		.uleb128 0x3
  223 004d 02       		.byte	0x2
  224 004e 07       		.byte	0x7
-ARM GAS  /tmp/ccNBx5lK.s 			page 5
+ARM GAS  /tmp/ccSQzQUK.s 			page 5
 
 
  225 004f DB000000 		.4byte	.LASF4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  279 00b4 B3000000 		.4byte	.LASF12
  280 00b8 02       		.byte	0x2
  281 00b9 67       		.byte	0x67
-ARM GAS  /tmp/ccNBx5lK.s 			page 6
+ARM GAS  /tmp/ccSQzQUK.s 			page 6
 
 
  282 00ba 79010000 		.4byte	0x179
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  336 0121 02       		.byte	0x2
  337 0122 6E       		.byte	0x6e
  338 0123 BC010000 		.4byte	0x1bc
-ARM GAS  /tmp/ccNBx5lK.s 			page 7
+ARM GAS  /tmp/ccSQzQUK.s 			page 7
 
 
  339 0127 03       		.byte	0x3
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  393 019c A7010000 		.4byte	0x1a7
  394 01a0 0A       		.uleb128 0xa
  395 01a1 30000000 		.4byte	0x30
-ARM GAS  /tmp/ccNBx5lK.s 			page 8
+ARM GAS  /tmp/ccSQzQUK.s 			page 8
 
 
  396 01a5 37       		.byte	0x37
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  450 0212 23       		.byte	0x23
  451 0213 08       		.uleb128 0x8
  452 0214 07       		.uleb128 0x7
-ARM GAS  /tmp/ccNBx5lK.s 			page 9
+ARM GAS  /tmp/ccSQzQUK.s 			page 9
 
 
  453 0215 66010000 		.4byte	.LASF26
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  507 0275 2C       		.uleb128 0x2c
  508 0276 07       		.uleb128 0x7
  509 0277 3D010000 		.4byte	.LASF31
-ARM GAS  /tmp/ccNBx5lK.s 			page 10
+ARM GAS  /tmp/ccSQzQUK.s 			page 10
 
 
  510 027b 02       		.byte	0x2
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  564 02d8 07       		.uleb128 0x7
  565 02d9 0A000000 		.4byte	.LASF35
  566 02dd 02       		.byte	0x2
-ARM GAS  /tmp/ccNBx5lK.s 			page 11
+ARM GAS  /tmp/ccSQzQUK.s 			page 11
 
 
  567 02de 94       		.byte	0x94
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  621 034b 00       		.byte	0
  622 034c 05       		.uleb128 0x5
  623 034d 3C030000 		.4byte	0x33c
-ARM GAS  /tmp/ccNBx5lK.s 			page 12
+ARM GAS  /tmp/ccSQzQUK.s 			page 12
 
 
  624 0351 09       		.uleb128 0x9
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  678 03c9 01       		.byte	0x1
  679 03ca 00000000 		.4byte	.LFB8
  680 03ce 3C000000 		.4byte	.LFE8
-ARM GAS  /tmp/ccNBx5lK.s 			page 13
+ARM GAS  /tmp/ccSQzQUK.s 			page 13
 
 
  681 03d2 5F000000 		.4byte	.LLST4
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  735 0008 0E       		.uleb128 0xe
  736 0009 1B       		.uleb128 0x1b
  737 000a 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccNBx5lK.s 			page 14
+ARM GAS  /tmp/ccSQzQUK.s 			page 14
 
 
  738 000b 11       		.uleb128 0x11
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  792 0041 01       		.byte	0x1
  793 0042 0B       		.uleb128 0xb
  794 0043 05       		.uleb128 0x5
-ARM GAS  /tmp/ccNBx5lK.s 			page 15
+ARM GAS  /tmp/ccSQzQUK.s 			page 15
 
 
  795 0044 3A       		.uleb128 0x3a
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  849 007a 00       		.byte	0
  850 007b 00       		.byte	0
  851 007c 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccNBx5lK.s 			page 16
+ARM GAS  /tmp/ccSQzQUK.s 			page 16
 
 
  852 007d 21       		.uleb128 0x21
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  906 00b3 13       		.uleb128 0x13
  907 00b4 02       		.uleb128 0x2
  908 00b5 06       		.uleb128 0x6
-ARM GAS  /tmp/ccNBx5lK.s 			page 17
+ARM GAS  /tmp/ccSQzQUK.s 			page 17
 
 
  909 00b6 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  963              		.section	.debug_loc,"",%progbits
  964              	.Ldebug_loc0:
  965              	.LLST0:
-ARM GAS  /tmp/ccNBx5lK.s 			page 18
+ARM GAS  /tmp/ccSQzQUK.s 			page 18
 
 
  966 0000 00000000 		.4byte	.LFB7
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  1020 0083 26000000 		.4byte	.LVL4
  1021 0087 0100     		.2byte	0x1
  1022 0089 50       		.byte	0x50
-ARM GAS  /tmp/ccNBx5lK.s 			page 19
+ARM GAS  /tmp/ccSQzQUK.s 			page 19
 
 
  1023 008a 00000000 		.4byte	0
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  1077 010a 33       		.byte	0x33
  1078 010b 24       		.byte	0x24
  1079 010c 9F       		.byte	0x9f
-ARM GAS  /tmp/ccNBx5lK.s 			page 20
+ARM GAS  /tmp/ccSQzQUK.s 			page 20
 
 
  1080 010d 00000000 		.4byte	0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  1122 0027 2E2E2F2E 		.ascii	"../../../os/ports/common/ARMCMx/nvic.c\000"
  1122      2E2F2E2E 
  1122      2F6F732F 
-ARM GAS  /tmp/ccNBx5lK.s 			page 21
+ARM GAS  /tmp/ccSQzQUK.s 			page 21
 
 
  1122      706F7274 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  1151 00f3 474E5520 		.ascii	"GNU C 4.6.3\000"
  1151      4320342E 
  1151      362E3300 
-ARM GAS  /tmp/ccNBx5lK.s 			page 22
+ARM GAS  /tmp/ccSQzQUK.s 			page 22
 
 
  1152              	.LASF30:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  1181      6720696E 
  1181      7400
  1182              	.LASF23:
-ARM GAS  /tmp/ccNBx5lK.s 			page 23
+ARM GAS  /tmp/ccSQzQUK.s 			page 23
 
 
  1183 0187 43505549 		.ascii	"CPUID\000"
@@ -1366,17 +1366,17 @@ ARM GAS  /tmp/ccNBx5lK.s 			page 1
  1205      63746F72 
  1205      00
  1206              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccNBx5lK.s 			page 24
+ARM GAS  /tmp/ccSQzQUK.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 nvic.c
-     /tmp/ccNBx5lK.s:19     .text.nvicEnableVector:0000000000000000 $t
-     /tmp/ccNBx5lK.s:25     .text.nvicEnableVector:0000000000000000 nvicEnableVector
-     /tmp/ccNBx5lK.s:85     .text.nvicDisableVector:0000000000000000 $t
-     /tmp/ccNBx5lK.s:91     .text.nvicDisableVector:0000000000000000 nvicDisableVector
-     /tmp/ccNBx5lK.s:136    .text.nvicSetSystemHandlerPriority:0000000000000000 $t
-     /tmp/ccNBx5lK.s:142    .text.nvicSetSystemHandlerPriority:0000000000000000 nvicSetSystemHandlerPriority
+     /tmp/ccSQzQUK.s:19     .text.nvicEnableVector:0000000000000000 $t
+     /tmp/ccSQzQUK.s:25     .text.nvicEnableVector:0000000000000000 nvicEnableVector
+     /tmp/ccSQzQUK.s:85     .text.nvicDisableVector:0000000000000000 $t
+     /tmp/ccSQzQUK.s:91     .text.nvicDisableVector:0000000000000000 nvicDisableVector
+     /tmp/ccSQzQUK.s:136    .text.nvicSetSystemHandlerPriority:0000000000000000 $t
+     /tmp/ccSQzQUK.s:142    .text.nvicSetSystemHandlerPriority:0000000000000000 nvicSetSystemHandlerPriority
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

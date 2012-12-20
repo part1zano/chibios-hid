@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cch7z7To.s 			page 1
+ARM GAS  /tmp/ccwa0KHq.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
   55 001e 83B0     		sub	sp, sp, #12
   56              	.LCFI1:
   57              		.cfi_def_cfa_offset 32
-ARM GAS  /tmp/cch7z7To.s 			page 2
+ARM GAS  /tmp/ccwa0KHq.s 			page 2
 
 
   58              		.loc 1 602 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  112 009a FFF7FEFF 		bl	test_wait_threads
  113              		.loc 1 608 0
  114 009e 40F20001 		movw	r1, #:lower16:.LC3
-ARM GAS  /tmp/cch7z7To.s 			page 3
+ARM GAS  /tmp/ccwa0KHq.s 			page 3
 
 
  115 00a2 0120     		movs	r0, #1
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  166              		.type	thread1, %function
  167              	thread1:
  168              	.LFB8:
-ARM GAS  /tmp/cch7z7To.s 			page 4
+ARM GAS  /tmp/ccwa0KHq.s 			page 4
 
 
  169              		.loc 1 93 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  223 0010 40F20000 		movw	r0, #:lower16:.LANCHOR0
  224 0014 C0F20000 		movt	r0, #:upper16:.LANCHOR0
  225 0018 FFF7FEFF 		bl	chCondWait
-ARM GAS  /tmp/cch7z7To.s 			page 5
+ARM GAS  /tmp/ccwa0KHq.s 			page 5
 
 
  226              		.loc 1 492 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  279 003a 0020     		movs	r0, #0
  280 003c 10BD     		pop	{r4, pc}
  281              		.cfi_endproc
-ARM GAS  /tmp/cch7z7To.s 			page 6
+ARM GAS  /tmp/ccwa0KHq.s 			page 6
 
 
  282              	.LFE34:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  335              		.loc 1 534 0
  336 0004 08B5     		push	{r3, lr}
  337              	.LCFI7:
-ARM GAS  /tmp/cch7z7To.s 			page 7
+ARM GAS  /tmp/ccwa0KHq.s 			page 7
 
 
  338              		.cfi_def_cfa_offset 8
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  392              		.type	mtx5_setup, %function
  393              	mtx5_setup:
  394              	.LFB26:
-ARM GAS  /tmp/cch7z7To.s 			page 8
+ARM GAS  /tmp/ccwa0KHq.s 			page 8
 
 
  395              		.loc 1 432 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  449              	.LFB15:
  450              		.loc 1 245 0
  451              		.cfi_startproc
-ARM GAS  /tmp/cch7z7To.s 			page 9
+ARM GAS  /tmp/ccwa0KHq.s 			page 9
 
 
  452              		@ args = 0, pretend = 0, frame = 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  506              		.cfi_startproc
  507              		@ args = 0, pretend = 0, frame = 0
  508              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cch7z7To.s 			page 10
+ARM GAS  /tmp/ccwa0KHq.s 			page 10
 
 
  509              		@ link register save eliminated.
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  563              	.LVL12:
  564 002a C0F20004 		movt	r4, #:upper16:.LC4
  565 002e 4FF49871 		mov	r1, #304
-ARM GAS  /tmp/cch7z7To.s 			page 11
+ARM GAS  /tmp/ccwa0KHq.s 			page 11
 
 
  566 0032 0094     		str	r4, [sp, #0]
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  620              		.loc 1 547 0
  621 00b2 C0F20006 		movt	r6, #:upper16:.LC0
  622 00b6 7046     		mov	r0, lr
-ARM GAS  /tmp/cch7z7To.s 			page 12
+ARM GAS  /tmp/ccwa0KHq.s 			page 12
 
 
  623 00b8 0096     		str	r6, [sp, #0]
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  675              		.loc 1 500 0
  676 0012 40F20005 		movw	r5, #:lower16:thread10
  677 0016 C0F20006 		movt	r6, #:upper16:wa
-ARM GAS  /tmp/cch7z7To.s 			page 13
+ARM GAS  /tmp/ccwa0KHq.s 			page 13
 
 
  678 001a C0F20005 		movt	r5, #:upper16:thread10
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  732 008a 2B46     		mov	r3, r5
  733 008c 0846     		mov	r0, r1
  734 008e 4FF49871 		mov	r1, #304
-ARM GAS  /tmp/cch7z7To.s 			page 14
+ARM GAS  /tmp/ccwa0KHq.s 			page 14
 
 
  735 0092 CDF800E0 		str	lr, [sp, #0]
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  789              	@ 512 "../../../test/testmtx.c" 1
  790 00ea 83F31188 		msr     BASEPRI, r3
  791              	@ 0 "" 2
-ARM GAS  /tmp/cch7z7To.s 			page 15
+ARM GAS  /tmp/ccwa0KHq.s 			page 15
 
 
  792              	.LVL21:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  844 0014 C0F20000 		movt	r0, #:upper16:.LANCHOR2
  845              		.loc 1 105 0
  846 0018 40F20005 		movw	r5, #:lower16:wa
-ARM GAS  /tmp/cch7z7To.s 			page 16
+ARM GAS  /tmp/ccwa0KHq.s 			page 16
 
 
  847              		.loc 1 104 0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  901 00a8 6046     		mov	r0, ip
  902 00aa 321D     		adds	r2, r6, #4
  903 00ac 4FF49871 		mov	r1, #304
-ARM GAS  /tmp/cch7z7To.s 			page 17
+ARM GAS  /tmp/ccwa0KHq.s 			page 17
 
 
  904 00b0 C0F20003 		movt	r3, #:upper16:thread1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  956              		.type	mtx5_execute, %function
  957              	mtx5_execute:
  958              	.LFB27:
-ARM GAS  /tmp/cch7z7To.s 			page 18
+ARM GAS  /tmp/ccwa0KHq.s 			page 18
 
 
  959              		.loc 1 437 0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1013              	.LBB5:
  1014              		.loc 1 449 0
  1015 0042 2023     		movs	r3, #32
-ARM GAS  /tmp/cch7z7To.s 			page 19
+ARM GAS  /tmp/ccwa0KHq.s 			page 19
 
 
  1016              	.LVL32:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1070              		.loc 1 459 0
  1071 009a 2268     		ldr	r2, [r4, #0]
  1072 009c 0620     		movs	r0, #6
-ARM GAS  /tmp/cch7z7To.s 			page 20
+ARM GAS  /tmp/ccwa0KHq.s 			page 20
 
 
  1073 009e 111B     		subs	r1, r2, r4
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1124              		.loc 1 375 0
  1125 0014 C0F20006 		movt	r6, #:upper16:wa
  1126 0018 D6F80090 		ldr	r9, [r6, #0]
-ARM GAS  /tmp/cch7z7To.s 			page 21
+ARM GAS  /tmp/ccwa0KHq.s 			page 21
 
 
  1127              		.loc 1 373 0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1181              	.L23:
  1182              		.loc 1 413 0
  1183 0092 02B0     		add	sp, sp, #8
-ARM GAS  /tmp/cch7z7To.s 			page 22
+ARM GAS  /tmp/ccwa0KHq.s 			page 22
 
 
  1184 0094 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, sl, pc}
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1238              		.loc 1 387 0
  1239 0116 6420     		movs	r0, #100
  1240 0118 FFF7FEFF 		bl	chThdSleep
-ARM GAS  /tmp/cch7z7To.s 			page 23
+ARM GAS  /tmp/ccwa0KHq.s 			page 23
 
 
  1241              		.loc 1 388 0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1295 01a6 0820     		movs	r0, #8
  1296 01a8 9168     		ldr	r1, [r2, #8]
  1297 01aa CB1B     		subs	r3, r1, r7
-ARM GAS  /tmp/cch7z7To.s 			page 24
+ARM GAS  /tmp/ccwa0KHq.s 			page 24
 
 
  1298 01ac 5A42     		rsbs	r2, r3, #0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1352              	@ 0 "" 2
  1353              	.LVL43:
  1354              		.thumb
-ARM GAS  /tmp/cch7z7To.s 			page 25
+ARM GAS  /tmp/ccwa0KHq.s 			page 25
 
 
  1355              	.LBE7:
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1409 029c FFF7FEBF 		b	test_wait_threads
  1410              		.cfi_endproc
  1411              	.LFE25:
-ARM GAS  /tmp/cch7z7To.s 			page 26
+ARM GAS  /tmp/ccwa0KHq.s 			page 26
 
 
  1412              		.size	mtx4_execute, .-mtx4_execute
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1466 0002 3220     		movs	r0, #50
  1467              	.LVL51:
  1468 0004 FFF7FEFF 		bl	chThdSleep
-ARM GAS  /tmp/cch7z7To.s 			page 27
+ARM GAS  /tmp/ccwa0KHq.s 			page 27
 
 
  1469              		.loc 1 355 0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1523 002a 4FF49871 		mov	r1, #304
  1524 002e 053A     		subs	r2, r2, #5
  1525 0030 C0F20003 		movt	r3, #:upper16:thread3LL
-ARM GAS  /tmp/cch7z7To.s 			page 28
+ARM GAS  /tmp/ccwa0KHq.s 			page 28
 
 
  1526              		.loc 1 316 0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1580 00aa B369     		ldr	r3, [r6, #24]
  1581 00ac 2D69     		ldr	r5, [r5, #16]
  1582 00ae 9A68     		ldr	r2, [r3, #8]
-ARM GAS  /tmp/cch7z7To.s 			page 29
+ARM GAS  /tmp/ccwa0KHq.s 			page 29
 
 
  1583 00b0 40F20003 		movw	r3, #:lower16:thread3HH
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1637              		.cfi_offset 5, -20
  1638              		.cfi_offset 4, -24
  1639              		.loc 1 199 0
-ARM GAS  /tmp/cch7z7To.s 			page 30
+ARM GAS  /tmp/ccwa0KHq.s 			page 30
 
 
  1640 0004 40F20006 		movw	r6, #:lower16:rlist
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1694 0070 40F20003 		movw	r3, #:lower16:thread2L
  1695 0074 4FF49871 		mov	r1, #304
  1696              		.loc 1 200 0
-ARM GAS  /tmp/cch7z7To.s 			page 31
+ARM GAS  /tmp/ccwa0KHq.s 			page 31
 
 
  1697 0078 6060     		str	r0, [r4, #4]
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1750 0004 FFF7FEFF 		bl	chThdSleep
  1751              		.loc 1 305 0
  1752 0008 40F20000 		movw	r0, #:lower16:.LANCHOR1
-ARM GAS  /tmp/cch7z7To.s 			page 32
+ARM GAS  /tmp/ccwa0KHq.s 			page 32
 
 
  1753 000c C0F20000 		movt	r0, #:upper16:.LANCHOR1
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1805              		.p2align 4,,15
  1806              		.thumb
  1807              		.thumb_func
-ARM GAS  /tmp/cch7z7To.s 			page 33
+ARM GAS  /tmp/ccwa0KHq.s 			page 33
 
 
  1808              		.type	thread3M, %function
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1861              		.loc 1 266 0
  1862 0002 0A20     		movs	r0, #10
  1863              	.LVL61:
-ARM GAS  /tmp/cch7z7To.s 			page 34
+ARM GAS  /tmp/ccwa0KHq.s 			page 34
 
 
  1864 0004 FFF7FEFF 		bl	chThdSleep
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1916              		.cfi_offset 3, -8
  1917              		.loc 1 255 0
  1918 0006 C0F20000 		movt	r0, #:upper16:.LANCHOR2
-ARM GAS  /tmp/cch7z7To.s 			page 35
+ARM GAS  /tmp/ccwa0KHq.s 			page 35
 
 
  1919 000a FFF7FEFF 		bl	chMtxLock
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  1970              		.loc 1 170 0
  1971 0024 0020     		movs	r0, #0
  1972 0026 08BD     		pop	{r3, pc}
-ARM GAS  /tmp/cch7z7To.s 			page 36
+ARM GAS  /tmp/ccwa0KHq.s 			page 36
 
 
  1973              		.cfi_endproc
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2025              		.cfi_def_cfa_offset 8
  2026              		.cfi_offset 14, -4
  2027              		.cfi_offset 3, -8
-ARM GAS  /tmp/cch7z7To.s 			page 37
+ARM GAS  /tmp/ccwa0KHq.s 			page 37
 
 
  2028              		.loc 1 186 0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2081              	testmtx7:
  2082 0000 34000000 		.word	.LC8
  2083 0004 00000000 		.word	mtx7_setup
-ARM GAS  /tmp/cch7z7To.s 			page 38
+ARM GAS  /tmp/ccwa0KHq.s 			page 38
 
 
  2084 0008 00000000 		.word	0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2137              	.LC7:
  2138 0020 436F6E64 		.ascii	"CondVar, boost test\000"
  2138      5661722C 
-ARM GAS  /tmp/cch7z7To.s 			page 39
+ARM GAS  /tmp/ccwa0KHq.s 			page 39
 
 
  2138      20626F6F 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2163 0008 00000000 		.word	testmtx3
  2164 000c 00000000 		.word	testmtx4
  2165 0010 00000000 		.word	testmtx5
-ARM GAS  /tmp/cch7z7To.s 			page 40
+ARM GAS  /tmp/ccwa0KHq.s 			page 40
 
 
  2166 0014 00000000 		.word	testmtx6
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2220              		.file 6 "../../../os/ports/GCC/ARMCMx/chcore_v7m.h"
  2221              		.file 7 "../../../os/kernel/include/chvt.h"
  2222              		.file 8 "../../../os/kernel/include/chschd.h"
-ARM GAS  /tmp/cch7z7To.s 			page 41
+ARM GAS  /tmp/ccwa0KHq.s 			page 41
 
 
  2223              		.file 9 "../../../os/kernel/include/chmtx.h"
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2277 006b 05       		.byte	0x5
  2278 006c CC000000 		.4byte	.LASF7
  2279 0070 04       		.uleb128 0x4
-ARM GAS  /tmp/cch7z7To.s 			page 42
+ARM GAS  /tmp/ccwa0KHq.s 			page 42
 
 
  2280 0071 52030000 		.4byte	.LASF8
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2334 00e3 2F       		.byte	0x2f
  2335 00e4 70000000 		.4byte	0x70
  2336 00e8 04       		.uleb128 0x4
-ARM GAS  /tmp/cch7z7To.s 			page 43
+ARM GAS  /tmp/ccwa0KHq.s 			page 43
 
 
  2337 00e9 D0030000 		.4byte	.LASF20
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2391 014f 10       		.uleb128 0x10
  2392 0150 06       		.uleb128 0x6
  2393 0151 24020000 		.4byte	.LASF27
-ARM GAS  /tmp/cch7z7To.s 			page 44
+ARM GAS  /tmp/ccwa0KHq.s 			page 44
 
 
  2394 0155 05       		.byte	0x5
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2448 01b2 07       		.uleb128 0x7
  2449 01b3 705F7500 		.ascii	"p_u\000"
  2450 01b7 05       		.byte	0x5
-ARM GAS  /tmp/cch7z7To.s 			page 45
+ARM GAS  /tmp/ccwa0KHq.s 			page 45
 
 
  2451 01b8 AD       		.byte	0xad
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2505 0215 A3000000 		.4byte	.LASF40
  2506 0219 05       		.byte	0x5
  2507 021a D3       		.byte	0xd3
-ARM GAS  /tmp/cch7z7To.s 			page 46
+ARM GAS  /tmp/ccwa0KHq.s 			page 46
 
 
  2508 021b 86020000 		.4byte	0x286
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2562 027b 04       		.uleb128 0x4
  2563 027c 42010000 		.4byte	.LASF43
  2564 0280 06       		.byte	0x6
-ARM GAS  /tmp/cch7z7To.s 			page 47
+ARM GAS  /tmp/ccwa0KHq.s 			page 47
 
 
  2565 0281 DE       		.byte	0xde
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2619 02e2 7B020000 		.4byte	0x27b
  2620 02e6 02       		.byte	0x2
  2621 02e7 23       		.byte	0x23
-ARM GAS  /tmp/cch7z7To.s 			page 48
+ARM GAS  /tmp/ccwa0KHq.s 			page 48
 
 
  2622 02e8 14       		.uleb128 0x14
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2676 034c 56030000 		.4byte	0x356
  2677 0350 0E       		.uleb128 0xe
  2678 0351 86020000 		.4byte	0x286
-ARM GAS  /tmp/cch7z7To.s 			page 49
+ARM GAS  /tmp/ccwa0KHq.s 			page 49
 
 
  2679 0355 00       		.byte	0
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2733 03b5 04       		.byte	0x4
  2734 03b6 56030000 		.4byte	0x356
  2735 03ba 08       		.uleb128 0x8
-ARM GAS  /tmp/cch7z7To.s 			page 50
+ARM GAS  /tmp/ccwa0KHq.s 			page 50
 
 
  2736 03bb 10       		.byte	0x10
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2790 041e 02       		.byte	0x2
  2791 041f 23       		.byte	0x23
  2792 0420 00       		.uleb128 0
-ARM GAS  /tmp/cch7z7To.s 			page 51
+ARM GAS  /tmp/ccwa0KHq.s 			page 51
 
 
  2793 0421 06       		.uleb128 0x6
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2847 0484 09       		.byte	0x9
  2848 0485 26       		.byte	0x26
  2849 0486 4E020000 		.4byte	0x24e
-ARM GAS  /tmp/cch7z7To.s 			page 52
+ARM GAS  /tmp/ccwa0KHq.s 			page 52
 
 
  2850 048a 02       		.byte	0x2
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2904 04ea 0B000000 		.4byte	.LASF68
  2905 04ee 05       		.byte	0x5
  2906 04ef 96       		.byte	0x96
-ARM GAS  /tmp/cch7z7To.s 			page 53
+ARM GAS  /tmp/ccwa0KHq.s 			page 53
 
 
  2907 04f0 D2000000 		.4byte	0xd2
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  2961 055c 42       		.byte	0x42
  2962 055d 75050000 		.4byte	0x575
  2963 0561 02       		.byte	0x2
-ARM GAS  /tmp/cch7z7To.s 			page 54
+ARM GAS  /tmp/ccwa0KHq.s 			page 54
 
 
  2964 0562 23       		.byte	0x23
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3018 05d9 D2000000 		.4byte	0xd2
  3019 05dd 00000000 		.4byte	.LFB8
  3020 05e1 1E000000 		.4byte	.LFE8
-ARM GAS  /tmp/cch7z7To.s 			page 55
+ARM GAS  /tmp/ccwa0KHq.s 			page 55
 
 
  3021 05e5 8C000000 		.4byte	.LLST4
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3075 066e 1602     		.2byte	0x216
  3076 0670 01       		.byte	0x1
  3077 0671 00000000 		.4byte	.LFB31
-ARM GAS  /tmp/cch7z7To.s 			page 56
+ARM GAS  /tmp/ccwa0KHq.s 			page 56
 
 
  3078 0675 1E000000 		.4byte	.LFE31
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3132 06f3 7D       		.byte	0x7d
  3133 06f4 00       		.sleb128 0
  3134 06f5 14       		.uleb128 0x14
-ARM GAS  /tmp/cch7z7To.s 			page 57
+ARM GAS  /tmp/ccwa0KHq.s 			page 57
 
 
  3135 06f6 EE030000 		.4byte	.LASF91
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3189 0783 65       		.byte	0x65
  3190 0784 01       		.byte	0x1
  3191 0785 00000000 		.4byte	.LFB9
-ARM GAS  /tmp/cch7z7To.s 			page 58
+ARM GAS  /tmp/ccwa0KHq.s 			page 58
 
 
  3192 0789 16010000 		.4byte	.LFE9
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3246 0816 52020000 		.4byte	.LASF96
  3247 081a 01       		.byte	0x1
  3248 081b 7101     		.2byte	0x171
-ARM GAS  /tmp/cch7z7To.s 			page 59
+ARM GAS  /tmp/ccwa0KHq.s 			page 59
 
 
  3249 081d 01       		.byte	0x1
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3303 08a0 1C000000 		.4byte	.LFE24
  3304 08a4 FB030000 		.4byte	.LLST32
  3305 08a8 BB080000 		.4byte	0x8bb
-ARM GAS  /tmp/cch7z7To.s 			page 60
+ARM GAS  /tmp/ccwa0KHq.s 			page 60
 
 
  3306 08ac 17       		.uleb128 0x17
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3360 092e E8000000 		.4byte	0xe8
  3361 0932 01       		.byte	0x1
  3362 0933 58       		.byte	0x58
-ARM GAS  /tmp/cch7z7To.s 			page 61
+ARM GAS  /tmp/ccwa0KHq.s 			page 61
 
 
  3363 0934 00       		.byte	0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3417 09be 01       		.byte	0x1
  3418 09bf 0701     		.2byte	0x107
  3419 09c1 01       		.byte	0x1
-ARM GAS  /tmp/cch7z7To.s 			page 62
+ARM GAS  /tmp/ccwa0KHq.s 			page 62
 
 
  3420 09c2 D2000000 		.4byte	0xd2
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3474 0a4d EB050000 		.4byte	.LLST50
  3475 0a51 630A0000 		.4byte	0xa63
  3476 0a55 19       		.uleb128 0x19
-ARM GAS  /tmp/cch7z7To.s 			page 63
+ARM GAS  /tmp/ccwa0KHq.s 			page 63
 
 
  3477 0a56 7000     		.ascii	"p\000"
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3531 0aca 28       		.uleb128 0x28
  3532 0acb 5E040000 		.4byte	.LASF111
  3533 0acf 08       		.byte	0x8
-ARM GAS  /tmp/cch7z7To.s 			page 64
+ARM GAS  /tmp/ccwa0KHq.s 			page 64
 
 
  3534 0ad0 68       		.byte	0x68
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3588 0b3e 01       		.byte	0x1
  3589 0b3f 4701     		.2byte	0x147
  3590 0b41 220B0000 		.4byte	0xb22
-ARM GAS  /tmp/cch7z7To.s 			page 65
+ARM GAS  /tmp/ccwa0KHq.s 			page 65
 
 
  3591 0b45 01       		.byte	0x1
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3645 0bb9 08       		.byte	0x8
  3646 0bba 00       		.byte	0
  3647 0bbb 09       		.uleb128 0x9
-ARM GAS  /tmp/cch7z7To.s 			page 66
+ARM GAS  /tmp/ccwa0KHq.s 			page 66
 
 
  3648 0bbc 04       		.byte	0x4
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3702 0026 0B       		.uleb128 0xb
  3703 0027 03       		.uleb128 0x3
  3704 0028 0E       		.uleb128 0xe
-ARM GAS  /tmp/cch7z7To.s 			page 67
+ARM GAS  /tmp/ccwa0KHq.s 			page 67
 
 
  3705 0029 00       		.byte	0
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3759 005f 49       		.uleb128 0x49
  3760 0060 13       		.uleb128 0x13
  3761 0061 38       		.uleb128 0x38
-ARM GAS  /tmp/cch7z7To.s 			page 68
+ARM GAS  /tmp/ccwa0KHq.s 			page 68
 
 
  3762 0062 0A       		.uleb128 0xa
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3816 0098 3B       		.uleb128 0x3b
  3817 0099 05       		.uleb128 0x5
  3818 009a 49       		.uleb128 0x49
-ARM GAS  /tmp/cch7z7To.s 			page 69
+ARM GAS  /tmp/ccwa0KHq.s 			page 69
 
 
  3819 009b 13       		.uleb128 0x13
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3873 00d1 12       		.uleb128 0x12
  3874 00d2 26       		.uleb128 0x26
  3875 00d3 00       		.byte	0
-ARM GAS  /tmp/cch7z7To.s 			page 70
+ARM GAS  /tmp/ccwa0KHq.s 			page 70
 
 
  3876 00d4 49       		.uleb128 0x49
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3930 010a 3B       		.uleb128 0x3b
  3931 010b 05       		.uleb128 0x5
  3932 010c 27       		.uleb128 0x27
-ARM GAS  /tmp/cch7z7To.s 			page 71
+ARM GAS  /tmp/ccwa0KHq.s 			page 71
 
 
  3933 010d 0C       		.uleb128 0xc
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  3987 0143 03       		.uleb128 0x3
  3988 0144 08       		.uleb128 0x8
  3989 0145 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cch7z7To.s 			page 72
+ARM GAS  /tmp/ccwa0KHq.s 			page 72
 
 
  3990 0146 0B       		.uleb128 0xb
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4044 017c 3B       		.uleb128 0x3b
  4045 017d 0B       		.uleb128 0xb
  4046 017e 27       		.uleb128 0x27
-ARM GAS  /tmp/cch7z7To.s 			page 73
+ARM GAS  /tmp/ccwa0KHq.s 			page 73
 
 
  4047 017f 0C       		.uleb128 0xc
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4101 01b5 01       		.byte	0x1
  4102 01b6 11       		.uleb128 0x11
  4103 01b7 01       		.uleb128 0x1
-ARM GAS  /tmp/cch7z7To.s 			page 74
+ARM GAS  /tmp/ccwa0KHq.s 			page 74
 
 
  4104 01b8 12       		.uleb128 0x12
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4158 01ee 03       		.uleb128 0x3
  4159 01ef 08       		.uleb128 0x8
  4160 01f0 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cch7z7To.s 			page 75
+ARM GAS  /tmp/ccwa0KHq.s 			page 75
 
 
  4161 01f1 0B       		.uleb128 0xb
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4215 0227 28       		.uleb128 0x28
  4216 0228 34       		.uleb128 0x34
  4217 0229 00       		.byte	0
-ARM GAS  /tmp/cch7z7To.s 			page 76
+ARM GAS  /tmp/ccwa0KHq.s 			page 76
 
 
  4218 022a 03       		.uleb128 0x3
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4272 0260 2D       		.uleb128 0x2d
  4273 0261 34       		.uleb128 0x34
  4274 0262 00       		.byte	0
-ARM GAS  /tmp/cch7z7To.s 			page 77
+ARM GAS  /tmp/ccwa0KHq.s 			page 77
 
 
  4275 0263 03       		.uleb128 0x3
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4329 0030 24000000 		.4byte	.LVL1
  4330 0034 0500     		.2byte	0x5
  4331 0036 70       		.byte	0x70
-ARM GAS  /tmp/cch7z7To.s 			page 78
+ARM GAS  /tmp/ccwa0KHq.s 			page 78
 
 
  4332 0037 18       		.sleb128 24
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4386 00bf 0100     		.2byte	0x1
  4387 00c1 54       		.byte	0x54
  4388 00c2 00000000 		.4byte	0
-ARM GAS  /tmp/cch7z7To.s 			page 79
+ARM GAS  /tmp/ccwa0KHq.s 			page 79
 
 
  4389 00c6 00000000 		.4byte	0
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4443 0151 00       		.sleb128 0
  4444 0152 06000000 		.4byte	.LCFI6
  4445 0156 2A000000 		.4byte	.LFE33
-ARM GAS  /tmp/cch7z7To.s 			page 80
+ARM GAS  /tmp/ccwa0KHq.s 			page 80
 
 
  4446 015a 0200     		.2byte	0x2
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4500 01dd 08       		.sleb128 8
  4501 01de 00000000 		.4byte	0
  4502 01e2 00000000 		.4byte	0
-ARM GAS  /tmp/cch7z7To.s 			page 81
+ARM GAS  /tmp/ccwa0KHq.s 			page 81
 
 
  4503              	.LLST15:
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4557 0268 0500     		.2byte	0x5
  4558 026a 70       		.byte	0x70
  4559 026b 18       		.sleb128 24
-ARM GAS  /tmp/cch7z7To.s 			page 82
+ARM GAS  /tmp/ccwa0KHq.s 			page 82
 
 
  4560 026c 06       		.byte	0x6
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4614 02ee 00000000 		.4byte	0
  4615 02f2 00000000 		.4byte	0
  4616              	.LLST23:
-ARM GAS  /tmp/cch7z7To.s 			page 83
+ARM GAS  /tmp/ccwa0KHq.s 			page 83
 
 
  4617 02f6 00000000 		.4byte	.LFB27
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4671 037f 00000000 		.4byte	0
  4672 0383 00000000 		.4byte	0
  4673              	.LLST28:
-ARM GAS  /tmp/cch7z7To.s 			page 84
+ARM GAS  /tmp/ccwa0KHq.s 			page 84
 
 
  4674 0387 00000000 		.4byte	.LFB25
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4728 040f 0200     		.2byte	0x2
  4729 0411 7D       		.byte	0x7d
  4730 0412 08       		.sleb128 8
-ARM GAS  /tmp/cch7z7To.s 			page 85
+ARM GAS  /tmp/ccwa0KHq.s 			page 85
 
 
  4731 0413 00000000 		.4byte	0
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4785 049d 0A000000 		.4byte	.LCFI25
  4786 04a1 0200     		.2byte	0x2
  4787 04a3 7D       		.byte	0x7d
-ARM GAS  /tmp/cch7z7To.s 			page 86
+ARM GAS  /tmp/ccwa0KHq.s 			page 86
 
 
  4788 04a4 18       		.sleb128 24
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4842 052b 02000000 		.4byte	.LCFI28
  4843 052f 28000000 		.4byte	.LFE18
  4844 0533 0200     		.2byte	0x2
-ARM GAS  /tmp/cch7z7To.s 			page 87
+ARM GAS  /tmp/ccwa0KHq.s 			page 87
 
 
  4845 0535 7D       		.byte	0x7d
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4899 05c0 0200     		.2byte	0x2
  4900 05c2 7D       		.byte	0x7d
  4901 05c3 00       		.sleb128 0
-ARM GAS  /tmp/cch7z7To.s 			page 88
+ARM GAS  /tmp/ccwa0KHq.s 			page 88
 
 
  4902 05c4 06000000 		.4byte	.LCFI31
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  4956              		.section	.debug_aranges,"",%progbits
  4957 0000 04010000 		.4byte	0x104
  4958 0004 0200     		.2byte	0x2
-ARM GAS  /tmp/cch7z7To.s 			page 89
+ARM GAS  /tmp/ccwa0KHq.s 			page 89
 
 
  4959 0006 00000000 		.4byte	.Ldebug_info0
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5013 00d4 28000000 		.4byte	.LFE18-.LFB18
  5014 00d8 00000000 		.4byte	.LFB17
  5015 00dc 44000000 		.4byte	.LFE17-.LFB17
-ARM GAS  /tmp/cch7z7To.s 			page 90
+ARM GAS  /tmp/ccwa0KHq.s 			page 90
 
 
  5016 00e0 00000000 		.4byte	.LFB16
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5070 00a8 00000000 		.4byte	.LFB24
  5071 00ac 1C000000 		.4byte	.LFE24
  5072 00b0 00000000 		.4byte	.LFB23
-ARM GAS  /tmp/cch7z7To.s 			page 91
+ARM GAS  /tmp/ccwa0KHq.s 			page 91
 
 
  5073 00b4 1C000000 		.4byte	.LFE23
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5113              	.LASF97:
  5114 0038 74687265 		.ascii	"thread4b\000"
  5114      61643462 
-ARM GAS  /tmp/cch7z7To.s 			page 92
+ARM GAS  /tmp/ccwa0KHq.s 			page 92
 
 
  5114      00
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5142      20696E74 
  5142      00
  5143              	.LASF14:
-ARM GAS  /tmp/cch7z7To.s 			page 93
+ARM GAS  /tmp/ccwa0KHq.s 			page 93
 
 
  5144 00d5 74737461 		.ascii	"tstate_t\000"
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5169      646F776E 
  5169      00
  5170              	.LASF74:
-ARM GAS  /tmp/cch7z7To.s 			page 94
+ARM GAS  /tmp/ccwa0KHq.s 			page 94
 
 
  5171 018e 6E616D65 		.ascii	"name\000"
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5199 0224 705F6F6C 		.ascii	"p_older\000"
  5199      64657200 
  5200              	.LASF79:
-ARM GAS  /tmp/cch7z7To.s 			page 95
+ARM GAS  /tmp/ccwa0KHq.s 			page 95
 
 
  5201 022c 74687265 		.ascii	"thread1\000"
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5229      657600
  5230              	.LASF77:
  5231 02b3 65786563 		.ascii	"execute\000"
-ARM GAS  /tmp/cch7z7To.s 			page 96
+ARM GAS  /tmp/ccwa0KHq.s 			page 96
 
 
  5231      75746500 
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5263      63617365 
  5263      00
  5264              	.LASF37:
-ARM GAS  /tmp/cch7z7To.s 			page 97
+ARM GAS  /tmp/ccwa0KHq.s 			page 97
 
 
  5265 0347 705F6570 		.ascii	"p_epending\000"
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5292              	.LASF65:
  5293 03c9 6D5F6E65 		.ascii	"m_next\000"
  5293      787400
-ARM GAS  /tmp/cch7z7To.s 			page 98
+ARM GAS  /tmp/ccwa0KHq.s 			page 98
 
 
  5294              	.LASF20:
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5322              	.LASF114:
  5323 0455 74657374 		.ascii	"testmtx2\000"
  5323      6D747832 
-ARM GAS  /tmp/cch7z7To.s 			page 99
+ARM GAS  /tmp/ccwa0KHq.s 			page 99
 
 
  5323      00
@@ -5929,109 +5929,109 @@ ARM GAS  /tmp/cch7z7To.s 			page 1
  5349      6974696E 
  5349      6700
  5350              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/cch7z7To.s 			page 100
+ARM GAS  /tmp/ccwa0KHq.s 			page 100
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 testmtx.c
-     /tmp/cch7z7To.s:19     .text.mtx8_execute:0000000000000000 $t
-     /tmp/cch7z7To.s:24     .text.mtx8_execute:0000000000000000 mtx8_execute
-     /tmp/cch7z7To.s:2117   .rodata.str1.4:0000000000000000 .LC0
-     /tmp/cch7z7To.s:243    .text.thread11:0000000000000000 thread11
-     /tmp/cch7z7To.s:2120   .rodata.str1.4:0000000000000004 .LC1
-     /tmp/cch7z7To.s:203    .text.thread10:0000000000000000 thread10
-     /tmp/cch7z7To.s:131    .text.thread12:0000000000000000 thread12
-     /tmp/cch7z7To.s:2123   .rodata.str1.4:0000000000000008 .LC2
-     /tmp/cch7z7To.s:2172   .data.c1:0000000000000000 .LANCHOR0
-     /tmp/cch7z7To.s:2126   .rodata.str1.4:000000000000000c .LC3
-     /tmp/cch7z7To.s:126    .text.thread12:0000000000000000 $t
-     /tmp/cch7z7To.s:2107   .data.m2:0000000000000000 .LANCHOR1
-     /tmp/cch7z7To.s:162    .text.thread1:0000000000000000 $t
-     /tmp/cch7z7To.s:167    .text.thread1:0000000000000000 thread1
-     /tmp/cch7z7To.s:2097   .data.m1:0000000000000000 .LANCHOR2
-     /tmp/cch7z7To.s:198    .text.thread10:0000000000000000 $t
-     /tmp/cch7z7To.s:238    .text.thread11:0000000000000000 $t
-     /tmp/cch7z7To.s:285    .text.mtx8_setup:0000000000000000 $t
-     /tmp/cch7z7To.s:290    .text.mtx8_setup:0000000000000000 mtx8_setup
-     /tmp/cch7z7To.s:322    .text.mtx7_setup:0000000000000000 $t
-     /tmp/cch7z7To.s:327    .text.mtx7_setup:0000000000000000 mtx7_setup
-     /tmp/cch7z7To.s:355    .text.mtx6_setup:0000000000000000 $t
-     /tmp/cch7z7To.s:360    .text.mtx6_setup:0000000000000000 mtx6_setup
-     /tmp/cch7z7To.s:388    .text.mtx5_setup:0000000000000000 $t
-     /tmp/cch7z7To.s:393    .text.mtx5_setup:0000000000000000 mtx5_setup
-     /tmp/cch7z7To.s:410    .text.mtx4_setup:0000000000000000 $t
-     /tmp/cch7z7To.s:415    .text.mtx4_setup:0000000000000000 mtx4_setup
-     /tmp/cch7z7To.s:443    .text.mtx3_setup:0000000000000000 $t
-     /tmp/cch7z7To.s:448    .text.mtx3_setup:0000000000000000 mtx3_setup
-     /tmp/cch7z7To.s:476    .text.mtx2_setup:0000000000000000 $t
-     /tmp/cch7z7To.s:481    .text.mtx2_setup:0000000000000000 mtx2_setup
-     /tmp/cch7z7To.s:498    .text.mtx1_setup:0000000000000000 $t
-     /tmp/cch7z7To.s:503    .text.mtx1_setup:0000000000000000 mtx1_setup
-     /tmp/cch7z7To.s:520    .text.mtx7_execute:0000000000000000 $t
-     /tmp/cch7z7To.s:525    .text.mtx7_execute:0000000000000000 mtx7_execute
-     /tmp/cch7z7To.s:2128   .rodata.str1.4:0000000000000010 .LC4
-     /tmp/cch7z7To.s:2131   .rodata.str1.4:0000000000000014 .LC5
-     /tmp/cch7z7To.s:2134   .rodata.str1.4:0000000000000018 .LC6
-     /tmp/cch7z7To.s:645    .text.mtx6_execute:0000000000000000 $t
-     /tmp/cch7z7To.s:650    .text.mtx6_execute:0000000000000000 mtx6_execute
-     /tmp/cch7z7To.s:811    .text.mtx1_execute:0000000000000000 $t
-     /tmp/cch7z7To.s:816    .text.mtx1_execute:0000000000000000 mtx1_execute
-     /tmp/cch7z7To.s:952    .text.mtx5_execute:0000000000000000 $t
-     /tmp/cch7z7To.s:957    .text.mtx5_execute:0000000000000000 mtx5_execute
-     /tmp/cch7z7To.s:1093   .text.mtx4_execute:0000000000000000 $t
-     /tmp/cch7z7To.s:1098   .text.mtx4_execute:0000000000000000 mtx4_execute
-     /tmp/cch7z7To.s:1453   .text.thread4a:0000000000000000 thread4a
-     /tmp/cch7z7To.s:1419   .text.thread4b:0000000000000000 thread4b
-     /tmp/cch7z7To.s:1414   .text.thread4b:0000000000000000 $t
-     /tmp/cch7z7To.s:1448   .text.thread4a:0000000000000000 $t
-     /tmp/cch7z7To.s:1482   .text.mtx3_execute:0000000000000000 $t
-     /tmp/cch7z7To.s:1487   .text.mtx3_execute:0000000000000000 mtx3_execute
-     /tmp/cch7z7To.s:1901   .text.thread3LL:0000000000000000 thread3LL
-     /tmp/cch7z7To.s:1849   .text.thread3L:0000000000000000 thread3L
-     /tmp/cch7z7To.s:1809   .text.thread3M:0000000000000000 thread3M
-ARM GAS  /tmp/cch7z7To.s 			page 101
+     /tmp/ccwa0KHq.s:19     .text.mtx8_execute:0000000000000000 $t
+     /tmp/ccwa0KHq.s:24     .text.mtx8_execute:0000000000000000 mtx8_execute
+     /tmp/ccwa0KHq.s:2117   .rodata.str1.4:0000000000000000 .LC0
+     /tmp/ccwa0KHq.s:243    .text.thread11:0000000000000000 thread11
+     /tmp/ccwa0KHq.s:2120   .rodata.str1.4:0000000000000004 .LC1
+     /tmp/ccwa0KHq.s:203    .text.thread10:0000000000000000 thread10
+     /tmp/ccwa0KHq.s:131    .text.thread12:0000000000000000 thread12
+     /tmp/ccwa0KHq.s:2123   .rodata.str1.4:0000000000000008 .LC2
+     /tmp/ccwa0KHq.s:2172   .data.c1:0000000000000000 .LANCHOR0
+     /tmp/ccwa0KHq.s:2126   .rodata.str1.4:000000000000000c .LC3
+     /tmp/ccwa0KHq.s:126    .text.thread12:0000000000000000 $t
+     /tmp/ccwa0KHq.s:2107   .data.m2:0000000000000000 .LANCHOR1
+     /tmp/ccwa0KHq.s:162    .text.thread1:0000000000000000 $t
+     /tmp/ccwa0KHq.s:167    .text.thread1:0000000000000000 thread1
+     /tmp/ccwa0KHq.s:2097   .data.m1:0000000000000000 .LANCHOR2
+     /tmp/ccwa0KHq.s:198    .text.thread10:0000000000000000 $t
+     /tmp/ccwa0KHq.s:238    .text.thread11:0000000000000000 $t
+     /tmp/ccwa0KHq.s:285    .text.mtx8_setup:0000000000000000 $t
+     /tmp/ccwa0KHq.s:290    .text.mtx8_setup:0000000000000000 mtx8_setup
+     /tmp/ccwa0KHq.s:322    .text.mtx7_setup:0000000000000000 $t
+     /tmp/ccwa0KHq.s:327    .text.mtx7_setup:0000000000000000 mtx7_setup
+     /tmp/ccwa0KHq.s:355    .text.mtx6_setup:0000000000000000 $t
+     /tmp/ccwa0KHq.s:360    .text.mtx6_setup:0000000000000000 mtx6_setup
+     /tmp/ccwa0KHq.s:388    .text.mtx5_setup:0000000000000000 $t
+     /tmp/ccwa0KHq.s:393    .text.mtx5_setup:0000000000000000 mtx5_setup
+     /tmp/ccwa0KHq.s:410    .text.mtx4_setup:0000000000000000 $t
+     /tmp/ccwa0KHq.s:415    .text.mtx4_setup:0000000000000000 mtx4_setup
+     /tmp/ccwa0KHq.s:443    .text.mtx3_setup:0000000000000000 $t
+     /tmp/ccwa0KHq.s:448    .text.mtx3_setup:0000000000000000 mtx3_setup
+     /tmp/ccwa0KHq.s:476    .text.mtx2_setup:0000000000000000 $t
+     /tmp/ccwa0KHq.s:481    .text.mtx2_setup:0000000000000000 mtx2_setup
+     /tmp/ccwa0KHq.s:498    .text.mtx1_setup:0000000000000000 $t
+     /tmp/ccwa0KHq.s:503    .text.mtx1_setup:0000000000000000 mtx1_setup
+     /tmp/ccwa0KHq.s:520    .text.mtx7_execute:0000000000000000 $t
+     /tmp/ccwa0KHq.s:525    .text.mtx7_execute:0000000000000000 mtx7_execute
+     /tmp/ccwa0KHq.s:2128   .rodata.str1.4:0000000000000010 .LC4
+     /tmp/ccwa0KHq.s:2131   .rodata.str1.4:0000000000000014 .LC5
+     /tmp/ccwa0KHq.s:2134   .rodata.str1.4:0000000000000018 .LC6
+     /tmp/ccwa0KHq.s:645    .text.mtx6_execute:0000000000000000 $t
+     /tmp/ccwa0KHq.s:650    .text.mtx6_execute:0000000000000000 mtx6_execute
+     /tmp/ccwa0KHq.s:811    .text.mtx1_execute:0000000000000000 $t
+     /tmp/ccwa0KHq.s:816    .text.mtx1_execute:0000000000000000 mtx1_execute
+     /tmp/ccwa0KHq.s:952    .text.mtx5_execute:0000000000000000 $t
+     /tmp/ccwa0KHq.s:957    .text.mtx5_execute:0000000000000000 mtx5_execute
+     /tmp/ccwa0KHq.s:1093   .text.mtx4_execute:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1098   .text.mtx4_execute:0000000000000000 mtx4_execute
+     /tmp/ccwa0KHq.s:1453   .text.thread4a:0000000000000000 thread4a
+     /tmp/ccwa0KHq.s:1419   .text.thread4b:0000000000000000 thread4b
+     /tmp/ccwa0KHq.s:1414   .text.thread4b:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1448   .text.thread4a:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1482   .text.mtx3_execute:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1487   .text.mtx3_execute:0000000000000000 mtx3_execute
+     /tmp/ccwa0KHq.s:1901   .text.thread3LL:0000000000000000 thread3LL
+     /tmp/ccwa0KHq.s:1849   .text.thread3L:0000000000000000 thread3L
+     /tmp/ccwa0KHq.s:1809   .text.thread3M:0000000000000000 thread3M
+ARM GAS  /tmp/ccwa0KHq.s 			page 101
 
 
-     /tmp/cch7z7To.s:1775   .text.thread3H:0000000000000000 thread3H
-     /tmp/cch7z7To.s:1735   .text.thread3HH:0000000000000000 thread3HH
-     /tmp/cch7z7To.s:1619   .text.mtx2_execute:0000000000000000 $t
-     /tmp/cch7z7To.s:1624   .text.mtx2_execute:0000000000000000 mtx2_execute
-     /tmp/cch7z7To.s:2016   .text.thread2H:0000000000000000 thread2H
-     /tmp/cch7z7To.s:1982   .text.thread2M:0000000000000000 thread2M
-     /tmp/cch7z7To.s:1940   .text.thread2L:0000000000000000 thread2L
-     /tmp/cch7z7To.s:1730   .text.thread3HH:0000000000000000 $t
-     /tmp/cch7z7To.s:1770   .text.thread3H:0000000000000000 $t
-     /tmp/cch7z7To.s:1804   .text.thread3M:0000000000000000 $t
-     /tmp/cch7z7To.s:1844   .text.thread3L:0000000000000000 $t
-     /tmp/cch7z7To.s:1896   .text.thread3LL:0000000000000000 $t
-     /tmp/cch7z7To.s:1935   .text.thread2L:0000000000000000 $t
-     /tmp/cch7z7To.s:1977   .text.thread2M:0000000000000000 $t
-     /tmp/cch7z7To.s:2011   .text.thread2H:0000000000000000 $t
-     /tmp/cch7z7To.s:2160   .rodata.patternmtx:0000000000000000 patternmtx
-     /tmp/cch7z7To.s:2090   .rodata.testmtx8:0000000000000000 testmtx8
-     /tmp/cch7z7To.s:2081   .rodata.testmtx7:0000000000000000 testmtx7
-     /tmp/cch7z7To.s:2072   .rodata.testmtx6:0000000000000000 testmtx6
-     /tmp/cch7z7To.s:2063   .rodata.testmtx5:0000000000000000 testmtx5
-     /tmp/cch7z7To.s:2209   .rodata.testmtx4:0000000000000000 testmtx4
-     /tmp/cch7z7To.s:2200   .rodata.testmtx3:0000000000000000 testmtx3
-     /tmp/cch7z7To.s:2191   .rodata.testmtx2:0000000000000000 testmtx2
-     /tmp/cch7z7To.s:2182   .rodata.testmtx1:0000000000000000 testmtx1
-     /tmp/cch7z7To.s:2060   .rodata.testmtx5:0000000000000000 $d
-     /tmp/cch7z7To.s:2069   .rodata.testmtx6:0000000000000000 $d
-     /tmp/cch7z7To.s:2078   .rodata.testmtx7:0000000000000000 $d
-     /tmp/cch7z7To.s:2087   .rodata.testmtx8:0000000000000000 $d
-     /tmp/cch7z7To.s:2096   .data.m1:0000000000000000 $d
-     /tmp/cch7z7To.s:2100   .data.m1:0000000000000000 m1
-     /tmp/cch7z7To.s:2106   .data.m2:0000000000000000 $d
-     /tmp/cch7z7To.s:2110   .data.m2:0000000000000000 m2
-     /tmp/cch7z7To.s:2116   .rodata.str1.4:0000000000000000 $d
-     /tmp/cch7z7To.s:2157   .rodata.patternmtx:0000000000000000 $d
-     /tmp/cch7z7To.s:2171   .data.c1:0000000000000000 $d
-     /tmp/cch7z7To.s:2175   .data.c1:0000000000000000 c1
-     /tmp/cch7z7To.s:2179   .rodata.testmtx1:0000000000000000 $d
-     /tmp/cch7z7To.s:2188   .rodata.testmtx2:0000000000000000 $d
-     /tmp/cch7z7To.s:2197   .rodata.testmtx3:0000000000000000 $d
-     /tmp/cch7z7To.s:2206   .rodata.testmtx4:0000000000000000 $d
+     /tmp/ccwa0KHq.s:1775   .text.thread3H:0000000000000000 thread3H
+     /tmp/ccwa0KHq.s:1735   .text.thread3HH:0000000000000000 thread3HH
+     /tmp/ccwa0KHq.s:1619   .text.mtx2_execute:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1624   .text.mtx2_execute:0000000000000000 mtx2_execute
+     /tmp/ccwa0KHq.s:2016   .text.thread2H:0000000000000000 thread2H
+     /tmp/ccwa0KHq.s:1982   .text.thread2M:0000000000000000 thread2M
+     /tmp/ccwa0KHq.s:1940   .text.thread2L:0000000000000000 thread2L
+     /tmp/ccwa0KHq.s:1730   .text.thread3HH:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1770   .text.thread3H:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1804   .text.thread3M:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1844   .text.thread3L:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1896   .text.thread3LL:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1935   .text.thread2L:0000000000000000 $t
+     /tmp/ccwa0KHq.s:1977   .text.thread2M:0000000000000000 $t
+     /tmp/ccwa0KHq.s:2011   .text.thread2H:0000000000000000 $t
+     /tmp/ccwa0KHq.s:2160   .rodata.patternmtx:0000000000000000 patternmtx
+     /tmp/ccwa0KHq.s:2090   .rodata.testmtx8:0000000000000000 testmtx8
+     /tmp/ccwa0KHq.s:2081   .rodata.testmtx7:0000000000000000 testmtx7
+     /tmp/ccwa0KHq.s:2072   .rodata.testmtx6:0000000000000000 testmtx6
+     /tmp/ccwa0KHq.s:2063   .rodata.testmtx5:0000000000000000 testmtx5
+     /tmp/ccwa0KHq.s:2209   .rodata.testmtx4:0000000000000000 testmtx4
+     /tmp/ccwa0KHq.s:2200   .rodata.testmtx3:0000000000000000 testmtx3
+     /tmp/ccwa0KHq.s:2191   .rodata.testmtx2:0000000000000000 testmtx2
+     /tmp/ccwa0KHq.s:2182   .rodata.testmtx1:0000000000000000 testmtx1
+     /tmp/ccwa0KHq.s:2060   .rodata.testmtx5:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2069   .rodata.testmtx6:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2078   .rodata.testmtx7:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2087   .rodata.testmtx8:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2096   .data.m1:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2100   .data.m1:0000000000000000 m1
+     /tmp/ccwa0KHq.s:2106   .data.m2:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2110   .data.m2:0000000000000000 m2
+     /tmp/ccwa0KHq.s:2116   .rodata.str1.4:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2157   .rodata.patternmtx:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2171   .data.c1:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2175   .data.c1:0000000000000000 c1
+     /tmp/ccwa0KHq.s:2179   .rodata.testmtx1:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2188   .rodata.testmtx2:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2197   .rodata.testmtx3:0000000000000000 $d
+     /tmp/ccwa0KHq.s:2206   .rodata.testmtx4:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
@@ -6049,7 +6049,7 @@ chCondWait
 chCondWaitTimeout
 chCondInit
 chMtxInit
-ARM GAS  /tmp/cch7z7To.s 			page 102
+ARM GAS  /tmp/ccwa0KHq.s 			page 102
 
 
 chCondBroadcast

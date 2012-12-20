@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccbKxMJW.s 			page 1
+ARM GAS  /tmp/ccWxhkHS.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
   55              		.loc 1 67 0 is_stmt 1
   56 001c 0320     		movs	r0, #3
   57 001e 2070     		strb	r0, [r4, #0]
-ARM GAS  /tmp/ccbKxMJW.s 			page 2
+ARM GAS  /tmp/ccWxhkHS.s 			page 2
 
 
   58              		.loc 1 68 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  107              		.loc 1 245 0
  108 000a 8381     		strh	r3, [r0, #12]	@ movhi
  109              		.loc 1 246 0
-ARM GAS  /tmp/ccbKxMJW.s 			page 3
+ARM GAS  /tmp/ccWxhkHS.s 			page 3
 
 
  110 000c C381     		strh	r3, [r0, #14]	@ movhi
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  164              	.LVL11:
  165 0018 4562     		str	r5, [r0, #36]
  166              	.LVL12:
-ARM GAS  /tmp/ccbKxMJW.s 			page 4
+ARM GAS  /tmp/ccWxhkHS.s 			page 4
 
 
  167 001a 8562     		str	r5, [r0, #40]
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  221 0006 83F31188 		msr     BASEPRI, r3
  222              	@ 0 "" 2
  223              	.LVL20:
-ARM GAS  /tmp/ccbKxMJW.s 			page 5
+ARM GAS  /tmp/ccWxhkHS.s 			page 5
 
 
  224              		.thumb
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  277              		.loc 1 317 0
  278 000c 1846     		mov	r0, r3
  279              	.LVL25:
-ARM GAS  /tmp/ccbKxMJW.s 			page 6
+ARM GAS  /tmp/ccWxhkHS.s 			page 6
 
 
  280 000e 0021     		movs	r1, #0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  332 0006 0022     		movs	r2, #0
  333              		.loc 1 346 0
  334 0008 24F00104 		bic	r4, r4, #1
-ARM GAS  /tmp/ccbKxMJW.s 			page 7
+ARM GAS  /tmp/ccWxhkHS.s 			page 7
 
 
  335              		.loc 1 347 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  388              		.loc 1 370 0
  389 0008 0025     		movs	r5, #0
  390              		.loc 1 368 0
-ARM GAS  /tmp/ccbKxMJW.s 			page 8
+ARM GAS  /tmp/ccWxhkHS.s 			page 8
 
 
  391 000a A469     		ldr	r4, [r4, #24]
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  444              		.loc 1 398 0
  445 0010 6360     		str	r3, [r4, #4]
  446              		.loc 1 399 0
-ARM GAS  /tmp/ccbKxMJW.s 			page 9
+ARM GAS  /tmp/ccWxhkHS.s 			page 9
 
 
  447 0012 A560     		str	r5, [r4, #8]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  500              		.loc 1 430 0
  501 0018 FFF7FEBF 		b	usb_lld_prepare_receive
  502              	.LVL53:
-ARM GAS  /tmp/ccbKxMJW.s 			page 10
+ARM GAS  /tmp/ccWxhkHS.s 			page 10
 
 
  503              	.LVL54:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  557              	.LFE74:
  558              		.size	usbPrepareQueuedTransmit, .-usbPrepareQueuedTransmit
  559 001c AFF30080 		.section	.text.usbStartReceiveI,"ax",%progbits
-ARM GAS  /tmp/ccbKxMJW.s 			page 11
+ARM GAS  /tmp/ccWxhkHS.s 			page 11
 
 
  560              		.align	2
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  612              		.global	usbStartTransmitI
  613              		.thumb
  614              		.thumb_func
-ARM GAS  /tmp/ccbKxMJW.s 			page 12
+ARM GAS  /tmp/ccWxhkHS.s 			page 12
 
 
  615              		.type	usbStartTransmitI, %function
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  667              	.LFB77:
  668              		.loc 1 525 0
  669              		.cfi_startproc
-ARM GAS  /tmp/ccbKxMJW.s 			page 13
+ARM GAS  /tmp/ccWxhkHS.s 			page 13
 
 
  670              		@ args = 0, pretend = 0, frame = 0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  723              		.loc 1 554 0
  724 0004 42FA01F3 		asr	r3, r2, r1
  725 0008 13F00104 		ands	r4, r3, #1
-ARM GAS  /tmp/ccbKxMJW.s 			page 14
+ARM GAS  /tmp/ccWxhkHS.s 			page 14
 
 
  726 000c 01D0     		beq	.L31
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  779 0018 0261     		str	r2, [r0, #16]
  780              	.LVL82:
  781 001a 4261     		str	r2, [r0, #20]
-ARM GAS  /tmp/ccbKxMJW.s 			page 15
+ARM GAS  /tmp/ccWxhkHS.s 			page 15
 
 
  782              	.LVL83:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  833              		.loc 1 604 0
  834 0006 80F83020 		strb	r2, [r0, #48]
  835              		.loc 1 605 0
-ARM GAS  /tmp/ccbKxMJW.s 			page 16
+ARM GAS  /tmp/ccWxhkHS.s 			page 16
 
 
  836 000a 00F14002 		add	r2, r0, #64
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  890              		.thumb
  891              	.LBE25:
  892              		.loc 1 669 0
-ARM GAS  /tmp/ccbKxMJW.s 			page 17
+ARM GAS  /tmp/ccWxhkHS.s 			page 17
 
 
  893 005a 2046     		mov	r0, r4
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  947              		.loc 1 86 0
  948 00a4 B7F5407F 		cmp	r7, #768
  949 00a8 00F0BD80 		beq	.L43
-ARM GAS  /tmp/ccbKxMJW.s 			page 18
+ARM GAS  /tmp/ccWxhkHS.s 			page 18
 
 
  950 00ac 16DD     		ble	.L77
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1004              	.LBE27:
  1005              		.loc 1 657 0
  1006 011c 0320     		movs	r0, #3
-ARM GAS  /tmp/ccbKxMJW.s 			page 19
+ARM GAS  /tmp/ccWxhkHS.s 			page 19
 
 
  1007              	.LVL104:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1061              		.thumb
  1062              	.LBE32:
  1063              		.loc 1 640 0
-ARM GAS  /tmp/ccbKxMJW.s 			page 20
+ARM GAS  /tmp/ccWxhkHS.s 			page 20
 
 
  1064 015a 0021     		movs	r1, #0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1118              	.LBB36:
  1119              	.LBB29:
  1120              		.loc 1 86 0
-ARM GAS  /tmp/ccbKxMJW.s 			page 21
+ARM GAS  /tmp/ccWxhkHS.s 			page 21
 
 
  1121 0190 40F20231 		movw	r1, #770
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1175 01fc 02F00F01 		and	r1, r2, #15
  1176              		.loc 1 155 0
  1177 0200 69D1     		bne	.L81
-ARM GAS  /tmp/ccbKxMJW.s 			page 22
+ARM GAS  /tmp/ccWxhkHS.s 			page 22
 
 
  1178              		.loc 1 168 0
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1232 0268 0325     		moveq	r5, #3
  1233              		.loc 1 140 0
  1234 026a 2570     		strb	r5, [r4, #0]
-ARM GAS  /tmp/ccbKxMJW.s 			page 23
+ARM GAS  /tmp/ccWxhkHS.s 			page 23
 
 
  1235              		.loc 1 144 0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1289              		.loc 1 156 0
  1290 02d6 FFF7FEFF 		bl	usb_lld_get_status_in
  1291 02da 0128     		cmp	r0, #1
-ARM GAS  /tmp/ccbKxMJW.s 			page 24
+ARM GAS  /tmp/ccWxhkHS.s 			page 24
 
 
  1292 02dc 95D1     		bne	.L73
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1345 000a 19D0     		beq	.L85
  1346 000c 042B     		cmp	r3, #4
  1347 000e 10D0     		beq	.L92
-ARM GAS  /tmp/ccbKxMJW.s 			page 25
+ARM GAS  /tmp/ccWxhkHS.s 			page 25
 
 
  1348              		.loc 1 723 0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1402              		.loc 1 695 0 discriminator 1
  1403 0060 9DB1     		cbz	r5, .L93
  1404              	.L87:
-ARM GAS  /tmp/ccbKxMJW.s 			page 26
+ARM GAS  /tmp/ccWxhkHS.s 			page 26
 
 
  1405              		.loc 1 706 0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1459              	@ 0 "" 2
  1460              	.LVL143:
  1461              		.thumb
-ARM GAS  /tmp/ccbKxMJW.s 			page 27
+ARM GAS  /tmp/ccWxhkHS.s 			page 27
 
 
  1462              	.LBE39:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1515              		.loc 1 766 0
  1516 0010 0021     		movs	r1, #0
  1517 0012 2046     		mov	r0, r4
-ARM GAS  /tmp/ccbKxMJW.s 			page 28
+ARM GAS  /tmp/ccWxhkHS.s 			page 28
 
 
  1518              	.LVL149:
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1572              	@ 0 "" 2
  1573              	.LVL156:
  1574              		.thumb
-ARM GAS  /tmp/ccbKxMJW.s 			page 29
+ARM GAS  /tmp/ccWxhkHS.s 			page 29
 
 
  1575              	.LBE42:
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1626              		.file 3 "/home/formica/toolchains/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-
  1627              		.file 4 "../../../os/ports/GCC/ARMCMx/chtypes.h"
  1628              		.file 5 "../../../os/kernel/include/chlists.h"
-ARM GAS  /tmp/ccbKxMJW.s 			page 30
+ARM GAS  /tmp/ccWxhkHS.s 			page 30
 
 
  1629              		.file 6 "../../../os/kernel/include/chthreads.h"
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1683 0061 02       		.uleb128 0x2
  1684 0062 04       		.byte	0x4
  1685 0063 05       		.byte	0x5
-ARM GAS  /tmp/ccbKxMJW.s 			page 31
+ARM GAS  /tmp/ccWxhkHS.s 			page 31
 
 
  1686 0064 1B010000 		.4byte	.LASF7
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1740 00d6 29       		.byte	0x29
  1741 00d7 8E000000 		.4byte	0x8e
  1742 00db 07       		.uleb128 0x7
-ARM GAS  /tmp/ccbKxMJW.s 			page 32
+ARM GAS  /tmp/ccWxhkHS.s 			page 32
 
 
  1743 00dc 72040000 		.4byte	.LASF18
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1797 014e 23       		.byte	0x23
  1798 014f 04       		.uleb128 0x4
  1799 0150 09       		.uleb128 0x9
-ARM GAS  /tmp/ccbKxMJW.s 			page 33
+ARM GAS  /tmp/ccWxhkHS.s 			page 33
 
 
  1800 0151 80000000 		.4byte	.LASF27
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1854 01b1 1D       		.uleb128 0x1d
  1855 01b2 09       		.uleb128 0x9
  1856 01b3 D9060000 		.4byte	.LASF34
-ARM GAS  /tmp/ccbKxMJW.s 			page 34
+ARM GAS  /tmp/ccWxhkHS.s 			page 34
 
 
  1857 01b7 06       		.byte	0x6
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1911 0214 09       		.uleb128 0x9
  1912 0215 55050000 		.4byte	.LASF40
  1913 0219 06       		.byte	0x6
-ARM GAS  /tmp/ccbKxMJW.s 			page 35
+ARM GAS  /tmp/ccWxhkHS.s 			page 35
 
 
  1914 021a C2       		.byte	0xc2
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  1968 0274 1D010000 		.4byte	0x11d
  1969 0278 07       		.uleb128 0x7
  1970 0279 0F040000 		.4byte	.LASF44
-ARM GAS  /tmp/ccbKxMJW.s 			page 36
+ARM GAS  /tmp/ccWxhkHS.s 			page 36
 
 
  1971 027d 05       		.byte	0x5
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2025 02e4 02       		.byte	0x2
  2026 02e5 23       		.byte	0x23
  2027 02e6 08       		.uleb128 0x8
-ARM GAS  /tmp/ccbKxMJW.s 			page 37
+ARM GAS  /tmp/ccWxhkHS.s 			page 37
 
 
  2028 02e7 0D       		.uleb128 0xd
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2082 0347 5B030000 		.4byte	0x35b
  2083 034b 0D       		.uleb128 0xd
  2084 034c 72313300 		.ascii	"r13\000"
-ARM GAS  /tmp/ccbKxMJW.s 			page 38
+ARM GAS  /tmp/ccWxhkHS.s 			page 38
 
 
  2085 0350 07       		.byte	0x7
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2139 03b1 8F       		.byte	0x8f
  2140 03b2 E3030000 		.4byte	0x3e3
  2141 03b6 10       		.uleb128 0x10
-ARM GAS  /tmp/ccbKxMJW.s 			page 39
+ARM GAS  /tmp/ccWxhkHS.s 			page 39
 
 
  2142 03b7 15000000 		.4byte	.LASF53
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2196 0423 94040000 		.4byte	0x494
  2197 0427 02       		.byte	0x2
  2198 0428 23       		.byte	0x23
-ARM GAS  /tmp/ccbKxMJW.s 			page 40
+ARM GAS  /tmp/ccWxhkHS.s 			page 40
 
 
  2199 0429 0C       		.uleb128 0xc
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2253 0489 8E040000 		.4byte	0x48e
  2254 048d 00       		.byte	0
  2255 048e 05       		.uleb128 0x5
-ARM GAS  /tmp/ccbKxMJW.s 			page 41
+ARM GAS  /tmp/ccWxhkHS.s 			page 41
 
 
  2256 048f 04       		.byte	0x4
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2310 0502 02       		.byte	0x2
  2311 0503 23       		.byte	0x23
  2312 0504 08       		.uleb128 0x8
-ARM GAS  /tmp/ccbKxMJW.s 			page 42
+ARM GAS  /tmp/ccWxhkHS.s 			page 42
 
 
  2313 0505 13       		.uleb128 0x13
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2367 056c 23       		.byte	0x23
  2368 056d 3C       		.uleb128 0x3c
  2369 056e 13       		.uleb128 0x13
-ARM GAS  /tmp/ccbKxMJW.s 			page 43
+ARM GAS  /tmp/ccWxhkHS.s 			page 43
 
 
  2370 056f 2F040000 		.4byte	.LASF79
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2424 05d4 12060000 		.4byte	.LASF86
  2425 05d8 01       		.sleb128 1
  2426 05d9 15       		.uleb128 0x15
-ARM GAS  /tmp/ccbKxMJW.s 			page 44
+ARM GAS  /tmp/ccWxhkHS.s 			page 44
 
 
  2427 05da AD040000 		.4byte	.LASF87
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2481 0640 D0010000 		.4byte	.LASF100
  2482 0644 0A       		.byte	0xa
  2483 0645 0101     		.2byte	0x101
-ARM GAS  /tmp/ccbKxMJW.s 			page 45
+ARM GAS  /tmp/ccWxhkHS.s 			page 45
 
 
  2484 0647 12060000 		.4byte	0x612
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2538 06b2 0A       		.byte	0xa
  2539 06b3 1B01     		.2byte	0x11b
  2540 06b5 85060000 		.4byte	0x685
-ARM GAS  /tmp/ccbKxMJW.s 			page 46
+ARM GAS  /tmp/ccWxhkHS.s 			page 46
 
 
  2541 06b9 16       		.uleb128 0x16
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2595 072f 05       		.uleb128 0x5
  2596 0730 04       		.byte	0x4
  2597 0731 35070000 		.4byte	0x735
-ARM GAS  /tmp/ccbKxMJW.s 			page 47
+ARM GAS  /tmp/ccWxhkHS.s 			page 47
 
 
  2598 0735 19       		.uleb128 0x19
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2652 07a5 0B       		.byte	0xb
  2653 07a6 8D       		.byte	0x8d
  2654 07a7 AF070000 		.4byte	0x7af
-ARM GAS  /tmp/ccbKxMJW.s 			page 48
+ARM GAS  /tmp/ccWxhkHS.s 			page 48
 
 
  2655 07ab 02       		.byte	0x2
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2709 080b 0B       		.byte	0xb
  2710 080c 90       		.byte	0x90
  2711 080d B5070000 		.4byte	0x7b5
-ARM GAS  /tmp/ccbKxMJW.s 			page 49
+ARM GAS  /tmp/ccWxhkHS.s 			page 49
 
 
  2712 0811 02       		.byte	0x2
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2766 086e 37080000 		.4byte	0x837
  2767 0872 00       		.byte	0
  2768 0873 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccbKxMJW.s 			page 50
+ARM GAS  /tmp/ccWxhkHS.s 			page 50
 
 
  2769 0874 14       		.byte	0x14
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2823 08d1 62090000 		.4byte	0x962
  2824 08d5 09       		.uleb128 0x9
  2825 08d6 AA060000 		.4byte	.LASF132
-ARM GAS  /tmp/ccbKxMJW.s 			page 51
+ARM GAS  /tmp/ccWxhkHS.s 			page 51
 
 
  2826 08da 0B       		.byte	0xb
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2880 0937 09       		.uleb128 0x9
  2881 0938 D1030000 		.4byte	.LASF139
  2882 093c 0B       		.byte	0xb
-ARM GAS  /tmp/ccbKxMJW.s 			page 52
+ARM GAS  /tmp/ccWxhkHS.s 			page 52
 
 
  2883 093d ED       		.byte	0xed
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2937 099f 13       		.uleb128 0x13
  2938 09a0 5F030000 		.4byte	.LASF145
  2939 09a4 0B       		.byte	0xb
-ARM GAS  /tmp/ccbKxMJW.s 			page 53
+ARM GAS  /tmp/ccWxhkHS.s 			page 53
 
 
  2940 09a5 0F01     		.2byte	0x10f
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  2994 0a18 01       		.byte	0x1
  2995 0a19 D901     		.2byte	0x1d9
  2996 0a1b D7060000 		.4byte	0x6d7
-ARM GAS  /tmp/ccbKxMJW.s 			page 54
+ARM GAS  /tmp/ccWxhkHS.s 			page 54
 
 
  2997 0a1f 1E       		.uleb128 0x1e
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3051 0a93 01       		.byte	0x1
  3052 0a94 DB030000 		.4byte	.LASF151
  3053 0a98 01       		.byte	0x1
-ARM GAS  /tmp/ccbKxMJW.s 			page 55
+ARM GAS  /tmp/ccWxhkHS.s 			page 55
 
 
  3054 0a99 F0       		.byte	0xf0
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3108 0b1d 00       		.byte	0
  3109 0b1e 28       		.uleb128 0x28
  3110 0b1f 26000000 		.4byte	.LBB3
-ARM GAS  /tmp/ccbKxMJW.s 			page 56
+ARM GAS  /tmp/ccWxhkHS.s 			page 56
 
 
  3111 0b23 2C000000 		.4byte	.LBE3
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3165 0baa 8D010000 		.4byte	.LLST12
  3166 0bae E20B0000 		.4byte	0xbe2
  3167 0bb2 25       		.uleb128 0x25
-ARM GAS  /tmp/ccbKxMJW.s 			page 57
+ARM GAS  /tmp/ccWxhkHS.s 			page 57
 
 
  3168 0bb3 58010000 		.4byte	.LASF148
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3222 0c3b 6F01     		.2byte	0x16f
  3223 0c3d D7060000 		.4byte	0x6d7
  3224 0c41 B7020000 		.4byte	.LLST20
-ARM GAS  /tmp/ccbKxMJW.s 			page 58
+ARM GAS  /tmp/ccWxhkHS.s 			page 58
 
 
  3225 0c45 2A       		.uleb128 0x2a
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3279 0cca 2A       		.uleb128 0x2a
  3280 0ccb 6E00     		.ascii	"n\000"
  3281 0ccd 01       		.byte	0x1
-ARM GAS  /tmp/ccbKxMJW.s 			page 59
+ARM GAS  /tmp/ccWxhkHS.s 			page 59
 
 
  3282 0cce 8901     		.2byte	0x189
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3336 0d4e 01       		.byte	0x1
  3337 0d4f 97050000 		.4byte	.LASF160
  3338 0d53 01       		.byte	0x1
-ARM GAS  /tmp/ccbKxMJW.s 			page 60
+ARM GAS  /tmp/ccWxhkHS.s 			page 60
 
 
  3339 0d54 BF01     		.2byte	0x1bf
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3393 0de7 01       		.byte	0x1
  3394 0de8 D901     		.2byte	0x1d9
  3395 0dea 2D       		.uleb128 0x2d
-ARM GAS  /tmp/ccbKxMJW.s 			page 61
+ARM GAS  /tmp/ccWxhkHS.s 			page 61
 
 
  3396 0deb 1F0A0000 		.4byte	0xa1f
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3450 0e7e BA050000 		.4byte	0x5ba
  3451 0e82 8B050000 		.4byte	.LLST51
  3452 0e86 00       		.byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 62
+ARM GAS  /tmp/ccWxhkHS.s 			page 62
 
 
  3453 0e87 2F       		.uleb128 0x2f
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3507 0f0b 250F0000 		.4byte	0xf25
  3508 0f0f 31       		.uleb128 0x31
  3509 0f10 58010000 		.4byte	.LASF148
-ARM GAS  /tmp/ccbKxMJW.s 			page 63
+ARM GAS  /tmp/ccWxhkHS.s 			page 63
 
 
  3510 0f14 01       		.byte	0x1
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3564 0f9e 01       		.byte	0x1
  3565 0f9f 9E02     		.2byte	0x29e
  3566 0fa1 AF000000 		.4byte	0xaf
-ARM GAS  /tmp/ccbKxMJW.s 			page 64
+ARM GAS  /tmp/ccWxhkHS.s 			page 64
 
 
  3567 0fa5 55070000 		.4byte	.LLST63
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3621 1036 6A010000 		.4byte	.LBE33
  3622 103a 4F100000 		.4byte	0x104f
  3623 103e 26       		.uleb128 0x26
-ARM GAS  /tmp/ccbKxMJW.s 			page 65
+ARM GAS  /tmp/ccWxhkHS.s 			page 65
 
 
  3624 103f 746D7000 		.ascii	"tmp\000"
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3678 10c9 83000000 		.4byte	0x83
  3679 10cd 72080000 		.4byte	.LLST75
  3680 10d1 27       		.uleb128 0x27
-ARM GAS  /tmp/ccbKxMJW.s 			page 66
+ARM GAS  /tmp/ccWxhkHS.s 			page 66
 
 
  3681 10d2 74000000 		.4byte	.LBB37
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3735 1161 58010000 		.4byte	.LASF148
  3736 1165 01       		.byte	0x1
  3737 1166 E302     		.2byte	0x2e3
-ARM GAS  /tmp/ccbKxMJW.s 			page 67
+ARM GAS  /tmp/ccWxhkHS.s 			page 67
 
 
  3738 1168 D7060000 		.4byte	0x6d7
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3792 11eb 00000000 		.4byte	active_status
  3793 11ef 06       		.uleb128 0x6
  3794 11f0 B8110000 		.4byte	0x11b8
-ARM GAS  /tmp/ccbKxMJW.s 			page 68
+ARM GAS  /tmp/ccWxhkHS.s 			page 68
 
 
  3795 11f4 36       		.uleb128 0x36
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3849 0022 00       		.byte	0
  3850 0023 0B       		.uleb128 0xb
  3851 0024 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccbKxMJW.s 			page 69
+ARM GAS  /tmp/ccWxhkHS.s 			page 69
 
 
  3852 0025 3E       		.uleb128 0x3e
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3906 005b 13       		.uleb128 0x13
  3907 005c 00       		.byte	0
  3908 005d 00       		.byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 70
+ARM GAS  /tmp/ccWxhkHS.s 			page 70
 
 
  3909 005e 09       		.uleb128 0x9
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  3963 0094 01       		.uleb128 0x1
  3964 0095 13       		.uleb128 0x13
  3965 0096 00       		.byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 71
+ARM GAS  /tmp/ccWxhkHS.s 			page 71
 
 
  3966 0097 00       		.byte	0
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4020 00cd 01       		.uleb128 0x1
  4021 00ce 13       		.uleb128 0x13
  4022 00cf 00       		.byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 72
+ARM GAS  /tmp/ccWxhkHS.s 			page 72
 
 
  4023 00d0 00       		.byte	0
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4077 0106 49       		.uleb128 0x49
  4078 0107 13       		.uleb128 0x13
  4079 0108 00       		.byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 73
+ARM GAS  /tmp/ccWxhkHS.s 			page 73
 
 
  4080 0109 00       		.byte	0
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4134 013f 00       		.byte	0
  4135 0140 00       		.byte	0
  4136 0141 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccbKxMJW.s 			page 74
+ARM GAS  /tmp/ccWxhkHS.s 			page 74
 
 
  4137 0142 2E       		.uleb128 0x2e
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4191 0178 0B       		.uleb128 0xb
  4192 0179 27       		.uleb128 0x27
  4193 017a 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccbKxMJW.s 			page 75
+ARM GAS  /tmp/ccWxhkHS.s 			page 75
 
 
  4194 017b 11       		.uleb128 0x11
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4248 01b1 0B       		.uleb128 0xb
  4249 01b2 3B       		.uleb128 0x3b
  4250 01b3 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccbKxMJW.s 			page 76
+ARM GAS  /tmp/ccWxhkHS.s 			page 76
 
 
  4251 01b4 27       		.uleb128 0x27
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4305 01ea 0E       		.uleb128 0xe
  4306 01eb 3A       		.uleb128 0x3a
  4307 01ec 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccbKxMJW.s 			page 77
+ARM GAS  /tmp/ccWxhkHS.s 			page 77
 
 
  4308 01ed 3B       		.uleb128 0x3b
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4362 0223 00       		.byte	0
  4363 0224 03       		.uleb128 0x3
  4364 0225 08       		.uleb128 0x8
-ARM GAS  /tmp/ccbKxMJW.s 			page 78
+ARM GAS  /tmp/ccWxhkHS.s 			page 78
 
 
  4365 0226 3A       		.uleb128 0x3a
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4419 025c 11       		.uleb128 0x11
  4420 025d 01       		.uleb128 0x1
  4421 025e 12       		.uleb128 0x12
-ARM GAS  /tmp/ccbKxMJW.s 			page 79
+ARM GAS  /tmp/ccWxhkHS.s 			page 79
 
 
  4422 025f 01       		.uleb128 0x1
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4476 0295 03       		.uleb128 0x3
  4477 0296 0E       		.uleb128 0xe
  4478 0297 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccbKxMJW.s 			page 80
+ARM GAS  /tmp/ccWxhkHS.s 			page 80
 
 
  4479 0298 0B       		.uleb128 0xb
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4533 02ce 34       		.uleb128 0x34
  4534 02cf 00       		.byte	0
  4535 02d0 03       		.uleb128 0x3
-ARM GAS  /tmp/ccbKxMJW.s 			page 81
+ARM GAS  /tmp/ccWxhkHS.s 			page 81
 
 
  4536 02d1 0E       		.uleb128 0xe
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4590 003a 00000000 		.4byte	0
  4591              	.LLST2:
  4592 003e 00000000 		.4byte	.LFB67
-ARM GAS  /tmp/ccbKxMJW.s 			page 82
+ARM GAS  /tmp/ccWxhkHS.s 			page 82
 
 
  4593 0042 02000000 		.4byte	.LCFI1
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4647 00ca 9F       		.byte	0x9f
  4648 00cb 18000000 		.4byte	.LVL11
  4649 00cf 1A000000 		.4byte	.LVL12
-ARM GAS  /tmp/ccbKxMJW.s 			page 83
+ARM GAS  /tmp/ccWxhkHS.s 			page 83
 
 
  4650 00d3 0200     		.2byte	0x2
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4704 015c 0100     		.2byte	0x1
  4705 015e 54       		.byte	0x54
  4706 015f 00000000 		.4byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 84
+ARM GAS  /tmp/ccWxhkHS.s 			page 84
 
 
  4707 0163 00000000 		.4byte	0
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4761 01f3 54       		.byte	0x54
  4762 01f4 00000000 		.4byte	0
  4763 01f8 00000000 		.4byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 85
+ARM GAS  /tmp/ccWxhkHS.s 			page 85
 
 
  4764              	.LLST16:
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4818 0281 37       		.byte	0x37
  4819 0282 9F       		.byte	0x9f
  4820 0283 22000000 		.4byte	.LVL36
-ARM GAS  /tmp/ccbKxMJW.s 			page 86
+ARM GAS  /tmp/ccWxhkHS.s 			page 86
 
 
  4821 0287 28000000 		.4byte	.LFE70
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4875 0313 1A000000 		.4byte	.LFE72
  4876 0317 0200     		.2byte	0x2
  4877 0319 7D       		.byte	0x7d
-ARM GAS  /tmp/ccbKxMJW.s 			page 87
+ARM GAS  /tmp/ccWxhkHS.s 			page 87
 
 
  4878 031a 08       		.sleb128 8
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4932 03aa 0100     		.2byte	0x1
  4933 03ac 51       		.byte	0x51
  4934 03ad 00000000 		.4byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 88
+ARM GAS  /tmp/ccWxhkHS.s 			page 88
 
 
  4935 03b1 00000000 		.4byte	0
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  4989              	.LLST38:
  4990 0440 00000000 		.4byte	.LVL57
  4991 0444 10000000 		.4byte	.LVL59
-ARM GAS  /tmp/ccbKxMJW.s 			page 89
+ARM GAS  /tmp/ccWxhkHS.s 			page 89
 
 
  4992 0448 0100     		.2byte	0x1
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5046              	.LLST44:
  5047 04d6 00000000 		.4byte	.LFB76
  5048 04da 02000000 		.4byte	.LCFI10
-ARM GAS  /tmp/ccbKxMJW.s 			page 90
+ARM GAS  /tmp/ccWxhkHS.s 			page 90
 
 
  5049 04de 0200     		.2byte	0x2
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5103 0569 00000000 		.4byte	0
  5104              	.LLST50:
  5105 056d 00000000 		.4byte	.LVL72
-ARM GAS  /tmp/ccbKxMJW.s 			page 91
+ARM GAS  /tmp/ccWxhkHS.s 			page 91
 
 
  5106 0571 10000000 		.4byte	.LVL73
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5160 05ff 32000000 		.4byte	.LFE79
  5161 0603 0200     		.2byte	0x2
  5162 0605 7D       		.byte	0x7d
-ARM GAS  /tmp/ccbKxMJW.s 			page 92
+ARM GAS  /tmp/ccWxhkHS.s 			page 92
 
 
  5163 0606 04       		.sleb128 4
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5217 068c 38       		.byte	0x38
  5218 068d 9F       		.byte	0x9f
  5219 068e 00000000 		.4byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 93
+ARM GAS  /tmp/ccWxhkHS.s 			page 93
 
 
  5220 0692 00000000 		.4byte	0
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5274 0711 24       		.byte	0x24
  5275 0712 70       		.byte	0x70
  5276 0713 00       		.sleb128 0
-ARM GAS  /tmp/ccbKxMJW.s 			page 94
+ARM GAS  /tmp/ccWxhkHS.s 			page 94
 
 
  5277 0714 21       		.byte	0x21
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5331 078e 0100     		.2byte	0x1
  5332 0790 50       		.byte	0x50
  5333 0791 00000000 		.4byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 95
+ARM GAS  /tmp/ccWxhkHS.s 			page 95
 
 
  5334 0795 00000000 		.4byte	0
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5388 0823 00000000 		.4byte	0
  5389 0827 00000000 		.4byte	0
  5390              	.LLST73:
-ARM GAS  /tmp/ccbKxMJW.s 			page 96
+ARM GAS  /tmp/ccWxhkHS.s 			page 96
 
 
  5391 082b 00000000 		.4byte	.LVL127
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5445 089f 94       		.byte	0x94
  5446 08a0 01       		.byte	0x1
  5447 08a1 48       		.byte	0x48
-ARM GAS  /tmp/ccbKxMJW.s 			page 97
+ARM GAS  /tmp/ccWxhkHS.s 			page 97
 
 
  5448 08a2 24       		.byte	0x24
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5502 091c 7D       		.byte	0x7d
  5503 091d 08       		.sleb128 8
  5504 091e 00000000 		.4byte	0
-ARM GAS  /tmp/ccbKxMJW.s 			page 98
+ARM GAS  /tmp/ccWxhkHS.s 			page 98
 
 
  5505 0922 00000000 		.4byte	0
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5559 0024 10000000 		.4byte	.LFE66-.LFB66
  5560 0028 00000000 		.4byte	.LFB67
  5561 002c 2E000000 		.4byte	.LFE67-.LFB67
-ARM GAS  /tmp/ccbKxMJW.s 			page 99
+ARM GAS  /tmp/ccWxhkHS.s 			page 99
 
 
  5562 0030 00000000 		.4byte	.LFB68
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5616 0050 00000000 		.4byte	.LFB65
  5617 0054 04000000 		.4byte	.LFE65
  5618 0058 00000000 		.4byte	.LFB66
-ARM GAS  /tmp/ccbKxMJW.s 			page 100
+ARM GAS  /tmp/ccWxhkHS.s 			page 100
 
 
  5619 005c 10000000 		.4byte	.LFE66
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5665              	.LASF93:
  5666 001c 45505F53 		.ascii	"EP_STATUS_ACTIVE\000"
  5666      54415455 
-ARM GAS  /tmp/ccbKxMJW.s 			page 101
+ARM GAS  /tmp/ccWxhkHS.s 			page 101
 
 
  5666      535F4143 
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5690      7400
  5691              	.LASF0:
  5692 00be 7369676E 		.ascii	"signed char\000"
-ARM GAS  /tmp/ccbKxMJW.s 			page 102
+ARM GAS  /tmp/ccWxhkHS.s 			page 102
 
 
  5692      65642063 
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5720      454400
  5721              	.LASF135:
  5722 0151 6F75745F 		.ascii	"out_cb\000"
-ARM GAS  /tmp/ccbKxMJW.s 			page 103
+ARM GAS  /tmp/ccWxhkHS.s 			page 103
 
 
  5722      636200
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5748 01ea 7365745F 		.ascii	"set_address\000"
  5748      61646472 
  5748      65737300 
-ARM GAS  /tmp/ccbKxMJW.s 			page 104
+ARM GAS  /tmp/ccWxhkHS.s 			page 104
 
 
  5749              	.LASF159:
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5774      69766549 
  5774      00
  5775              	.LASF153:
-ARM GAS  /tmp/ccbKxMJW.s 			page 105
+ARM GAS  /tmp/ccWxhkHS.s 			page 105
 
 
  5776 0292 75736253 		.ascii	"usbStop\000"
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5801              	.LASF45:
  5802 0326 54687265 		.ascii	"ThreadsList\000"
  5802      6164734C 
-ARM GAS  /tmp/ccbKxMJW.s 			page 106
+ARM GAS  /tmp/ccWxhkHS.s 			page 106
 
 
  5802      69737400 
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5827              	.LASF49:
  5828 03c3 4D757465 		.ascii	"Mutex\000"
  5828      7800
-ARM GAS  /tmp/ccbKxMJW.s 			page 107
+ARM GAS  /tmp/ccWxhkHS.s 			page 107
 
 
  5829              	.LASF81:
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5854      4556454E 
  5854      545F5245 
  5854      53455400 
-ARM GAS  /tmp/ccbKxMJW.s 			page 108
+ARM GAS  /tmp/ccWxhkHS.s 			page 108
 
 
  5855              	.LASF136:
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5884 04f1 73686F72 		.ascii	"short int\000"
  5884      7420696E 
  5884      7400
-ARM GAS  /tmp/ccbKxMJW.s 			page 109
+ARM GAS  /tmp/ccWxhkHS.s 			page 109
 
 
  5885              	.LASF32:
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5912      00
  5913              	.LASF147:
  5914 058d 55534243 		.ascii	"USBConfig\000"
-ARM GAS  /tmp/ccbKxMJW.s 			page 110
+ARM GAS  /tmp/ccWxhkHS.s 			page 110
 
 
  5914      6F6E6669 
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5942 0622 73797374 		.ascii	"systime_t\000"
  5942      696D655F 
  5942      7400
-ARM GAS  /tmp/ccbKxMJW.s 			page 111
+ARM GAS  /tmp/ccWxhkHS.s 			page 111
 
 
  5943              	.LASF42:
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5967              	.LASF14:
  5968 06ca 75696E74 		.ascii	"uint32_t\000"
  5968      33325F74 
-ARM GAS  /tmp/ccbKxMJW.s 			page 112
+ARM GAS  /tmp/ccWxhkHS.s 			page 112
 
 
  5968      00
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  5995              	.LASF31:
  5996 075f 705F6E61 		.ascii	"p_name\000"
  5996      6D6500
-ARM GAS  /tmp/ccbKxMJW.s 			page 113
+ARM GAS  /tmp/ccWxhkHS.s 			page 113
 
 
  5997              	.LASF156:
@@ -6753,58 +6753,58 @@ ARM GAS  /tmp/ccbKxMJW.s 			page 1
  6011      6974696E 
  6011      6700
  6012              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccbKxMJW.s 			page 114
+ARM GAS  /tmp/ccWxhkHS.s 			page 114
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usb.c
-     /tmp/ccbKxMJW.s:19     .text.set_address:0000000000000000 $t
-     /tmp/ccbKxMJW.s:24     .text.set_address:0000000000000000 set_address
-     /tmp/ccbKxMJW.s:64     .text.usbInit:0000000000000000 $t
-     /tmp/ccbKxMJW.s:70     .text.usbInit:0000000000000000 usbInit
-     /tmp/ccbKxMJW.s:84     .text.usbObjectInit:0000000000000000 $t
-     /tmp/ccbKxMJW.s:90     .text.usbObjectInit:0000000000000000 usbObjectInit
-     /tmp/ccbKxMJW.s:117    .text.usbStart:0000000000000000 $t
-     /tmp/ccbKxMJW.s:123    .text.usbStart:0000000000000000 usbStart
-     /tmp/ccbKxMJW.s:193    .text.usbStop:0000000000000000 $t
-     /tmp/ccbKxMJW.s:199    .text.usbStop:0000000000000000 usbStop
-     /tmp/ccbKxMJW.s:248    .text.usbInitEndpointI:0000000000000000 $t
-     /tmp/ccbKxMJW.s:254    .text.usbInitEndpointI:0000000000000000 usbInitEndpointI
-     /tmp/ccbKxMJW.s:309    .text.usbDisableEndpointsI:0000000000000000 $t
-     /tmp/ccbKxMJW.s:315    .text.usbDisableEndpointsI:0000000000000000 usbDisableEndpointsI
-     /tmp/ccbKxMJW.s:366    .text.usbPrepareReceive:0000000000000000 $t
-     /tmp/ccbKxMJW.s:372    .text.usbPrepareReceive:0000000000000000 usbPrepareReceive
-     /tmp/ccbKxMJW.s:413    .text.usbPrepareTransmit:0000000000000000 $t
-     /tmp/ccbKxMJW.s:419    .text.usbPrepareTransmit:0000000000000000 usbPrepareTransmit
-     /tmp/ccbKxMJW.s:460    .text.usbPrepareQueuedReceive:0000000000000000 $t
-     /tmp/ccbKxMJW.s:466    .text.usbPrepareQueuedReceive:0000000000000000 usbPrepareQueuedReceive
-     /tmp/ccbKxMJW.s:510    .text.usbPrepareQueuedTransmit:0000000000000000 $t
-     /tmp/ccbKxMJW.s:516    .text.usbPrepareQueuedTransmit:0000000000000000 usbPrepareQueuedTransmit
-     /tmp/ccbKxMJW.s:560    .text.usbStartReceiveI:0000000000000000 $t
-     /tmp/ccbKxMJW.s:566    .text.usbStartReceiveI:0000000000000000 usbStartReceiveI
-     /tmp/ccbKxMJW.s:610    .text.usbStartTransmitI:0000000000000000 $t
-     /tmp/ccbKxMJW.s:616    .text.usbStartTransmitI:0000000000000000 usbStartTransmitI
-     /tmp/ccbKxMJW.s:660    .text.usbStallReceiveI:0000000000000000 $t
-     /tmp/ccbKxMJW.s:666    .text.usbStallReceiveI:0000000000000000 usbStallReceiveI
-     /tmp/ccbKxMJW.s:702    .text.usbStallTransmitI:0000000000000000 $t
-     /tmp/ccbKxMJW.s:708    .text.usbStallTransmitI:0000000000000000 usbStallTransmitI
-     /tmp/ccbKxMJW.s:744    .text._usb_reset:0000000000000000 $t
-     /tmp/ccbKxMJW.s:750    .text._usb_reset:0000000000000000 _usb_reset
-     /tmp/ccbKxMJW.s:806    .text._usb_ep0setup:0000000000000000 $t
-     /tmp/ccbKxMJW.s:812    .text._usb_ep0setup:0000000000000000 _usb_ep0setup
-     /tmp/ccbKxMJW.s:1603   .rodata.zero_status:0000000000000000 .LANCHOR0
-     /tmp/ccbKxMJW.s:1610   .rodata.active_status:0000000000000000 .LANCHOR2
-     /tmp/ccbKxMJW.s:1617   .rodata.halted_status:0000000000000000 .LANCHOR1
-     /tmp/ccbKxMJW.s:1319   .text._usb_ep0in:0000000000000000 $t
-     /tmp/ccbKxMJW.s:1325   .text._usb_ep0in:0000000000000000 _usb_ep0in
-     /tmp/ccbKxMJW.s:1484   .text._usb_ep0out:0000000000000000 $t
-     /tmp/ccbKxMJW.s:1490   .text._usb_ep0out:0000000000000000 _usb_ep0out
-     /tmp/ccbKxMJW.s:1602   .rodata.zero_status:0000000000000000 $d
-     /tmp/ccbKxMJW.s:1606   .rodata.zero_status:0000000000000000 zero_status
-     /tmp/ccbKxMJW.s:1609   .rodata.active_status:0000000000000000 $d
-     /tmp/ccbKxMJW.s:1613   .rodata.active_status:0000000000000000 active_status
-     /tmp/ccbKxMJW.s:1616   .rodata.halted_status:0000000000000000 $d
-     /tmp/ccbKxMJW.s:1620   .rodata.halted_status:0000000000000000 halted_status
+     /tmp/ccWxhkHS.s:19     .text.set_address:0000000000000000 $t
+     /tmp/ccWxhkHS.s:24     .text.set_address:0000000000000000 set_address
+     /tmp/ccWxhkHS.s:64     .text.usbInit:0000000000000000 $t
+     /tmp/ccWxhkHS.s:70     .text.usbInit:0000000000000000 usbInit
+     /tmp/ccWxhkHS.s:84     .text.usbObjectInit:0000000000000000 $t
+     /tmp/ccWxhkHS.s:90     .text.usbObjectInit:0000000000000000 usbObjectInit
+     /tmp/ccWxhkHS.s:117    .text.usbStart:0000000000000000 $t
+     /tmp/ccWxhkHS.s:123    .text.usbStart:0000000000000000 usbStart
+     /tmp/ccWxhkHS.s:193    .text.usbStop:0000000000000000 $t
+     /tmp/ccWxhkHS.s:199    .text.usbStop:0000000000000000 usbStop
+     /tmp/ccWxhkHS.s:248    .text.usbInitEndpointI:0000000000000000 $t
+     /tmp/ccWxhkHS.s:254    .text.usbInitEndpointI:0000000000000000 usbInitEndpointI
+     /tmp/ccWxhkHS.s:309    .text.usbDisableEndpointsI:0000000000000000 $t
+     /tmp/ccWxhkHS.s:315    .text.usbDisableEndpointsI:0000000000000000 usbDisableEndpointsI
+     /tmp/ccWxhkHS.s:366    .text.usbPrepareReceive:0000000000000000 $t
+     /tmp/ccWxhkHS.s:372    .text.usbPrepareReceive:0000000000000000 usbPrepareReceive
+     /tmp/ccWxhkHS.s:413    .text.usbPrepareTransmit:0000000000000000 $t
+     /tmp/ccWxhkHS.s:419    .text.usbPrepareTransmit:0000000000000000 usbPrepareTransmit
+     /tmp/ccWxhkHS.s:460    .text.usbPrepareQueuedReceive:0000000000000000 $t
+     /tmp/ccWxhkHS.s:466    .text.usbPrepareQueuedReceive:0000000000000000 usbPrepareQueuedReceive
+     /tmp/ccWxhkHS.s:510    .text.usbPrepareQueuedTransmit:0000000000000000 $t
+     /tmp/ccWxhkHS.s:516    .text.usbPrepareQueuedTransmit:0000000000000000 usbPrepareQueuedTransmit
+     /tmp/ccWxhkHS.s:560    .text.usbStartReceiveI:0000000000000000 $t
+     /tmp/ccWxhkHS.s:566    .text.usbStartReceiveI:0000000000000000 usbStartReceiveI
+     /tmp/ccWxhkHS.s:610    .text.usbStartTransmitI:0000000000000000 $t
+     /tmp/ccWxhkHS.s:616    .text.usbStartTransmitI:0000000000000000 usbStartTransmitI
+     /tmp/ccWxhkHS.s:660    .text.usbStallReceiveI:0000000000000000 $t
+     /tmp/ccWxhkHS.s:666    .text.usbStallReceiveI:0000000000000000 usbStallReceiveI
+     /tmp/ccWxhkHS.s:702    .text.usbStallTransmitI:0000000000000000 $t
+     /tmp/ccWxhkHS.s:708    .text.usbStallTransmitI:0000000000000000 usbStallTransmitI
+     /tmp/ccWxhkHS.s:744    .text._usb_reset:0000000000000000 $t
+     /tmp/ccWxhkHS.s:750    .text._usb_reset:0000000000000000 _usb_reset
+     /tmp/ccWxhkHS.s:806    .text._usb_ep0setup:0000000000000000 $t
+     /tmp/ccWxhkHS.s:812    .text._usb_ep0setup:0000000000000000 _usb_ep0setup
+     /tmp/ccWxhkHS.s:1603   .rodata.zero_status:0000000000000000 .LANCHOR0
+     /tmp/ccWxhkHS.s:1610   .rodata.active_status:0000000000000000 .LANCHOR2
+     /tmp/ccWxhkHS.s:1617   .rodata.halted_status:0000000000000000 .LANCHOR1
+     /tmp/ccWxhkHS.s:1319   .text._usb_ep0in:0000000000000000 $t
+     /tmp/ccWxhkHS.s:1325   .text._usb_ep0in:0000000000000000 _usb_ep0in
+     /tmp/ccWxhkHS.s:1484   .text._usb_ep0out:0000000000000000 $t
+     /tmp/ccWxhkHS.s:1490   .text._usb_ep0out:0000000000000000 _usb_ep0out
+     /tmp/ccWxhkHS.s:1602   .rodata.zero_status:0000000000000000 $d
+     /tmp/ccWxhkHS.s:1606   .rodata.zero_status:0000000000000000 zero_status
+     /tmp/ccWxhkHS.s:1609   .rodata.active_status:0000000000000000 $d
+     /tmp/ccWxhkHS.s:1613   .rodata.active_status:0000000000000000 active_status
+     /tmp/ccWxhkHS.s:1616   .rodata.halted_status:0000000000000000 $d
+     /tmp/ccWxhkHS.s:1620   .rodata.halted_status:0000000000000000 halted_status
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
@@ -6813,7 +6813,7 @@ usb_lld_init
 usb_lld_start
 usb_lld_stop
 memset
-ARM GAS  /tmp/ccbKxMJW.s 			page 115
+ARM GAS  /tmp/ccWxhkHS.s 			page 115
 
 
 usb_lld_init_endpoint

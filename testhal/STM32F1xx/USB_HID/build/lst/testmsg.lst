@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccBnAjiB.s 			page 1
+ARM GAS  /tmp/cccYHMFD.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
   55 0028 0094     		str	r4, [sp, #0]
   56 002a FFF7FEFF 		bl	chThdCreateStatic
   57 002e 40F20003 		movw	r3, #:lower16:threads
-ARM GAS  /tmp/ccBnAjiB.s 			page 2
+ARM GAS  /tmp/cccYHMFD.s 			page 2
 
 
   58 0032 C0F20003 		movt	r3, #:upper16:threads
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  111      0080AFF3 
  111      0080AFF3 
  111      0080
-ARM GAS  /tmp/ccBnAjiB.s 			page 3
+ARM GAS  /tmp/cccYHMFD.s 			page 3
 
 
  112              		.align	2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  166 0004 4D657373 		.ascii	"Messages, loop\000"
  166      61676573 
  166      2C206C6F 
-ARM GAS  /tmp/ccBnAjiB.s 			page 4
+ARM GAS  /tmp/cccYHMFD.s 			page 4
 
 
  166      6F7000
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  220 0050 03       		.uleb128 0x3
  221 0051 02       		.byte	0x2
  222 0052 05       		.byte	0x5
-ARM GAS  /tmp/ccBnAjiB.s 			page 5
+ARM GAS  /tmp/cccYHMFD.s 			page 5
 
 
  223 0053 DF010000 		.4byte	.LASF3
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  277 00c2 2C       		.byte	0x2c
  278 00c3 70000000 		.4byte	0x70
  279 00c7 04       		.uleb128 0x4
-ARM GAS  /tmp/ccBnAjiB.s 			page 6
+ARM GAS  /tmp/cccYHMFD.s 			page 6
 
 
  280 00c8 17010000 		.4byte	.LASF17
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  334 0134 02       		.byte	0x2
  335 0135 23       		.byte	0x23
  336 0136 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccBnAjiB.s 			page 7
+ARM GAS  /tmp/cccYHMFD.s 			page 7
 
 
  337 0137 06       		.uleb128 0x6
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  391 0197 23       		.byte	0x23
  392 0198 1F       		.uleb128 0x1f
  393 0199 06       		.uleb128 0x6
-ARM GAS  /tmp/ccBnAjiB.s 			page 8
+ARM GAS  /tmp/cccYHMFD.s 			page 8
 
 
  394 019a 82020000 		.4byte	.LASF32
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  448 01fa 3C       		.uleb128 0x3c
  449 01fb 06       		.uleb128 0x6
  450 01fc 77020000 		.4byte	.LASF38
-ARM GAS  /tmp/ccBnAjiB.s 			page 9
+ARM GAS  /tmp/cccYHMFD.s 			page 9
 
 
  451 0200 05       		.byte	0x5
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  505 025d 3D020000 		.4byte	0x23d
  506 0261 02       		.byte	0x2
  507 0262 23       		.byte	0x23
-ARM GAS  /tmp/ccBnAjiB.s 			page 10
+ARM GAS  /tmp/cccYHMFD.s 			page 10
 
 
  508 0263 00       		.uleb128 0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  562 02c6 06       		.byte	0x6
  563 02c7 1C01     		.2byte	0x11c
  564 02c9 70020000 		.4byte	0x270
-ARM GAS  /tmp/ccBnAjiB.s 			page 11
+ARM GAS  /tmp/cccYHMFD.s 			page 11
 
 
  565 02cd 02       		.byte	0x2
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  619 032e 0D       		.uleb128 0xd
  620 032f DD000000 		.4byte	0xdd
  621 0333 08       		.uleb128 0x8
-ARM GAS  /tmp/ccBnAjiB.s 			page 12
+ARM GAS  /tmp/cccYHMFD.s 			page 12
 
 
  622 0334 1C       		.byte	0x1c
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  676 0391 A2020000 		.4byte	.LASF51
  677 0395 07       		.byte	0x7
  678 0396 64       		.byte	0x64
-ARM GAS  /tmp/ccBnAjiB.s 			page 13
+ARM GAS  /tmp/cccYHMFD.s 			page 13
 
 
  679 0397 33030000 		.4byte	0x333
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  733 03fd C7000000 		.4byte	0xc7
  734 0401 0F       		.uleb128 0xf
  735 0402 C7020000 		.4byte	.LASF58
-ARM GAS  /tmp/ccBnAjiB.s 			page 14
+ARM GAS  /tmp/cccYHMFD.s 			page 14
 
 
  736 0406 05       		.byte	0x5
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  790 046c 43       		.byte	0x43
  791 046d 77040000 		.4byte	0x477
  792 0471 02       		.byte	0x2
-ARM GAS  /tmp/ccBnAjiB.s 			page 15
+ARM GAS  /tmp/cccYHMFD.s 			page 15
 
 
  793 0472 23       		.byte	0x23
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  847 04ea 17       		.uleb128 0x17
  848 04eb 3D020000 		.4byte	0x23d
  849 04ef FA040000 		.4byte	0x4fa
-ARM GAS  /tmp/ccBnAjiB.s 			page 16
+ARM GAS  /tmp/cccYHMFD.s 			page 16
 
 
  850 04f3 18       		.uleb128 0x18
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  904 055e 00000000 		.4byte	patternmsg
  905 0562 10       		.uleb128 0x10
  906 0563 3A050000 		.4byte	0x53a
-ARM GAS  /tmp/ccBnAjiB.s 			page 17
+ARM GAS  /tmp/cccYHMFD.s 			page 17
 
 
  907 0567 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  961 0033 0B       		.uleb128 0xb
  962 0034 49       		.uleb128 0x49
  963 0035 13       		.uleb128 0x13
-ARM GAS  /tmp/ccBnAjiB.s 			page 18
+ARM GAS  /tmp/cccYHMFD.s 			page 18
 
 
  964 0036 00       		.byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1018 006c 3B       		.uleb128 0x3b
  1019 006d 0B       		.uleb128 0xb
  1020 006e 01       		.uleb128 0x1
-ARM GAS  /tmp/ccBnAjiB.s 			page 19
+ARM GAS  /tmp/cccYHMFD.s 			page 19
 
 
  1021 006f 13       		.uleb128 0x13
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1075 00a5 00       		.byte	0
  1076 00a6 00       		.byte	0
  1077 00a7 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccBnAjiB.s 			page 20
+ARM GAS  /tmp/cccYHMFD.s 			page 20
 
 
  1078 00a8 17       		.uleb128 0x17
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1132 00de 40       		.uleb128 0x40
  1133 00df 06       		.uleb128 0x6
  1134 00e0 01       		.uleb128 0x1
-ARM GAS  /tmp/ccBnAjiB.s 			page 21
+ARM GAS  /tmp/cccYHMFD.s 			page 21
 
 
  1135 00e1 13       		.uleb128 0x13
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1189 0117 00       		.byte	0
  1190 0118 00       		.byte	0
  1191 0119 16       		.uleb128 0x16
-ARM GAS  /tmp/ccBnAjiB.s 			page 22
+ARM GAS  /tmp/cccYHMFD.s 			page 22
 
 
  1192 011a 34       		.uleb128 0x34
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1246 0150 00       		.byte	0
  1247 0151 00       		.byte	0
  1248 0152 1B       		.uleb128 0x1b
-ARM GAS  /tmp/ccBnAjiB.s 			page 23
+ARM GAS  /tmp/cccYHMFD.s 			page 23
 
 
  1249 0153 34       		.uleb128 0x34
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1303 0059 43000000 		.4byte	.LVL2-1
  1304 005d 0200     		.2byte	0x2
  1305 005f 70       		.byte	0x70
-ARM GAS  /tmp/ccBnAjiB.s 			page 24
+ARM GAS  /tmp/cccYHMFD.s 			page 24
 
 
  1306 0060 34       		.sleb128 52
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1360 000b 00       		.byte	0
  1361 000c 0000     		.2byte	0
  1362 000e 0000     		.2byte	0
-ARM GAS  /tmp/ccBnAjiB.s 			page 25
+ARM GAS  /tmp/cccYHMFD.s 			page 25
 
 
  1363 0010 00000000 		.4byte	.LFB8
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1397      65756500 
  1398              	.LASF15:
  1399 005e 74736C69 		.ascii	"tslices_t\000"
-ARM GAS  /tmp/ccBnAjiB.s 			page 26
+ARM GAS  /tmp/cccYHMFD.s 			page 26
 
 
  1399      6365735F 
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1424      65642069 
  1424      6E7400
  1425              	.LASF17:
-ARM GAS  /tmp/ccBnAjiB.s 			page 27
+ARM GAS  /tmp/cccYHMFD.s 			page 27
 
 
  1426 0117 6D73675F 		.ascii	"msg_t\000"
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1456 01a8 65786563 		.ascii	"execute\000"
  1456      75746500 
  1457              	.LASF16:
-ARM GAS  /tmp/ccBnAjiB.s 			page 28
+ARM GAS  /tmp/cccYHMFD.s 			page 28
 
 
  1458 01b0 74707269 		.ascii	"tprio_t\000"
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1489              	.LASF36:
  1490 0239 705F6570 		.ascii	"p_epending\000"
  1490      656E6469 
-ARM GAS  /tmp/ccBnAjiB.s 			page 29
+ARM GAS  /tmp/cccYHMFD.s 			page 29
 
 
  1490      6E6700
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1521              	.LASF58:
  1522 02c7 77746F62 		.ascii	"wtobjp\000"
  1522      6A7000
-ARM GAS  /tmp/ccBnAjiB.s 			page 30
+ARM GAS  /tmp/cccYHMFD.s 			page 30
 
 
  1523              	.LASF27:
@@ -1755,21 +1755,21 @@ ARM GAS  /tmp/ccBnAjiB.s 			page 1
  1530      6974696E 
  1530      6700
  1531              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccBnAjiB.s 			page 31
+ARM GAS  /tmp/cccYHMFD.s 			page 31
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 testmsg.c
-     /tmp/ccBnAjiB.s:19     .text.msg1_execute:0000000000000000 $t
-     /tmp/ccBnAjiB.s:24     .text.msg1_execute:0000000000000000 msg1_execute
-     /tmp/ccBnAjiB.s:117    .text.thread:0000000000000000 thread
-     /tmp/ccBnAjiB.s:163    .rodata.str1.4:0000000000000000 .LC0
-     /tmp/ccBnAjiB.s:112    .text.thread:0000000000000000 $t
-     /tmp/ccBnAjiB.s:171    .rodata.patternmsg:0000000000000000 patternmsg
-     /tmp/ccBnAjiB.s:156    .rodata.testmsg1:0000000000000000 testmsg1
-     /tmp/ccBnAjiB.s:153    .rodata.testmsg1:0000000000000000 $d
-     /tmp/ccBnAjiB.s:162    .rodata.str1.4:0000000000000000 $d
-     /tmp/ccBnAjiB.s:168    .rodata.patternmsg:0000000000000000 $d
+     /tmp/cccYHMFD.s:19     .text.msg1_execute:0000000000000000 $t
+     /tmp/cccYHMFD.s:24     .text.msg1_execute:0000000000000000 msg1_execute
+     /tmp/cccYHMFD.s:117    .text.thread:0000000000000000 thread
+     /tmp/cccYHMFD.s:163    .rodata.str1.4:0000000000000000 .LC0
+     /tmp/cccYHMFD.s:112    .text.thread:0000000000000000 $t
+     /tmp/cccYHMFD.s:171    .rodata.patternmsg:0000000000000000 patternmsg
+     /tmp/cccYHMFD.s:156    .rodata.testmsg1:0000000000000000 testmsg1
+     /tmp/cccYHMFD.s:153    .rodata.testmsg1:0000000000000000 $d
+     /tmp/cccYHMFD.s:162    .rodata.str1.4:0000000000000000 $d
+     /tmp/cccYHMFD.s:168    .rodata.patternmsg:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

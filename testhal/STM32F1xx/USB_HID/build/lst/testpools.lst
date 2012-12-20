@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccnc7sF3.s 			page 1
+ARM GAS  /tmp/ccFVWfrQ.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
   53              		.loc 1 72 0
   54 0000 40F20000 		movw	r0, #:lower16:.LANCHOR0
   55 0004 C0F20000 		movt	r0, #:upper16:.LANCHOR0
-ARM GAS  /tmp/ccnc7sF3.s 			page 2
+ARM GAS  /tmp/ccFVWfrQ.s 			page 2
 
 
   56 0008 4FF49871 		mov	r1, #304
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  110 004a 0121     		movne	r1, #1
  111 004c 0120     		movs	r0, #1
  112 004e FFF7FEFF 		bl	_test_assert
-ARM GAS  /tmp/ccnc7sF3.s 			page 3
+ARM GAS  /tmp/ccFVWfrQ.s 			page 3
 
 
  113 0052 0028     		cmp	r0, #0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  167              	.LVL8:
  168 00de 40F20000 		movw	r0, #:lower16:.LANCHOR0
  169 00e2 C0F20000 		movt	r0, #:upper16:.LANCHOR0
-ARM GAS  /tmp/ccnc7sF3.s 			page 4
+ARM GAS  /tmp/ccFVWfrQ.s 			page 4
 
 
  170 00e6 6168     		ldr	r1, [r4, #4]
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  224 0174 18BF     		it	ne
  225 0176 0121     		movne	r1, #1
  226 0178 0320     		movs	r0, #3
-ARM GAS  /tmp/ccnc7sF3.s 			page 5
+ARM GAS  /tmp/ccFVWfrQ.s 			page 5
 
 
  227 017a FFF7FEFF 		bl	_test_assert
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  281              	.LFE9:
  282              		.size	pools1_execute, .-pools1_execute
  283              		.global	patternpools
-ARM GAS  /tmp/ccnc7sF3.s 			page 6
+ARM GAS  /tmp/ccFVWfrQ.s 			page 6
 
 
  284              		.global	testpools1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  334 0025 00000000 		.4byte	.Ldebug_line0
  335 0029 02       		.uleb128 0x2
  336 002a 04       		.byte	0x4
-ARM GAS  /tmp/ccnc7sF3.s 			page 7
+ARM GAS  /tmp/ccFVWfrQ.s 			page 7
 
 
  337 002b 05       		.byte	0x5
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  391 008e 01       		.byte	0x1
  392 008f 7A000000 		.4byte	0x7a
  393 0093 9D000000 		.4byte	0x9d
-ARM GAS  /tmp/ccnc7sF3.s 			page 8
+ARM GAS  /tmp/ccFVWfrQ.s 			page 8
 
 
  394 0097 08       		.uleb128 0x8
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  448 00f7 33       		.byte	0x33
  449 00f8 BE000000 		.4byte	0xbe
  450 00fc 06       		.uleb128 0x6
-ARM GAS  /tmp/ccnc7sF3.s 			page 9
+ARM GAS  /tmp/ccFVWfrQ.s 			page 9
 
 
  451 00fd 04       		.byte	0x4
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  505 0160 01       		.byte	0x1
  506 0161 4B       		.byte	0x4b
  507 0162 01       		.byte	0x1
-ARM GAS  /tmp/ccnc7sF3.s 			page 10
+ARM GAS  /tmp/ccFVWfrQ.s 			page 10
 
 
  508 0163 01       		.byte	0x1
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  562 01e2 14       		.uleb128 0x14
  563 01e3 68010000 		.4byte	0x168
  564 01e7 8F000000 		.4byte	.LLST3
-ARM GAS  /tmp/ccnc7sF3.s 			page 11
+ARM GAS  /tmp/ccFVWfrQ.s 			page 11
 
 
  565 01eb 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  619 0256 00000000 		.4byte	patternpools
  620 025a 0C       		.uleb128 0xc
  621 025b 32020000 		.4byte	0x232
-ARM GAS  /tmp/ccnc7sF3.s 			page 12
+ARM GAS  /tmp/ccFVWfrQ.s 			page 12
 
 
  622 025f 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  676 0033 0B       		.uleb128 0xb
  677 0034 03       		.uleb128 0x3
  678 0035 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccnc7sF3.s 			page 13
+ARM GAS  /tmp/ccFVWfrQ.s 			page 13
 
 
  679 0036 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  733 006c 03       		.uleb128 0x3
  734 006d 0E       		.uleb128 0xe
  735 006e 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccnc7sF3.s 			page 14
+ARM GAS  /tmp/ccFVWfrQ.s 			page 14
 
 
  736 006f 0B       		.uleb128 0xb
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  790 00a5 34       		.uleb128 0x34
  791 00a6 00       		.byte	0
  792 00a7 03       		.uleb128 0x3
-ARM GAS  /tmp/ccnc7sF3.s 			page 15
+ARM GAS  /tmp/ccFVWfrQ.s 			page 15
 
 
  793 00a8 08       		.uleb128 0x8
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  847 00de 3B       		.uleb128 0x3b
  848 00df 0B       		.uleb128 0xb
  849 00e0 27       		.uleb128 0x27
-ARM GAS  /tmp/ccnc7sF3.s 			page 16
+ARM GAS  /tmp/ccFVWfrQ.s 			page 16
 
 
  850 00e1 0C       		.uleb128 0xc
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  904 0117 00       		.byte	0
  905 0118 17       		.uleb128 0x17
  906 0119 34       		.uleb128 0x34
-ARM GAS  /tmp/ccnc7sF3.s 			page 17
+ARM GAS  /tmp/ccFVWfrQ.s 			page 17
 
 
  907 011a 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  961 0150 13       		.uleb128 0x13
  962 0151 3F       		.uleb128 0x3f
  963 0152 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccnc7sF3.s 			page 18
+ARM GAS  /tmp/ccFVWfrQ.s 			page 18
 
 
  964 0153 02       		.uleb128 0x2
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  1018 005f 0200     		.2byte	0x2
  1019 0061 33       		.byte	0x33
  1020 0062 9F       		.byte	0x9f
-ARM GAS  /tmp/ccnc7sF3.s 			page 19
+ARM GAS  /tmp/ccFVWfrQ.s 			page 19
 
 
  1021 0063 94000000 		.4byte	.LVL6
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  1075 00e7 80010000 		.4byte	.LVL16
  1076 00eb 0200     		.2byte	0x2
  1077 00ed 33       		.byte	0x33
-ARM GAS  /tmp/ccnc7sF3.s 			page 20
+ARM GAS  /tmp/ccFVWfrQ.s 			page 20
 
 
  1078 00ee 9F       		.byte	0x9f
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  1132 0048 00000000 		.4byte	0
  1133 004c 00000000 		.4byte	0
  1134              		.section	.debug_line,"",%progbits
-ARM GAS  /tmp/ccnc7sF3.s 			page 21
+ARM GAS  /tmp/ccFVWfrQ.s 			page 21
 
 
  1135              	.Ldebug_line0:
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  1159 00ab 73697A65 		.ascii	"size\000"
  1159      00
  1160              	.LASF6:
-ARM GAS  /tmp/ccnc7sF3.s 			page 22
+ARM GAS  /tmp/ccFVWfrQ.s 			page 22
 
 
  1161 00b0 6C6F6E67 		.ascii	"long unsigned int\000"
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  1183      6720696E 
  1183      7400
  1184              	.LASF19:
-ARM GAS  /tmp/ccnc7sF3.s 			page 23
+ARM GAS  /tmp/ccFVWfrQ.s 			page 23
 
 
  1185 0156 6E616D65 		.ascii	"name\000"
@@ -1356,25 +1356,25 @@ ARM GAS  /tmp/ccnc7sF3.s 			page 1
  1201      6F6F6C73 
  1201      00
  1202              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/ccnc7sF3.s 			page 24
+ARM GAS  /tmp/ccFVWfrQ.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 testpools.c
-     /tmp/ccnc7sF3.s:19     .text.null_provider:0000000000000000 $t
-     /tmp/ccnc7sF3.s:24     .text.null_provider:0000000000000000 null_provider
-     /tmp/ccnc7sF3.s:41     .text.pools1_setup:0000000000000000 $t
-     /tmp/ccnc7sF3.s:46     .text.pools1_setup:0000000000000000 pools1_setup
-     /tmp/ccnc7sF3.s:298    .data.mp1:0000000000000000 .LANCHOR0
-     /tmp/ccnc7sF3.s:65     .text.pools1_execute:0000000000000000 $t
-     /tmp/ccnc7sF3.s:70     .text.pools1_execute:0000000000000000 pools1_execute
-     /tmp/ccnc7sF3.s:293    .rodata.patternpools:0000000000000000 patternpools
-     /tmp/ccnc7sF3.s:309    .rodata.testpools1:0000000000000000 testpools1
-     /tmp/ccnc7sF3.s:286    .rodata.str1.4:0000000000000000 $d
-     /tmp/ccnc7sF3.s:290    .rodata.patternpools:0000000000000000 $d
-     /tmp/ccnc7sF3.s:297    .data.mp1:0000000000000000 $d
-     /tmp/ccnc7sF3.s:301    .data.mp1:0000000000000000 mp1
-     /tmp/ccnc7sF3.s:306    .rodata.testpools1:0000000000000000 $d
+     /tmp/ccFVWfrQ.s:19     .text.null_provider:0000000000000000 $t
+     /tmp/ccFVWfrQ.s:24     .text.null_provider:0000000000000000 null_provider
+     /tmp/ccFVWfrQ.s:41     .text.pools1_setup:0000000000000000 $t
+     /tmp/ccFVWfrQ.s:46     .text.pools1_setup:0000000000000000 pools1_setup
+     /tmp/ccFVWfrQ.s:298    .data.mp1:0000000000000000 .LANCHOR0
+     /tmp/ccFVWfrQ.s:65     .text.pools1_execute:0000000000000000 $t
+     /tmp/ccFVWfrQ.s:70     .text.pools1_execute:0000000000000000 pools1_execute
+     /tmp/ccFVWfrQ.s:293    .rodata.patternpools:0000000000000000 patternpools
+     /tmp/ccFVWfrQ.s:309    .rodata.testpools1:0000000000000000 testpools1
+     /tmp/ccFVWfrQ.s:286    .rodata.str1.4:0000000000000000 $d
+     /tmp/ccFVWfrQ.s:290    .rodata.patternpools:0000000000000000 $d
+     /tmp/ccFVWfrQ.s:297    .data.mp1:0000000000000000 $d
+     /tmp/ccFVWfrQ.s:301    .data.mp1:0000000000000000 mp1
+     /tmp/ccFVWfrQ.s:306    .rodata.testpools1:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

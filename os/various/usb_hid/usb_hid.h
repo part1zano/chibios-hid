@@ -129,7 +129,7 @@
   (uint8_t)(((bcd) >> 8) & 255)
 
 
-#define USB_DESC_HID(bcdHID, bCountryCode, bNumDescriptors, bDescriptorType, wDescriptorLenght) \
+#define USB_DESC_HID(bcdHID, bCountryCode, bNumDescriptors, bDescriptorType, wDescriptorLength) \
   USB_DESC_BYTE(9),\
   USB_DESC_BYTE(USB_DESCRIPTOR_HID),\
   USB_DESC_BCD(bcdHID),\

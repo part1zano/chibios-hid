@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cclKHzgX.s 			page 1
+ARM GAS  /tmp/cc7hRx0L.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
   55              		.global	chVTSetI
   56              		.thumb
   57              		.thumb_func
-ARM GAS  /tmp/cclKHzgX.s 			page 2
+ARM GAS  /tmp/cc7hRx0L.s 			page 2
 
 
   58              		.type	chVTSetI, %function
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  112              		.loc 1 88 0
  113 002c 18BF     		it	ne
  114 002e A368     		ldrne	r3, [r4, #8]
-ARM GAS  /tmp/cclKHzgX.s 			page 3
+ARM GAS  /tmp/cc7hRx0L.s 			page 3
 
 
  115              		.loc 1 85 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  169              	.LFE9:
  170              		.size	chVTResetI, .-chVTResetI
  171 0024 AFF30080 		.section	.text.chTimeIsWithin,"ax",%progbits
-ARM GAS  /tmp/cclKHzgX.s 			page 4
+ARM GAS  /tmp/cc7hRx0L.s 			page 4
 
 
  171      AFF30080 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  224              		.global	vtlist
  225 0034 AFF30080 		.section	.bss.vtlist,"aw",%nobits
  225      AFF30080 
-ARM GAS  /tmp/cclKHzgX.s 			page 5
+ARM GAS  /tmp/cc7hRx0L.s 			page 5
 
 
  225      AFF30080 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  276 0053 04       		.uleb128 0x4
  277 0054 10010000 		.4byte	.LASF6
  278 0058 02       		.byte	0x2
-ARM GAS  /tmp/cclKHzgX.s 			page 6
+ARM GAS  /tmp/cc7hRx0L.s 			page 6
 
 
  279 0059 4F       		.byte	0x4f
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  333 00c5 09       		.uleb128 0x9
  334 00c6 8A000000 		.4byte	.LASF14
  335 00ca 14       		.byte	0x14
-ARM GAS  /tmp/cclKHzgX.s 			page 7
+ARM GAS  /tmp/cc7hRx0L.s 			page 7
 
 
  336 00cb 04       		.byte	0x4
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  390 012b 04       		.byte	0x4
  391 012c 6D       		.byte	0x6d
  392 012d 18010000 		.4byte	0x118
-ARM GAS  /tmp/cclKHzgX.s 			page 8
+ARM GAS  /tmp/cc7hRx0L.s 			page 8
 
 
  393 0131 02       		.byte	0x2
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  447 0191 45       		.byte	0x45
  448 0192 01       		.byte	0x1
  449 0193 00000000 		.4byte	.LFB8
-ARM GAS  /tmp/cclKHzgX.s 			page 9
+ARM GAS  /tmp/cc7hRx0L.s 			page 9
 
 
  450 0197 3E000000 		.4byte	.LFE8
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  504 020d 50       		.byte	0x50
  505 020e 00       		.byte	0
  506 020f 15       		.uleb128 0x15
-ARM GAS  /tmp/cclKHzgX.s 			page 10
+ARM GAS  /tmp/cc7hRx0L.s 			page 10
 
 
  507 0210 01       		.byte	0x1
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  561 0008 0E       		.uleb128 0xe
  562 0009 1B       		.uleb128 0x1b
  563 000a 0E       		.uleb128 0xe
-ARM GAS  /tmp/cclKHzgX.s 			page 11
+ARM GAS  /tmp/cc7hRx0L.s 			page 11
 
 
  564 000b 11       		.uleb128 0x11
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  618 0041 00       		.byte	0
  619 0042 0B       		.uleb128 0xb
  620 0043 0B       		.uleb128 0xb
-ARM GAS  /tmp/cclKHzgX.s 			page 12
+ARM GAS  /tmp/cc7hRx0L.s 			page 12
 
 
  621 0044 49       		.uleb128 0x49
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  675 007a 0B       		.uleb128 0xb
  676 007b 3A       		.uleb128 0x3a
  677 007c 0B       		.uleb128 0xb
-ARM GAS  /tmp/cclKHzgX.s 			page 13
+ARM GAS  /tmp/cc7hRx0L.s 			page 13
 
 
  678 007d 3B       		.uleb128 0x3b
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  732 00b3 13       		.uleb128 0x13
  733 00b4 00       		.byte	0
  734 00b5 00       		.byte	0
-ARM GAS  /tmp/cclKHzgX.s 			page 14
+ARM GAS  /tmp/cc7hRx0L.s 			page 14
 
 
  735 00b6 0F       		.uleb128 0xf
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  789 00ec 49       		.uleb128 0x49
  790 00ed 13       		.uleb128 0x13
  791 00ee 02       		.uleb128 0x2
-ARM GAS  /tmp/cclKHzgX.s 			page 15
+ARM GAS  /tmp/cc7hRx0L.s 			page 15
 
 
  792 00ef 06       		.uleb128 0x6
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  846 0125 49       		.uleb128 0x49
  847 0126 13       		.uleb128 0x13
  848 0127 11       		.uleb128 0x11
-ARM GAS  /tmp/cclKHzgX.s 			page 16
+ARM GAS  /tmp/cc7hRx0L.s 			page 16
 
 
  849 0128 01       		.uleb128 0x1
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  903 0017 0C       		.sleb128 12
  904 0018 00000000 		.4byte	0
  905 001c 00000000 		.4byte	0
-ARM GAS  /tmp/cclKHzgX.s 			page 17
+ARM GAS  /tmp/cc7hRx0L.s 			page 17
 
 
  906              	.LLST1:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  960 0006 00000000 		.4byte	.Ldebug_info0
  961 000a 04       		.byte	0x4
  962 000b 00       		.byte	0
-ARM GAS  /tmp/cclKHzgX.s 			page 18
+ARM GAS  /tmp/cc7hRx0L.s 			page 18
 
 
  963 000c 0000     		.2byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  1001              	.LASF13:
  1002 005c 76746675 		.ascii	"vtfunc_t\000"
  1002      6E635F74 
-ARM GAS  /tmp/cclKHzgX.s 			page 19
+ARM GAS  /tmp/cc7hRx0L.s 			page 19
 
 
  1002      00
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  1025              	.LASF17:
  1026 0108 76745F74 		.ascii	"vt_time\000"
  1026      696D6500 
-ARM GAS  /tmp/cclKHzgX.s 			page 20
+ARM GAS  /tmp/cc7hRx0L.s 			page 20
 
 
  1027              	.LASF6:
@@ -1198,27 +1198,27 @@ ARM GAS  /tmp/cclKHzgX.s 			page 1
  1057              	.LASF26:
  1058 019a 63685654 		.ascii	"chVTResetI\000"
  1058      52657365 
-ARM GAS  /tmp/cclKHzgX.s 			page 21
+ARM GAS  /tmp/cc7hRx0L.s 			page 21
 
 
  1058      744900
  1059              		.ident	"GCC: (32-bit ARM EABI Toolchain JBS-2012.03-56-v2011.09-69-18-gd53ce5a) 4.6.3"
-ARM GAS  /tmp/cclKHzgX.s 			page 22
+ARM GAS  /tmp/cc7hRx0L.s 			page 22
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chvt.c
-     /tmp/cclKHzgX.s:19     .text._vt_init:0000000000000000 $t
-     /tmp/cclKHzgX.s:25     .text._vt_init:0000000000000000 _vt_init
-     /tmp/cclKHzgX.s:227    .bss.vtlist:0000000000000000 .LANCHOR0
-     /tmp/cclKHzgX.s:53     .text.chVTSetI:0000000000000000 $t
-     /tmp/cclKHzgX.s:59     .text.chVTSetI:0000000000000000 chVTSetI
-     /tmp/cclKHzgX.s:129    .text.chVTResetI:0000000000000000 $t
-     /tmp/cclKHzgX.s:135    .text.chVTResetI:0000000000000000 chVTResetI
-     /tmp/cclKHzgX.s:172    .text.chTimeIsWithin:0000000000000000 $t
-     /tmp/cclKHzgX.s:178    .text.chTimeIsWithin:0000000000000000 chTimeIsWithin
-     /tmp/cclKHzgX.s:230    .bss.vtlist:0000000000000000 vtlist
-     /tmp/cclKHzgX.s:226    .bss.vtlist:0000000000000000 $d
+     /tmp/cc7hRx0L.s:19     .text._vt_init:0000000000000000 $t
+     /tmp/cc7hRx0L.s:25     .text._vt_init:0000000000000000 _vt_init
+     /tmp/cc7hRx0L.s:227    .bss.vtlist:0000000000000000 .LANCHOR0
+     /tmp/cc7hRx0L.s:53     .text.chVTSetI:0000000000000000 $t
+     /tmp/cc7hRx0L.s:59     .text.chVTSetI:0000000000000000 chVTSetI
+     /tmp/cc7hRx0L.s:129    .text.chVTResetI:0000000000000000 $t
+     /tmp/cc7hRx0L.s:135    .text.chVTResetI:0000000000000000 chVTResetI
+     /tmp/cc7hRx0L.s:172    .text.chTimeIsWithin:0000000000000000 $t
+     /tmp/cc7hRx0L.s:178    .text.chTimeIsWithin:0000000000000000 chTimeIsWithin
+     /tmp/cc7hRx0L.s:230    .bss.vtlist:0000000000000000 vtlist
+     /tmp/cc7hRx0L.s:226    .bss.vtlist:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS
